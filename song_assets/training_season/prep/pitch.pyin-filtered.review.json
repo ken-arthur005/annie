@@ -1,0 +1,3853 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Review events for the conservatively filtered pYIN contour.",
+  "derivedFrom": "song_assets/training_season/prep/pitch.pyin-filtered.json",
+  "summary": {
+    "totalFrames": 18047,
+    "detectedFrames": 13478,
+    "interpolatedFrames": 28,
+    "unavailableFrames": 4540,
+    "rejectedFrames": 1,
+    "lowConfidenceDetectedFrames": 5842,
+    "frequencyFloorFlaggedFrames": 48
+  },
+  "events": [
+    {
+      "startFrame": 0,
+      "endFrameExclusive": 724,
+      "startTime": 0.0,
+      "endTime": 8.394014,
+      "frameCount": 724,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 855,
+      "endFrameExclusive": 858,
+      "startTime": 9.926531,
+      "endTime": 9.949751,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 870,
+      "endFrameExclusive": 893,
+      "startTime": 10.10068,
+      "endTime": 10.3561,
+      "frameCount": 23,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 901,
+      "endFrameExclusive": 912,
+      "startTime": 10.46059,
+      "endTime": 10.576689,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1049,
+      "endFrameExclusive": 1060,
+      "startTime": 12.178866,
+      "endTime": 12.294966,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1102,
+      "endFrameExclusive": 1108,
+      "startTime": 12.794195,
+      "endTime": 12.852245,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1171,
+      "endFrameExclusive": 1176,
+      "startTime": 13.595283,
+      "endTime": 13.641723,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1186,
+      "endFrameExclusive": 1194,
+      "startTime": 13.769433,
+      "endTime": 13.850703,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1212,
+      "endFrameExclusive": 1248,
+      "startTime": 14.071293,
+      "endTime": 14.477642,
+      "frameCount": 36,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1264,
+      "endFrameExclusive": 1291,
+      "startTime": 14.675011,
+      "endTime": 14.976871,
+      "frameCount": 27,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1299,
+      "endFrameExclusive": 1309,
+      "startTime": 15.081361,
+      "endTime": 15.18585,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1331,
+      "endFrameExclusive": 1333,
+      "startTime": 15.45288,
+      "endTime": 15.46449,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1391,
+      "endFrameExclusive": 1395,
+      "startTime": 16.149478,
+      "endTime": 16.184308,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1436,
+      "endFrameExclusive": 1441,
+      "startTime": 16.671927,
+      "endTime": 16.718367,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1522,
+      "endFrameExclusive": 1529,
+      "startTime": 17.670385,
+      "endTime": 17.740045,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1545,
+      "endFrameExclusive": 1569,
+      "startTime": 17.937415,
+      "endTime": 18.204444,
+      "frameCount": 24,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1581,
+      "endFrameExclusive": 1585,
+      "startTime": 18.355374,
+      "endTime": 18.390204,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1599,
+      "endFrameExclusive": 1604,
+      "startTime": 18.564354,
+      "endTime": 18.610794,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1633,
+      "endFrameExclusive": 1635,
+      "startTime": 18.959093,
+      "endTime": 18.970703,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1639,
+      "endFrameExclusive": 1641,
+      "startTime": 19.028753,
+      "endTime": 19.040363,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1646,
+      "endFrameExclusive": 1649,
+      "startTime": 19.110023,
+      "endTime": 19.133243,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1666,
+      "endFrameExclusive": 1668,
+      "startTime": 19.342222,
+      "endTime": 19.353832,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1684,
+      "endFrameExclusive": 1689,
+      "startTime": 19.551202,
+      "endTime": 19.597642,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1769,
+      "endFrameExclusive": 1774,
+      "startTime": 20.53805,
+      "endTime": 20.58449,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1812,
+      "endFrameExclusive": 1820,
+      "startTime": 21.037279,
+      "endTime": 21.118549,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1820,
+      "endFrameExclusive": 1839,
+      "startTime": 21.130159,
+      "endTime": 21.339138,
+      "frameCount": 19,
+      "status": "detected",
+      "reasons": [
+        "atConfiguredFrequencyFloor"
+      ]
+    },
+    {
+      "startFrame": 1839,
+      "endFrameExclusive": 1843,
+      "startTime": 21.350748,
+      "endTime": 21.385578,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 1982,
+      "endFrameExclusive": 1983,
+      "startTime": 23.010975,
+      "endTime": 23.010975,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 1992,
+      "endFrameExclusive": 2003,
+      "startTime": 23.127075,
+      "endTime": 23.243175,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2024,
+      "endFrameExclusive": 2069,
+      "startTime": 23.498594,
+      "endTime": 24.009433,
+      "frameCount": 45,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2105,
+      "endFrameExclusive": 2114,
+      "startTime": 24.439002,
+      "endTime": 24.531882,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2160,
+      "endFrameExclusive": 2202,
+      "startTime": 25.077551,
+      "endTime": 25.55356,
+      "frameCount": 42,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2224,
+      "endFrameExclusive": 2247,
+      "startTime": 25.82059,
+      "endTime": 26.076009,
+      "frameCount": 23,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2251,
+      "endFrameExclusive": 2255,
+      "startTime": 26.134059,
+      "endTime": 26.168889,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2269,
+      "endFrameExclusive": 2277,
+      "startTime": 26.343039,
+      "endTime": 26.424308,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2316,
+      "endFrameExclusive": 2321,
+      "startTime": 26.888707,
+      "endTime": 26.935147,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2354,
+      "endFrameExclusive": 2362,
+      "startTime": 27.329887,
+      "endTime": 27.411156,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2441,
+      "endFrameExclusive": 2450,
+      "startTime": 28.339955,
+      "endTime": 28.432834,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2507,
+      "endFrameExclusive": 2532,
+      "startTime": 29.106213,
+      "endTime": 29.384853,
+      "frameCount": 25,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2565,
+      "endFrameExclusive": 2595,
+      "startTime": 29.779592,
+      "endTime": 30.116281,
+      "frameCount": 30,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2648,
+      "endFrameExclusive": 2656,
+      "startTime": 30.74322,
+      "endTime": 30.82449,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2674,
+      "endFrameExclusive": 2677,
+      "startTime": 31.045079,
+      "endTime": 31.068299,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2729,
+      "endFrameExclusive": 2730,
+      "startTime": 31.683628,
+      "endTime": 31.683628,
+      "frameCount": 1,
+      "status": "rejected",
+      "reasons": [
+        "isolatedPitchSpike"
+      ]
+    },
+    {
+      "startFrame": 2823,
+      "endFrameExclusive": 2825,
+      "startTime": 32.774966,
+      "endTime": 32.786576,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2873,
+      "endFrameExclusive": 2874,
+      "startTime": 33.355465,
+      "endTime": 33.355465,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2895,
+      "endFrameExclusive": 2908,
+      "startTime": 33.610884,
+      "endTime": 33.750204,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 2926,
+      "endFrameExclusive": 2933,
+      "startTime": 33.970794,
+      "endTime": 34.040454,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3052,
+      "endFrameExclusive": 3057,
+      "startTime": 35.433651,
+      "endTime": 35.480091,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3144,
+      "endFrameExclusive": 3145,
+      "startTime": 36.501769,
+      "endTime": 36.501769,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3191,
+      "endFrameExclusive": 3201,
+      "startTime": 37.047438,
+      "endTime": 37.151927,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3219,
+      "endFrameExclusive": 3222,
+      "startTime": 37.372517,
+      "endTime": 37.395737,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3274,
+      "endFrameExclusive": 3278,
+      "startTime": 38.011066,
+      "endTime": 38.045896,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3323,
+      "endFrameExclusive": 3346,
+      "startTime": 38.579955,
+      "endTime": 38.835374,
+      "frameCount": 23,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3381,
+      "endFrameExclusive": 3386,
+      "startTime": 39.253333,
+      "endTime": 39.299773,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3395,
+      "endFrameExclusive": 3398,
+      "startTime": 39.415873,
+      "endTime": 39.439093,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3410,
+      "endFrameExclusive": 3423,
+      "startTime": 39.590023,
+      "endTime": 39.729342,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3454,
+      "endFrameExclusive": 3599,
+      "startTime": 40.100862,
+      "endTime": 41.772698,
+      "frameCount": 145,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3778,
+      "endFrameExclusive": 3791,
+      "startTime": 43.862494,
+      "endTime": 44.001814,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3853,
+      "endFrameExclusive": 3863,
+      "startTime": 44.733243,
+      "endTime": 44.837732,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3875,
+      "endFrameExclusive": 3876,
+      "startTime": 44.988662,
+      "endTime": 44.988662,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 3896,
+      "endFrameExclusive": 3898,
+      "startTime": 45.232472,
+      "endTime": 45.244082,
+      "frameCount": 2,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 3912,
+      "endFrameExclusive": 3916,
+      "startTime": 45.418231,
+      "endTime": 45.453061,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 3956,
+      "endFrameExclusive": 3959,
+      "startTime": 45.92907,
+      "endTime": 45.95229,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4096,
+      "endFrameExclusive": 4106,
+      "startTime": 47.554467,
+      "endTime": 47.658957,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4156,
+      "endFrameExclusive": 4161,
+      "startTime": 48.251066,
+      "endTime": 48.297506,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4209,
+      "endFrameExclusive": 4217,
+      "startTime": 48.866395,
+      "endTime": 48.947664,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4226,
+      "endFrameExclusive": 4232,
+      "startTime": 49.063764,
+      "endTime": 49.121814,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4335,
+      "endFrameExclusive": 4337,
+      "startTime": 50.329252,
+      "endTime": 50.340862,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4356,
+      "endFrameExclusive": 4357,
+      "startTime": 50.573061,
+      "endTime": 50.573061,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4398,
+      "endFrameExclusive": 4399,
+      "startTime": 51.06068,
+      "endTime": 51.06068,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4415,
+      "endFrameExclusive": 4417,
+      "startTime": 51.25805,
+      "endTime": 51.26966,
+      "frameCount": 2,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 4440,
+      "endFrameExclusive": 4442,
+      "startTime": 51.548299,
+      "endTime": 51.559909,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4459,
+      "endFrameExclusive": 4460,
+      "startTime": 51.768889,
+      "endTime": 51.768889,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4483,
+      "endFrameExclusive": 4484,
+      "startTime": 52.047528,
+      "endTime": 52.047528,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 4554,
+      "endFrameExclusive": 4555,
+      "startTime": 52.871837,
+      "endTime": 52.871837,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 4565,
+      "endFrameExclusive": 4566,
+      "startTime": 52.999546,
+      "endTime": 52.999546,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 4603,
+      "endFrameExclusive": 4610,
+      "startTime": 53.440726,
+      "endTime": 53.510385,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4620,
+      "endFrameExclusive": 4628,
+      "startTime": 53.638095,
+      "endTime": 53.719365,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4661,
+      "endFrameExclusive": 4673,
+      "startTime": 54.114104,
+      "endTime": 54.241814,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4692,
+      "endFrameExclusive": 4705,
+      "startTime": 54.474014,
+      "endTime": 54.613333,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4727,
+      "endFrameExclusive": 4739,
+      "startTime": 54.880363,
+      "endTime": 55.008073,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4834,
+      "endFrameExclusive": 4847,
+      "startTime": 56.12263,
+      "endTime": 56.26195,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4870,
+      "endFrameExclusive": 4872,
+      "startTime": 56.54059,
+      "endTime": 56.5522,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4887,
+      "endFrameExclusive": 4904,
+      "startTime": 56.737959,
+      "endTime": 56.923719,
+      "frameCount": 17,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4932,
+      "endFrameExclusive": 4946,
+      "startTime": 57.260408,
+      "endTime": 57.411338,
+      "frameCount": 14,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 4962,
+      "endFrameExclusive": 4968,
+      "startTime": 57.608707,
+      "endTime": 57.666757,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5004,
+      "endFrameExclusive": 5010,
+      "startTime": 58.096327,
+      "endTime": 58.154376,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5036,
+      "endFrameExclusive": 5040,
+      "startTime": 58.467846,
+      "endTime": 58.502676,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5050,
+      "endFrameExclusive": 5053,
+      "startTime": 58.630385,
+      "endTime": 58.653605,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5064,
+      "endFrameExclusive": 5074,
+      "startTime": 58.792925,
+      "endTime": 58.897415,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5125,
+      "endFrameExclusive": 5136,
+      "startTime": 59.501134,
+      "endTime": 59.617234,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5149,
+      "endFrameExclusive": 5156,
+      "startTime": 59.779773,
+      "endTime": 59.849433,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5169,
+      "endFrameExclusive": 5175,
+      "startTime": 60.011973,
+      "endTime": 60.070023,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5195,
+      "endFrameExclusive": 5197,
+      "startTime": 60.313832,
+      "endTime": 60.325442,
+      "frameCount": 2,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 5235,
+      "endFrameExclusive": 5239,
+      "startTime": 60.778231,
+      "endTime": 60.813061,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5398,
+      "endFrameExclusive": 5409,
+      "startTime": 62.670658,
+      "endTime": 62.786757,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5434,
+      "endFrameExclusive": 5444,
+      "startTime": 63.088617,
+      "endTime": 63.193107,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5472,
+      "endFrameExclusive": 5476,
+      "startTime": 63.529796,
+      "endTime": 63.564626,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5512,
+      "endFrameExclusive": 5514,
+      "startTime": 63.994195,
+      "endTime": 64.005805,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5600,
+      "endFrameExclusive": 5604,
+      "startTime": 65.015873,
+      "endTime": 65.050703,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5616,
+      "endFrameExclusive": 5619,
+      "startTime": 65.201633,
+      "endTime": 65.224853,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5645,
+      "endFrameExclusive": 5649,
+      "startTime": 65.538322,
+      "endTime": 65.573152,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5658,
+      "endFrameExclusive": 5662,
+      "startTime": 65.689252,
+      "endTime": 65.724082,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5735,
+      "endFrameExclusive": 5744,
+      "startTime": 66.58322,
+      "endTime": 66.6761,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5815,
+      "endFrameExclusive": 5826,
+      "startTime": 67.512018,
+      "endTime": 67.628118,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5832,
+      "endFrameExclusive": 5837,
+      "startTime": 67.709388,
+      "endTime": 67.755828,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5913,
+      "endFrameExclusive": 5915,
+      "startTime": 68.649796,
+      "endTime": 68.661406,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5931,
+      "endFrameExclusive": 5943,
+      "startTime": 68.858776,
+      "endTime": 68.986485,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5950,
+      "endFrameExclusive": 5953,
+      "startTime": 69.079365,
+      "endTime": 69.102585,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5967,
+      "endFrameExclusive": 5978,
+      "startTime": 69.276735,
+      "endTime": 69.392834,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 5978,
+      "endFrameExclusive": 5994,
+      "startTime": 69.404444,
+      "endTime": 69.578594,
+      "frameCount": 16,
+      "status": "detected",
+      "reasons": [
+        "atConfiguredFrequencyFloor"
+      ]
+    },
+    {
+      "startFrame": 5994,
+      "endFrameExclusive": 5999,
+      "startTime": 69.590204,
+      "endTime": 69.636644,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6038,
+      "endFrameExclusive": 6044,
+      "startTime": 70.101043,
+      "endTime": 70.159093,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6064,
+      "endFrameExclusive": 6102,
+      "startTime": 70.402902,
+      "endTime": 70.832472,
+      "frameCount": 38,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6215,
+      "endFrameExclusive": 6221,
+      "startTime": 72.156009,
+      "endTime": 72.214059,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6264,
+      "endFrameExclusive": 6284,
+      "startTime": 72.724898,
+      "endTime": 72.945488,
+      "frameCount": 20,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6581,
+      "endFrameExclusive": 6605,
+      "startTime": 76.405261,
+      "endTime": 76.67229,
+      "frameCount": 24,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6680,
+      "endFrameExclusive": 6690,
+      "startTime": 77.554649,
+      "endTime": 77.659138,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6768,
+      "endFrameExclusive": 6771,
+      "startTime": 78.576327,
+      "endTime": 78.599546,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6863,
+      "endFrameExclusive": 6875,
+      "startTime": 79.679274,
+      "endTime": 79.806984,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6946,
+      "endFrameExclusive": 6962,
+      "startTime": 80.642902,
+      "endTime": 80.817052,
+      "frameCount": 16,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 6979,
+      "endFrameExclusive": 6988,
+      "startTime": 81.026032,
+      "endTime": 81.118912,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7029,
+      "endFrameExclusive": 7032,
+      "startTime": 81.606531,
+      "endTime": 81.629751,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7066,
+      "endFrameExclusive": 7069,
+      "startTime": 82.0361,
+      "endTime": 82.05932,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7098,
+      "endFrameExclusive": 7102,
+      "startTime": 82.407619,
+      "endTime": 82.442449,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7109,
+      "endFrameExclusive": 7204,
+      "startTime": 82.535329,
+      "endTime": 83.626667,
+      "frameCount": 95,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7233,
+      "endFrameExclusive": 7241,
+      "startTime": 83.974966,
+      "endTime": 84.056236,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7268,
+      "endFrameExclusive": 7280,
+      "startTime": 84.381315,
+      "endTime": 84.509025,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7319,
+      "endFrameExclusive": 7320,
+      "startTime": 84.973424,
+      "endTime": 84.973424,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 7399,
+      "endFrameExclusive": 7406,
+      "startTime": 85.902222,
+      "endTime": 85.971882,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7432,
+      "endFrameExclusive": 7444,
+      "startTime": 86.285351,
+      "endTime": 86.413061,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7482,
+      "endFrameExclusive": 7490,
+      "startTime": 86.86585,
+      "endTime": 86.94712,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7546,
+      "endFrameExclusive": 7547,
+      "startTime": 87.608889,
+      "endTime": 87.608889,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7573,
+      "endFrameExclusive": 7574,
+      "startTime": 87.922358,
+      "endTime": 87.922358,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7608,
+      "endFrameExclusive": 7613,
+      "startTime": 88.328707,
+      "endTime": 88.375147,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7627,
+      "endFrameExclusive": 7633,
+      "startTime": 88.549297,
+      "endTime": 88.607347,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7642,
+      "endFrameExclusive": 7655,
+      "startTime": 88.723447,
+      "endTime": 88.862766,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7736,
+      "endFrameExclusive": 7739,
+      "startTime": 89.814785,
+      "endTime": 89.838005,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7915,
+      "endFrameExclusive": 7931,
+      "startTime": 91.892971,
+      "endTime": 92.06712,
+      "frameCount": 16,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 7942,
+      "endFrameExclusive": 7971,
+      "startTime": 92.20644,
+      "endTime": 92.531519,
+      "frameCount": 29,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8022,
+      "endFrameExclusive": 8026,
+      "startTime": 93.135238,
+      "endTime": 93.170068,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8032,
+      "endFrameExclusive": 8033,
+      "startTime": 93.251338,
+      "endTime": 93.251338,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8072,
+      "endFrameExclusive": 8073,
+      "startTime": 93.715737,
+      "endTime": 93.715737,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 8083,
+      "endFrameExclusive": 8093,
+      "startTime": 93.843447,
+      "endTime": 93.947937,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8105,
+      "endFrameExclusive": 8116,
+      "startTime": 94.098866,
+      "endTime": 94.214966,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8230,
+      "endFrameExclusive": 8305,
+      "startTime": 95.550113,
+      "endTime": 96.409252,
+      "frameCount": 75,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8361,
+      "endFrameExclusive": 8362,
+      "startTime": 97.07102,
+      "endTime": 97.07102,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8370,
+      "endFrameExclusive": 8374,
+      "startTime": 97.17551,
+      "endTime": 97.21034,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8388,
+      "endFrameExclusive": 8392,
+      "startTime": 97.38449,
+      "endTime": 97.41932,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8431,
+      "endFrameExclusive": 8435,
+      "startTime": 97.883719,
+      "endTime": 97.918549,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8448,
+      "endFrameExclusive": 8457,
+      "startTime": 98.081088,
+      "endTime": 98.173968,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8561,
+      "endFrameExclusive": 8563,
+      "startTime": 99.393016,
+      "endTime": 99.404626,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8651,
+      "endFrameExclusive": 8654,
+      "startTime": 100.437914,
+      "endTime": 100.461134,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8722,
+      "endFrameExclusive": 8734,
+      "startTime": 101.262222,
+      "endTime": 101.389932,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8746,
+      "endFrameExclusive": 8750,
+      "startTime": 101.540862,
+      "endTime": 101.575692,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8763,
+      "endFrameExclusive": 8793,
+      "startTime": 101.738231,
+      "endTime": 102.074921,
+      "frameCount": 30,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8829,
+      "endFrameExclusive": 8834,
+      "startTime": 102.50449,
+      "endTime": 102.55093,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8891,
+      "endFrameExclusive": 8895,
+      "startTime": 103.224308,
+      "endTime": 103.259138,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8905,
+      "endFrameExclusive": 8917,
+      "startTime": 103.386848,
+      "endTime": 103.514558,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8959,
+      "endFrameExclusive": 8963,
+      "startTime": 104.013787,
+      "endTime": 104.048617,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 8989,
+      "endFrameExclusive": 8990,
+      "startTime": 104.362086,
+      "endTime": 104.362086,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9073,
+      "endFrameExclusive": 9085,
+      "startTime": 105.337324,
+      "endTime": 105.465034,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9118,
+      "endFrameExclusive": 9130,
+      "startTime": 105.859773,
+      "endTime": 105.987483,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9209,
+      "endFrameExclusive": 9223,
+      "startTime": 106.916281,
+      "endTime": 107.067211,
+      "frameCount": 14,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9237,
+      "endFrameExclusive": 9238,
+      "startTime": 107.241361,
+      "endTime": 107.241361,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9249,
+      "endFrameExclusive": 9252,
+      "startTime": 107.38068,
+      "endTime": 107.4039,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9376,
+      "endFrameExclusive": 9377,
+      "startTime": 108.855147,
+      "endTime": 108.855147,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9422,
+      "endFrameExclusive": 9423,
+      "startTime": 109.389206,
+      "endTime": 109.389206,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9502,
+      "endFrameExclusive": 9511,
+      "startTime": 110.318005,
+      "endTime": 110.410884,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9547,
+      "endFrameExclusive": 9557,
+      "startTime": 110.840454,
+      "endTime": 110.944943,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9576,
+      "endFrameExclusive": 9590,
+      "startTime": 111.177143,
+      "endTime": 111.328073,
+      "frameCount": 14,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9613,
+      "endFrameExclusive": 9616,
+      "startTime": 111.606712,
+      "endTime": 111.629932,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9623,
+      "endFrameExclusive": 9630,
+      "startTime": 111.722812,
+      "endTime": 111.792472,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9672,
+      "endFrameExclusive": 9673,
+      "startTime": 112.291701,
+      "endTime": 112.291701,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9746,
+      "endFrameExclusive": 9757,
+      "startTime": 113.150839,
+      "endTime": 113.266939,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9795,
+      "endFrameExclusive": 9804,
+      "startTime": 113.719728,
+      "endTime": 113.812608,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9833,
+      "endFrameExclusive": 9842,
+      "startTime": 114.160907,
+      "endTime": 114.253787,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9921,
+      "endFrameExclusive": 9928,
+      "startTime": 115.182585,
+      "endTime": 115.252245,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9952,
+      "endFrameExclusive": 9957,
+      "startTime": 115.542494,
+      "endTime": 115.588934,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 9963,
+      "endFrameExclusive": 9972,
+      "startTime": 115.670204,
+      "endTime": 115.763084,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10041,
+      "endFrameExclusive": 10044,
+      "startTime": 116.575782,
+      "endTime": 116.599002,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10134,
+      "endFrameExclusive": 10135,
+      "startTime": 117.65551,
+      "endTime": 117.65551,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10149,
+      "endFrameExclusive": 10159,
+      "startTime": 117.82966,
+      "endTime": 117.93415,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10181,
+      "endFrameExclusive": 10189,
+      "startTime": 118.201179,
+      "endTime": 118.282449,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10207,
+      "endFrameExclusive": 10223,
+      "startTime": 118.503039,
+      "endTime": 118.677188,
+      "frameCount": 16,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10241,
+      "endFrameExclusive": 10245,
+      "startTime": 118.897778,
+      "endTime": 118.932608,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10261,
+      "endFrameExclusive": 10281,
+      "startTime": 119.129977,
+      "endTime": 119.350567,
+      "frameCount": 20,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10317,
+      "endFrameExclusive": 10328,
+      "startTime": 119.780136,
+      "endTime": 119.896236,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10344,
+      "endFrameExclusive": 10347,
+      "startTime": 120.093605,
+      "endTime": 120.116825,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10406,
+      "endFrameExclusive": 10408,
+      "startTime": 120.813424,
+      "endTime": 120.825034,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10448,
+      "endFrameExclusive": 10449,
+      "startTime": 121.301043,
+      "endTime": 121.301043,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 10466,
+      "endFrameExclusive": 10471,
+      "startTime": 121.510023,
+      "endTime": 121.556463,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10491,
+      "endFrameExclusive": 10494,
+      "startTime": 121.800272,
+      "endTime": 121.823492,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10510,
+      "endFrameExclusive": 10512,
+      "startTime": 122.020862,
+      "endTime": 122.032472,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10612,
+      "endFrameExclusive": 10616,
+      "startTime": 123.205079,
+      "endTime": 123.239909,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10653,
+      "endFrameExclusive": 10661,
+      "startTime": 123.681088,
+      "endTime": 123.762358,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10670,
+      "endFrameExclusive": 10685,
+      "startTime": 123.878458,
+      "endTime": 124.040998,
+      "frameCount": 15,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10711,
+      "endFrameExclusive": 10724,
+      "startTime": 124.354467,
+      "endTime": 124.493787,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10742,
+      "endFrameExclusive": 10754,
+      "startTime": 124.714376,
+      "endTime": 124.842086,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10782,
+      "endFrameExclusive": 10784,
+      "startTime": 125.178776,
+      "endTime": 125.190385,
+      "frameCount": 2,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 10849,
+      "endFrameExclusive": 10854,
+      "startTime": 125.956644,
+      "endTime": 126.003084,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10881,
+      "endFrameExclusive": 10884,
+      "startTime": 126.328163,
+      "endTime": 126.351383,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10908,
+      "endFrameExclusive": 10913,
+      "startTime": 126.641633,
+      "endTime": 126.688073,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10933,
+      "endFrameExclusive": 10957,
+      "startTime": 126.931882,
+      "endTime": 127.198912,
+      "frameCount": 24,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 10981,
+      "endFrameExclusive": 10999,
+      "startTime": 127.489161,
+      "endTime": 127.686531,
+      "frameCount": 18,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11035,
+      "endFrameExclusive": 11039,
+      "startTime": 128.1161,
+      "endTime": 128.15093,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11058,
+      "endFrameExclusive": 11061,
+      "startTime": 128.383129,
+      "endTime": 128.406349,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11087,
+      "endFrameExclusive": 11091,
+      "startTime": 128.719819,
+      "endTime": 128.754649,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11100,
+      "endFrameExclusive": 11126,
+      "startTime": 128.870748,
+      "endTime": 129.160998,
+      "frameCount": 26,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11154,
+      "endFrameExclusive": 11158,
+      "startTime": 129.497687,
+      "endTime": 129.532517,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11174,
+      "endFrameExclusive": 11183,
+      "startTime": 129.729887,
+      "endTime": 129.822766,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11200,
+      "endFrameExclusive": 11206,
+      "startTime": 130.031746,
+      "endTime": 130.089796,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11219,
+      "endFrameExclusive": 11231,
+      "startTime": 130.252336,
+      "endTime": 130.380045,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11263,
+      "endFrameExclusive": 11270,
+      "startTime": 130.763175,
+      "endTime": 130.832834,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11280,
+      "endFrameExclusive": 11301,
+      "startTime": 130.960544,
+      "endTime": 131.192744,
+      "frameCount": 21,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11319,
+      "endFrameExclusive": 11322,
+      "startTime": 131.413333,
+      "endTime": 131.436553,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11345,
+      "endFrameExclusive": 11347,
+      "startTime": 131.715193,
+      "endTime": 131.726803,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11450,
+      "endFrameExclusive": 11455,
+      "startTime": 132.93424,
+      "endTime": 132.98068,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11488,
+      "endFrameExclusive": 11490,
+      "startTime": 133.37542,
+      "endTime": 133.387029,
+      "frameCount": 2,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 11522,
+      "endFrameExclusive": 11529,
+      "startTime": 133.770159,
+      "endTime": 133.839819,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11562,
+      "endFrameExclusive": 11564,
+      "startTime": 134.234558,
+      "endTime": 134.246168,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11627,
+      "endFrameExclusive": 11629,
+      "startTime": 134.989206,
+      "endTime": 135.000816,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11667,
+      "endFrameExclusive": 11668,
+      "startTime": 135.453605,
+      "endTime": 135.453605,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11694,
+      "endFrameExclusive": 11712,
+      "startTime": 135.767075,
+      "endTime": 135.964444,
+      "frameCount": 18,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11785,
+      "endFrameExclusive": 11788,
+      "startTime": 136.823583,
+      "endTime": 136.846803,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11822,
+      "endFrameExclusive": 11830,
+      "startTime": 137.253152,
+      "endTime": 137.334422,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11858,
+      "endFrameExclusive": 11888,
+      "startTime": 137.671111,
+      "endTime": 138.0078,
+      "frameCount": 30,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11963,
+      "endFrameExclusive": 11965,
+      "startTime": 138.890159,
+      "endTime": 138.901769,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 11974,
+      "endFrameExclusive": 11985,
+      "startTime": 139.017868,
+      "endTime": 139.133968,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12000,
+      "endFrameExclusive": 12003,
+      "startTime": 139.319728,
+      "endTime": 139.342948,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12020,
+      "endFrameExclusive": 12028,
+      "startTime": 139.551927,
+      "endTime": 139.633197,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12088,
+      "endFrameExclusive": 12092,
+      "startTime": 140.341406,
+      "endTime": 140.376236,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12123,
+      "endFrameExclusive": 12163,
+      "startTime": 140.747755,
+      "endTime": 141.200544,
+      "frameCount": 40,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12202,
+      "endFrameExclusive": 12211,
+      "startTime": 141.664943,
+      "endTime": 141.757823,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12266,
+      "endFrameExclusive": 12267,
+      "startTime": 142.407982,
+      "endTime": 142.407982,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 12298,
+      "endFrameExclusive": 12299,
+      "startTime": 142.779501,
+      "endTime": 142.779501,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12313,
+      "endFrameExclusive": 12326,
+      "startTime": 142.953651,
+      "endTime": 143.092971,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12353,
+      "endFrameExclusive": 12364,
+      "startTime": 143.41805,
+      "endTime": 143.53415,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12462,
+      "endFrameExclusive": 12466,
+      "startTime": 144.683537,
+      "endTime": 144.718367,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12519,
+      "endFrameExclusive": 12536,
+      "startTime": 145.345306,
+      "endTime": 145.531066,
+      "frameCount": 17,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12599,
+      "endFrameExclusive": 12603,
+      "startTime": 146.274104,
+      "endTime": 146.308934,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12633,
+      "endFrameExclusive": 12656,
+      "startTime": 146.668844,
+      "endTime": 146.924263,
+      "frameCount": 23,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12728,
+      "endFrameExclusive": 12741,
+      "startTime": 147.771791,
+      "endTime": 147.911111,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12779,
+      "endFrameExclusive": 12783,
+      "startTime": 148.3639,
+      "endTime": 148.39873,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12816,
+      "endFrameExclusive": 12821,
+      "startTime": 148.793469,
+      "endTime": 148.839909,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12906,
+      "endFrameExclusive": 12914,
+      "startTime": 149.838367,
+      "endTime": 149.919637,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12967,
+      "endFrameExclusive": 12971,
+      "startTime": 150.546576,
+      "endTime": 150.581406,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 12993,
+      "endFrameExclusive": 12996,
+      "startTime": 150.848435,
+      "endTime": 150.871655,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13032,
+      "endFrameExclusive": 13038,
+      "startTime": 151.301224,
+      "endTime": 151.359274,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13054,
+      "endFrameExclusive": 13071,
+      "startTime": 151.556644,
+      "endTime": 151.742404,
+      "frameCount": 17,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13130,
+      "endFrameExclusive": 13135,
+      "startTime": 152.439002,
+      "endTime": 152.485442,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13160,
+      "endFrameExclusive": 13164,
+      "startTime": 152.787302,
+      "endTime": 152.822132,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13196,
+      "endFrameExclusive": 13197,
+      "startTime": 153.205261,
+      "endTime": 153.205261,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13219,
+      "endFrameExclusive": 13244,
+      "startTime": 153.47229,
+      "endTime": 153.75093,
+      "frameCount": 25,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13325,
+      "endFrameExclusive": 13327,
+      "startTime": 154.702948,
+      "endTime": 154.714558,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13439,
+      "endFrameExclusive": 13454,
+      "startTime": 156.026485,
+      "endTime": 156.189025,
+      "frameCount": 15,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13473,
+      "endFrameExclusive": 13478,
+      "startTime": 156.421224,
+      "endTime": 156.467664,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13504,
+      "endFrameExclusive": 13505,
+      "startTime": 156.781134,
+      "endTime": 156.781134,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13533,
+      "endFrameExclusive": 13558,
+      "startTime": 157.117823,
+      "endTime": 157.396463,
+      "frameCount": 25,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13655,
+      "endFrameExclusive": 13666,
+      "startTime": 158.53424,
+      "endTime": 158.65034,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13705,
+      "endFrameExclusive": 13747,
+      "startTime": 159.114739,
+      "endTime": 159.590748,
+      "frameCount": 42,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13776,
+      "endFrameExclusive": 13779,
+      "startTime": 159.939048,
+      "endTime": 159.962268,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13822,
+      "endFrameExclusive": 13831,
+      "startTime": 160.473107,
+      "endTime": 160.565986,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13913,
+      "endFrameExclusive": 13916,
+      "startTime": 161.529615,
+      "endTime": 161.552834,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 13990,
+      "endFrameExclusive": 14001,
+      "startTime": 162.423583,
+      "endTime": 162.539683,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14059,
+      "endFrameExclusive": 14065,
+      "startTime": 163.224671,
+      "endTime": 163.282721,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14147,
+      "endFrameExclusive": 14150,
+      "startTime": 164.246349,
+      "endTime": 164.269569,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14254,
+      "endFrameExclusive": 14311,
+      "startTime": 165.488617,
+      "endTime": 166.138776,
+      "frameCount": 57,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14333,
+      "endFrameExclusive": 14399,
+      "startTime": 166.405805,
+      "endTime": 167.160454,
+      "frameCount": 66,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14411,
+      "endFrameExclusive": 14592,
+      "startTime": 167.311383,
+      "endTime": 169.401179,
+      "frameCount": 181,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14620,
+      "endFrameExclusive": 14650,
+      "startTime": 169.737868,
+      "endTime": 170.074558,
+      "frameCount": 30,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14661,
+      "endFrameExclusive": 14673,
+      "startTime": 170.213878,
+      "endTime": 170.341587,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14731,
+      "endFrameExclusive": 14738,
+      "startTime": 171.026576,
+      "endTime": 171.096236,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14810,
+      "endFrameExclusive": 14816,
+      "startTime": 171.943764,
+      "endTime": 172.001814,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14891,
+      "endFrameExclusive": 14892,
+      "startTime": 172.884172,
+      "endTime": 172.884172,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 14925,
+      "endFrameExclusive": 15008,
+      "startTime": 173.278912,
+      "endTime": 174.23093,
+      "frameCount": 83,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15041,
+      "endFrameExclusive": 15051,
+      "startTime": 174.625669,
+      "endTime": 174.730159,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15082,
+      "endFrameExclusive": 15092,
+      "startTime": 175.101678,
+      "endTime": 175.206168,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15188,
+      "endFrameExclusive": 15201,
+      "startTime": 176.332336,
+      "endTime": 176.471655,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15224,
+      "endFrameExclusive": 15233,
+      "startTime": 176.750295,
+      "endTime": 176.843175,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15249,
+      "endFrameExclusive": 15265,
+      "startTime": 177.040544,
+      "endTime": 177.214694,
+      "frameCount": 16,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15291,
+      "endFrameExclusive": 15292,
+      "startTime": 177.528163,
+      "endTime": 177.528163,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15302,
+      "endFrameExclusive": 15323,
+      "startTime": 177.655873,
+      "endTime": 177.888073,
+      "frameCount": 21,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15357,
+      "endFrameExclusive": 15368,
+      "startTime": 178.294422,
+      "endTime": 178.410522,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15448,
+      "endFrameExclusive": 15450,
+      "startTime": 179.35093,
+      "endTime": 179.36254,
+      "frameCount": 2,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 15508,
+      "endFrameExclusive": 15512,
+      "startTime": 180.047528,
+      "endTime": 180.082358,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15527,
+      "endFrameExclusive": 15536,
+      "startTime": 180.268118,
+      "endTime": 180.360998,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15551,
+      "endFrameExclusive": 15554,
+      "startTime": 180.546757,
+      "endTime": 180.569977,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15647,
+      "endFrameExclusive": 15649,
+      "startTime": 181.661315,
+      "endTime": 181.672925,
+      "frameCount": 2,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 15657,
+      "endFrameExclusive": 15658,
+      "startTime": 181.777415,
+      "endTime": 181.777415,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 15694,
+      "endFrameExclusive": 15704,
+      "startTime": 182.206984,
+      "endTime": 182.311474,
+      "frameCount": 10,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15712,
+      "endFrameExclusive": 15725,
+      "startTime": 182.415964,
+      "endTime": 182.555283,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15753,
+      "endFrameExclusive": 15766,
+      "startTime": 182.891973,
+      "endTime": 183.031293,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15793,
+      "endFrameExclusive": 15796,
+      "startTime": 183.356372,
+      "endTime": 183.379592,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15819,
+      "endFrameExclusive": 15830,
+      "startTime": 183.658231,
+      "endTime": 183.774331,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15931,
+      "endFrameExclusive": 15942,
+      "startTime": 184.958549,
+      "endTime": 185.074649,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15964,
+      "endFrameExclusive": 15970,
+      "startTime": 185.341678,
+      "endTime": 185.399728,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 15994,
+      "endFrameExclusive": 15997,
+      "startTime": 185.689977,
+      "endTime": 185.713197,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16031,
+      "endFrameExclusive": 16103,
+      "startTime": 186.119546,
+      "endTime": 186.943855,
+      "frameCount": 72,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16119,
+      "endFrameExclusive": 16142,
+      "startTime": 187.141224,
+      "endTime": 187.396644,
+      "frameCount": 23,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16160,
+      "endFrameExclusive": 16166,
+      "startTime": 187.617234,
+      "endTime": 187.675283,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16189,
+      "endFrameExclusive": 16200,
+      "startTime": 187.953923,
+      "endTime": 188.070023,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16207,
+      "endFrameExclusive": 16226,
+      "startTime": 188.162902,
+      "endTime": 188.371882,
+      "frameCount": 19,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16238,
+      "endFrameExclusive": 16249,
+      "startTime": 188.522812,
+      "endTime": 188.638912,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16288,
+      "endFrameExclusive": 16289,
+      "startTime": 189.103311,
+      "endTime": 189.103311,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 16307,
+      "endFrameExclusive": 16308,
+      "startTime": 189.3239,
+      "endTime": 189.3239,
+      "frameCount": 1,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16314,
+      "endFrameExclusive": 16354,
+      "startTime": 189.40517,
+      "endTime": 189.857959,
+      "frameCount": 40,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16426,
+      "endFrameExclusive": 16437,
+      "startTime": 190.705488,
+      "endTime": 190.821587,
+      "frameCount": 11,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16476,
+      "endFrameExclusive": 16481,
+      "startTime": 191.285986,
+      "endTime": 191.332426,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16524,
+      "endFrameExclusive": 16528,
+      "startTime": 191.843265,
+      "endTime": 191.878095,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16563,
+      "endFrameExclusive": 16565,
+      "startTime": 192.296054,
+      "endTime": 192.307664,
+      "frameCount": 2,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 16600,
+      "endFrameExclusive": 16613,
+      "startTime": 192.725624,
+      "endTime": 192.864943,
+      "frameCount": 13,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16629,
+      "endFrameExclusive": 16635,
+      "startTime": 193.062313,
+      "endTime": 193.120363,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16644,
+      "endFrameExclusive": 16650,
+      "startTime": 193.236463,
+      "endTime": 193.294512,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16681,
+      "endFrameExclusive": 16683,
+      "startTime": 193.666032,
+      "endTime": 193.677642,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16704,
+      "endFrameExclusive": 16711,
+      "startTime": 193.933061,
+      "endTime": 194.002721,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16721,
+      "endFrameExclusive": 16742,
+      "startTime": 194.130431,
+      "endTime": 194.36263,
+      "frameCount": 21,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16755,
+      "endFrameExclusive": 16761,
+      "startTime": 194.52517,
+      "endTime": 194.58322,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16768,
+      "endFrameExclusive": 16775,
+      "startTime": 194.6761,
+      "endTime": 194.74576,
+      "frameCount": 7,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16799,
+      "endFrameExclusive": 16801,
+      "startTime": 195.036009,
+      "endTime": 195.047619,
+      "frameCount": 2,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16814,
+      "endFrameExclusive": 16818,
+      "startTime": 195.210159,
+      "endTime": 195.244989,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16845,
+      "endFrameExclusive": 16866,
+      "startTime": 195.570068,
+      "endTime": 195.802268,
+      "frameCount": 21,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16879,
+      "endFrameExclusive": 16884,
+      "startTime": 195.964807,
+      "endTime": 196.011247,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16898,
+      "endFrameExclusive": 16901,
+      "startTime": 196.185397,
+      "endTime": 196.208617,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16956,
+      "endFrameExclusive": 16971,
+      "startTime": 196.858776,
+      "endTime": 197.021315,
+      "frameCount": 15,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 16984,
+      "endFrameExclusive": 16988,
+      "startTime": 197.183855,
+      "endTime": 197.218685,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17005,
+      "endFrameExclusive": 17008,
+      "startTime": 197.427664,
+      "endTime": 197.450884,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17020,
+      "endFrameExclusive": 17026,
+      "startTime": 197.601814,
+      "endTime": 197.659864,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17046,
+      "endFrameExclusive": 17055,
+      "startTime": 197.903673,
+      "endTime": 197.996553,
+      "frameCount": 9,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17094,
+      "endFrameExclusive": 17113,
+      "startTime": 198.460952,
+      "endTime": 198.669932,
+      "frameCount": 19,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17134,
+      "endFrameExclusive": 17150,
+      "startTime": 198.925351,
+      "endTime": 199.099501,
+      "frameCount": 16,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17184,
+      "endFrameExclusive": 17216,
+      "startTime": 199.50585,
+      "endTime": 199.86576,
+      "frameCount": 32,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17218,
+      "endFrameExclusive": 17231,
+      "startTime": 199.90059,
+      "endTime": 200.039909,
+      "frameCount": 13,
+      "status": "detected",
+      "reasons": [
+        "atConfiguredFrequencyFloor"
+      ]
+    },
+    {
+      "startFrame": 17231,
+      "endFrameExclusive": 17283,
+      "startTime": 200.051519,
+      "endTime": 200.643628,
+      "frameCount": 52,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17304,
+      "endFrameExclusive": 17316,
+      "startTime": 200.899048,
+      "endTime": 201.026757,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17353,
+      "endFrameExclusive": 17369,
+      "startTime": 201.467937,
+      "endTime": 201.642086,
+      "frameCount": 16,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17402,
+      "endFrameExclusive": 17513,
+      "startTime": 202.036825,
+      "endTime": 203.313923,
+      "frameCount": 111,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17529,
+      "endFrameExclusive": 17533,
+      "startTime": 203.511293,
+      "endTime": 203.546122,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17547,
+      "endFrameExclusive": 17555,
+      "startTime": 203.720272,
+      "endTime": 203.801542,
+      "frameCount": 8,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17590,
+      "endFrameExclusive": 17595,
+      "startTime": 204.219501,
+      "endTime": 204.265941,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17663,
+      "endFrameExclusive": 17664,
+      "startTime": 205.067029,
+      "endTime": 205.067029,
+      "frameCount": 1,
+      "status": "interpolated",
+      "reasons": [
+        "rawUnvoiced",
+        "briefGapInterpolated"
+      ]
+    },
+    {
+      "startFrame": 17678,
+      "endFrameExclusive": 17681,
+      "startTime": 205.241179,
+      "endTime": 205.264399,
+      "frameCount": 3,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17689,
+      "endFrameExclusive": 17695,
+      "startTime": 205.368889,
+      "endTime": 205.426939,
+      "frameCount": 6,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17771,
+      "endFrameExclusive": 17783,
+      "startTime": 206.320907,
+      "endTime": 206.448617,
+      "frameCount": 12,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17818,
+      "endFrameExclusive": 17823,
+      "startTime": 206.866576,
+      "endTime": 206.913016,
+      "frameCount": 5,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17860,
+      "endFrameExclusive": 17864,
+      "startTime": 207.354195,
+      "endTime": 207.389025,
+      "frameCount": 4,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    },
+    {
+      "startFrame": 17968,
+      "endFrameExclusive": 18047,
+      "startTime": 208.608073,
+      "endTime": 209.513651,
+      "frameCount": 79,
+      "status": "unavailable",
+      "reasons": [
+        "rawUnvoiced"
+      ]
+    }
+  ]
+}

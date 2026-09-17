@@ -1,0 +1,1162 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Review data for automatic expected-note segmentation.",
+  "derivedFrom": "song_assets/training_season/prep/pitch.pyin-notes.json",
+  "summary": {
+    "totalFrames": 18047,
+    "noteCount": 567,
+    "ignoredCandidateCount": 173,
+    "bridgedGapCount": 13,
+    "noteDurationMs": {
+      "minimum": 81.269,
+      "median": 220.59,
+      "maximum": 1323.538
+    }
+  },
+  "ignoredCandidates": [
+    {
+      "startTime": 9.229932,
+      "endTime": 9.287982,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 10.588299,
+      "endTime": 10.611519,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 12.863855,
+      "endTime": 12.863855,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 13.432744,
+      "endTime": 13.479184,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 14.489252,
+      "endTime": 14.500862,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 15.19746,
+      "endTime": 15.22068,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 15.4761,
+      "endTime": 15.49932,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 16.195918,
+      "endTime": 16.230748,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 16.729977,
+      "endTime": 16.741587,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 17.031837,
+      "endTime": 17.101497,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 17.531066,
+      "endTime": 17.565896,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 17.623946,
+      "endTime": 17.658776,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 18.982313,
+      "endTime": 19.017143,
+      "frameCount": 4,
+      "reason": "shortFinalFragment"
+    },
+    {
+      "startTime": 19.051973,
+      "endTime": 19.098413,
+      "frameCount": 5,
+      "reason": "shortFinalFragment"
+    },
+    {
+      "startTime": 20.108481,
+      "endTime": 20.143311,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 22.500136,
+      "endTime": 22.569796,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 22.581406,
+      "endTime": 22.639456,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 22.662676,
+      "endTime": 22.720726,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 24.021043,
+      "endTime": 24.044263,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 24.856961,
+      "endTime": 24.926621,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 26.087619,
+      "endTime": 26.122449,
+      "frameCount": 4,
+      "reason": "shortFinalFragment"
+    },
+    {
+      "startTime": 27.074467,
+      "endTime": 27.109297,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 27.422766,
+      "endTime": 27.422766,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 28.757914,
+      "endTime": 28.815964,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 28.862404,
+      "endTime": 28.885624,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 32.473107,
+      "endTime": 32.542766,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 32.577596,
+      "endTime": 32.647256,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 32.670476,
+      "endTime": 32.716916,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 34.052063,
+      "endTime": 34.052063,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 37.349297,
+      "endTime": 37.442177,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 37.627937,
+      "endTime": 37.674376,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 38.127166,
+      "endTime": 38.161995,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 38.196825,
+      "endTime": 38.243265,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 38.278095,
+      "endTime": 38.312925,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 38.997914,
+      "endTime": 39.055964,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 41.784308,
+      "endTime": 41.819138,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 44.988662,
+      "endTime": 45.011882,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 45.464671,
+      "endTime": 45.499501,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 45.9639,
+      "endTime": 46.01034,
+      "frameCount": 5,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 46.904308,
+      "endTime": 46.939138,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 48.367166,
+      "endTime": 48.576145,
+      "frameCount": 19,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 48.970884,
+      "endTime": 49.005714,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 49.133424,
+      "endTime": 49.145034,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 51.0839,
+      "endTime": 51.14195,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 51.780499,
+      "endTime": 51.780499,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 52.848617,
+      "endTime": 52.895057,
+      "frameCount": 5,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 53.521995,
+      "endTime": 53.521995,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 53.730975,
+      "endTime": 53.789025,
+      "frameCount": 6,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 54.253424,
+      "endTime": 54.253424,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 55.681451,
+      "endTime": 55.727891,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 56.56381,
+      "endTime": 56.56381,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 56.935329,
+      "endTime": 56.946939,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 58.514286,
+      "endTime": 58.514286,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 58.909025,
+      "endTime": 58.932245,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 59.861043,
+      "endTime": 59.861043,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 61.44,
+      "endTime": 61.46322,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 61.53288,
+      "endTime": 61.54449,
+      "frameCount": 2,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 64.226395,
+      "endTime": 64.249615,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 65.062313,
+      "endTime": 65.085533,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 66.943129,
+      "endTime": 67.001179,
+      "frameCount": 6,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 67.639728,
+      "endTime": 67.697778,
+      "frameCount": 6,
+      "reason": "shortFinalFragment"
+    },
+    {
+      "startTime": 72.980317,
+      "endTime": 73.026757,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 76.6839,
+      "endTime": 76.71873,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 78.111927,
+      "endTime": 78.158367,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 78.553107,
+      "endTime": 78.657596,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 79.505125,
+      "endTime": 79.563175,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 80.550023,
+      "endTime": 80.608073,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 84.067846,
+      "endTime": 84.067846,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 86.424671,
+      "endTime": 86.482721,
+      "frameCount": 6,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 91.277642,
+      "endTime": 91.335692,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 93.181678,
+      "endTime": 93.239728,
+      "frameCount": 6,
+      "reason": "shortFinalFragment"
+    },
+    {
+      "startTime": 93.727347,
+      "endTime": 93.762177,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 95.004444,
+      "endTime": 95.074104,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 95.178594,
+      "endTime": 95.236644,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 95.271474,
+      "endTime": 95.294694,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 96.420862,
+      "endTime": 96.432472,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 99.416236,
+      "endTime": 99.474286,
+      "frameCount": 6,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 100.472744,
+      "endTime": 100.519184,
+      "frameCount": 5,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 100.879093,
+      "endTime": 100.925533,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 102.56254,
+      "endTime": 102.58576,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 102.992109,
+      "endTime": 103.050159,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 104.385306,
+      "endTime": 104.431746,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 104.443356,
+      "endTime": 104.478186,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 105.244444,
+      "endTime": 105.314104,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 105.476644,
+      "endTime": 105.511474,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 108.773878,
+      "endTime": 108.831927,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 109.145397,
+      "endTime": 109.215057,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 109.400816,
+      "endTime": 109.424036,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 109.865215,
+      "endTime": 109.923265,
+      "frameCount": 6,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 110.422494,
+      "endTime": 110.457324,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 111.339683,
+      "endTime": 111.362902,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 111.804082,
+      "endTime": 111.804082,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 112.105941,
+      "endTime": 112.175601,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 113.034739,
+      "endTime": 113.139229,
+      "frameCount": 10,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 113.278549,
+      "endTime": 113.313379,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 114.265397,
+      "endTime": 114.288617,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 114.892336,
+      "endTime": 114.903946,
+      "frameCount": 2,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 115.263855,
+      "endTime": 115.275465,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 115.600544,
+      "endTime": 115.658594,
+      "frameCount": 6,
+      "reason": "shortFinalFragment"
+    },
+    {
+      "startTime": 118.944218,
+      "endTime": 118.990658,
+      "frameCount": 5,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 119.362177,
+      "endTime": 119.373787,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 121.335873,
+      "endTime": 121.393923,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 123.06576,
+      "endTime": 123.1122,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 123.251519,
+      "endTime": 123.286349,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 125.155556,
+      "endTime": 125.260045,
+      "frameCount": 10,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 128.417959,
+      "endTime": 128.417959,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 130.101406,
+      "endTime": 130.101406,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 130.844444,
+      "endTime": 130.856054,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 131.448163,
+      "endTime": 131.482993,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 131.773243,
+      "endTime": 131.796463,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 132.99229,
+      "endTime": 133.03873,
+      "frameCount": 5,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 133.410249,
+      "endTime": 133.479909,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 135.465215,
+      "endTime": 135.488435,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 139.354558,
+      "endTime": 139.412608,
+      "frameCount": 6,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 146.935873,
+      "endTime": 146.959093,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 148.897959,
+      "endTime": 148.921179,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 149.362358,
+      "endTime": 149.420408,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 150.755556,
+      "endTime": 150.778776,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 150.883265,
+      "endTime": 150.894875,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 151.521814,
+      "endTime": 151.533424,
+      "frameCount": 2,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 151.754014,
+      "endTime": 151.754014,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 152.497052,
+      "endTime": 152.520272,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 153.76254,
+      "endTime": 153.80898,
+      "frameCount": 5,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 154.726168,
+      "endTime": 154.760998,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 155.039637,
+      "endTime": 155.097687,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 155.980045,
+      "endTime": 156.003265,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 156.479274,
+      "endTime": 156.514104,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 157.489342,
+      "endTime": 157.524172,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 158.66195,
+      "endTime": 158.66195,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 159.973878,
+      "endTime": 160.031927,
+      "frameCount": 6,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 161.506395,
+      "endTime": 161.610884,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 161.761814,
+      "endTime": 161.819864,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 161.935964,
+      "endTime": 161.994014,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 162.551293,
+      "endTime": 162.597732,
+      "frameCount": 5,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 163.305941,
+      "endTime": 163.491701,
+      "frameCount": 17,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 164.281179,
+      "endTime": 164.281179,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 164.699138,
+      "endTime": 164.722358,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 166.150385,
+      "endTime": 166.196825,
+      "frameCount": 5,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 166.289705,
+      "endTime": 166.336145,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 167.172063,
+      "endTime": 167.195283,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 169.679819,
+      "endTime": 169.714649,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 170.086168,
+      "endTime": 170.120998,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 170.353197,
+      "endTime": 170.411247,
+      "frameCount": 6,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 172.025034,
+      "endTime": 172.071474,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 172.013424,
+      "endTime": 172.071474,
+      "frameCount": 6,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 172.953832,
+      "endTime": 173.011882,
+      "frameCount": 6,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 174.24254,
+      "endTime": 174.27737,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 174.741769,
+      "endTime": 174.776599,
+      "frameCount": 4,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 175.682177,
+      "endTime": 175.717007,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 177.899683,
+      "endTime": 177.911293,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 179.0839,
+      "endTime": 179.13034,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 179.884989,
+      "endTime": 179.919819,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 180.093968,
+      "endTime": 180.093968,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 182.566893,
+      "endTime": 182.578503,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 183.240272,
+      "endTime": 183.263492,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 184.48254,
+      "endTime": 184.52898,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 185.724807,
+      "endTime": 185.736417,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 187.686893,
+      "endTime": 187.686893,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 188.650522,
+      "endTime": 188.673741,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 189.25424,
+      "endTime": 189.31229,
+      "frameCount": 6,
+      "reason": "shortFinalFragment"
+    },
+    {
+      "startTime": 189.33551,
+      "endTime": 189.39356,
+      "frameCount": 6,
+      "reason": "shortFinalFragment"
+    },
+    {
+      "startTime": 189.869569,
+      "endTime": 189.892789,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 190.833197,
+      "endTime": 190.844807,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 191.262766,
+      "endTime": 191.274376,
+      "frameCount": 2,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 197.032925,
+      "endTime": 197.032925,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 197.149025,
+      "endTime": 197.172245,
+      "frameCount": 3,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 197.253515,
+      "endTime": 197.323175,
+      "frameCount": 7,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 197.497324,
+      "endTime": 197.532154,
+      "frameCount": 4,
+      "reason": "returnedToActivePitch"
+    },
+    {
+      "startTime": 198.681542,
+      "endTime": 198.704762,
+      "frameCount": 3,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 199.111111,
+      "endTime": 199.111111,
+      "frameCount": 1,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 205.438549,
+      "endTime": 205.484989,
+      "frameCount": 5,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 207.400635,
+      "endTime": 207.412245,
+      "frameCount": 2,
+      "reason": "shortInitialFragment"
+    },
+    {
+      "startTime": 207.946304,
+      "endTime": 207.992744,
+      "frameCount": 5,
+      "reason": "returnedToActivePitch"
+    }
+  ],
+  "bridgedGaps": [
+    {
+      "startFrame": 855,
+      "endFrameExclusive": 858,
+      "frameCount": 3,
+      "startTime": 9.926531,
+      "endTime": 9.949751,
+      "pitchDifferenceCents": 20.0
+    },
+    {
+      "startFrame": 2729,
+      "endFrameExclusive": 2730,
+      "frameCount": 1,
+      "startTime": 31.683628,
+      "endTime": 31.683628,
+      "pitchDifferenceCents": 50.0
+    },
+    {
+      "startFrame": 3219,
+      "endFrameExclusive": 3222,
+      "frameCount": 3,
+      "startTime": 37.372517,
+      "endTime": 37.395737,
+      "pitchDifferenceCents": 10.0
+    },
+    {
+      "startFrame": 3395,
+      "endFrameExclusive": 3398,
+      "frameCount": 3,
+      "startTime": 39.415873,
+      "endTime": 39.439093,
+      "pitchDifferenceCents": 0.0
+    },
+    {
+      "startFrame": 6768,
+      "endFrameExclusive": 6771,
+      "frameCount": 3,
+      "startTime": 78.576327,
+      "endTime": 78.599546,
+      "pitchDifferenceCents": 10.0
+    },
+    {
+      "startFrame": 7066,
+      "endFrameExclusive": 7069,
+      "frameCount": 3,
+      "startTime": 82.0361,
+      "endTime": 82.05932,
+      "pitchDifferenceCents": 10.0
+    },
+    {
+      "startFrame": 9613,
+      "endFrameExclusive": 9616,
+      "frameCount": 3,
+      "startTime": 111.606712,
+      "endTime": 111.629932,
+      "pitchDifferenceCents": 20.0
+    },
+    {
+      "startFrame": 9672,
+      "endFrameExclusive": 9673,
+      "frameCount": 1,
+      "startTime": 112.291701,
+      "endTime": 112.291701,
+      "pitchDifferenceCents": 10.0
+    },
+    {
+      "startFrame": 10041,
+      "endFrameExclusive": 10044,
+      "frameCount": 3,
+      "startTime": 116.575782,
+      "endTime": 116.599002,
+      "pitchDifferenceCents": 30.0
+    },
+    {
+      "startFrame": 10881,
+      "endFrameExclusive": 10884,
+      "frameCount": 3,
+      "startTime": 126.328163,
+      "endTime": 126.351383,
+      "pitchDifferenceCents": 0.0
+    },
+    {
+      "startFrame": 13913,
+      "endFrameExclusive": 13916,
+      "frameCount": 3,
+      "startTime": 161.529615,
+      "endTime": 161.552834,
+      "pitchDifferenceCents": 20.0
+    },
+    {
+      "startFrame": 17005,
+      "endFrameExclusive": 17008,
+      "frameCount": 3,
+      "startTime": 197.427664,
+      "endTime": 197.450884,
+      "pitchDifferenceCents": 50.0
+    },
+    {
+      "startFrame": 17678,
+      "endFrameExclusive": 17681,
+      "frameCount": 3,
+      "startTime": 205.241179,
+      "endTime": 205.264399,
+      "pitchDifferenceCents": 10.0
+    }
+  ]
+}

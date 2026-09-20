@@ -116,8 +116,8 @@
         {
           "id": "word-17",
           "text": "drawn",
-          "start": null,
-          "end": null
+          "start": 16.189,
+          "end": 16.669
         },
         {
           "id": "word-18",
@@ -203,21 +203,15 @@
     },
     {
       "id": "line-4",
-      "start": 26.256,
+      "start": 23.954,
       "end": 29.037,
       "text": "Play fair, is that a compass in your nature?",
       "words": [
         {
           "id": "word-30",
-          "text": "Play",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-31",
-          "text": "fair,",
-          "start": null,
-          "end": null
+          "text": "Play fair,",
+          "start": 23.954,
+          "end": 25.335
         },
         {
           "id": "word-32",
@@ -398,7 +392,7 @@
     {
       "id": "line-8",
       "start": 41.825,
-      "end": 43.407,
+      "end": 44.389,
       "text": "But if you really wanna go there",
       "words": [
         {
@@ -409,21 +403,9 @@
         },
         {
           "id": "word-58",
-          "text": "if",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-59",
-          "text": "you",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-60",
-          "text": "really",
-          "start": null,
-          "end": null
+          "text": "if you really",
+          "start": 42.166,
+          "end": 42.226
         },
         {
           "id": "word-61",
@@ -434,21 +416,21 @@
         {
           "id": "word-62",
           "text": "go",
-          "start": null,
-          "end": null
+          "start": 43.528,
+          "end": 43.968
         },
         {
           "id": "word-63",
           "text": "there",
-          "start": null,
-          "end": null
+          "start": 44.028,
+          "end": 44.389
         }
       ]
     },
     {
       "id": "line-9",
       "start": 45.457,
-      "end": 46.898,
+      "end": 47.277,
       "text": "You should know I",
       "words": [
         {
@@ -472,15 +454,15 @@
         {
           "id": "word-67",
           "text": "I",
-          "start": null,
-          "end": null
+          "start": 46.899,
+          "end": 47.277
         }
       ]
     },
     {
       "id": "line-10",
       "start": 47.278,
-      "end": 50.14,
+      "end": 50.881,
       "text": "I need someone to hold me close, deeper than I've ever known",
       "words": [
         {
@@ -521,15 +503,9 @@
         },
         {
           "id": "word-74",
-          "text": "close,",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-75",
-          "text": "deeper",
-          "start": null,
-          "end": null
+          "text": "close, deeper",
+          "start": 48.759,
+          "end": 49.86
         },
         {
           "id": "word-76",
@@ -540,40 +516,40 @@
         {
           "id": "word-77",
           "text": "I've",
-          "start": null,
-          "end": null
+          "start": 50.2,
+          "end": 50.3
         },
         {
           "id": "word-78",
           "text": "ever",
-          "start": null,
-          "end": null
+          "start": 50.48,
+          "end": 50.721
         },
         {
           "id": "word-79",
           "text": "known",
-          "start": null,
-          "end": null
+          "start": 50.741,
+          "end": 50.881
         }
       ]
     },
     {
       "id": "line-11",
-      "start": 51.561,
+      "start": 51.081,
       "end": 55.684,
       "text": "Whose love feels like a rodeo, knows just how to take control",
       "words": [
         {
           "id": "word-80",
           "text": "Whose",
-          "start": null,
-          "end": null
+          "start": 51.081,
+          "end": 51.321
         },
         {
           "id": "word-81",
           "text": "love",
-          "start": null,
-          "end": null
+          "start": 51.341,
+          "end": 51.541
         },
         {
           "id": "word-82",
@@ -640,7 +616,7 @@
     {
       "id": "line-12",
       "start": 55.744,
-      "end": 58.346,
+      "end": 58.666,
       "text": "When I'm vulnerable, he's straight-talking to my soul",
       "words": [
         {
@@ -670,8 +646,8 @@
         {
           "id": "word-96",
           "text": "straight-talking",
-          "start": null,
-          "end": null
+          "start": 57.365,
+          "end": 58.146
         },
         {
           "id": "word-97",
@@ -681,22 +657,16 @@
         },
         {
           "id": "word-98",
-          "text": "my",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-99",
-          "text": "soul",
-          "start": null,
-          "end": null
+          "text": "my soul",
+          "start": 58.366,
+          "end": 58.666
         }
       ]
     },
     {
       "id": "line-13",
       "start": 58.906,
-      "end": 61.988,
+      "end": 64.25,
       "text": "Conversation overload, got me feeling vertigo",
       "words": [
         {
@@ -732,28 +702,28 @@
         {
           "id": "word-105",
           "text": "vertigo",
-          "start": null,
-          "end": null
+          "start": 62.028,
+          "end": 64.25
         }
       ]
     },
     {
       "id": "line-14",
-      "start": 65.691,
-      "end": 67.412,
+      "start": 64.43,
+      "end": 68.473,
       "text": "Are you somebody who can go there?",
       "words": [
         {
           "id": "word-106",
           "text": "Are",
-          "start": null,
-          "end": null
+          "start": 64.43,
+          "end": 64.53
         },
         {
           "id": "word-107",
           "text": "you",
-          "start": null,
-          "end": null
+          "start": 65.17,
+          "end": 65.671
         },
         {
           "id": "word-108",
@@ -763,13 +733,7 @@
         },
         {
           "id": "word-109",
-          "text": "who",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-110",
-          "text": "can",
+          "text": "who can",
           "start": 66.711,
           "end": 66.931
         },
@@ -782,8 +746,8 @@
         {
           "id": "word-112",
           "text": "there?",
-          "start": null,
-          "end": null
+          "start": 67.812,
+          "end": 68.473
         }
       ]
     },
@@ -802,8 +766,8 @@
         {
           "id": "word-114",
           "text": "I",
-          "start": null,
-          "end": null
+          "start": 69.353,
+          "end": 69.893
         },
         {
           "id": "word-115",
@@ -813,15 +777,9 @@
         },
         {
           "id": "word-116",
-          "text": "wanna",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-117",
-          "text": "have",
-          "start": null,
-          "end": null
+          "text": "wanna have",
+          "start": 70.414,
+          "end": 70.534
         },
         {
           "id": "word-118",
@@ -853,7 +811,7 @@
           "id": "word-121",
           "text": "If",
           "start": 75.255,
-          "end": 76.536
+          "end": 77.596
         },
         {
           "id": "word-122",
@@ -863,33 +821,9 @@
         },
         {
           "id": "word-123",
-          "text": "ain't",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-124",
-          "text": "you,",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-125",
-          "text": "then",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-126",
-          "text": "let",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-127",
-          "text": "me",
-          "start": null,
-          "end": null
+          "text": "ain't you, then let me",
+          "start": 78.377,
+          "end": 78.597
         },
         {
           "id": "word-128",
@@ -909,7 +843,7 @@
       "id": "line-17",
       "start": 82.078,
       "end": 85.88,
-      "text": "'Cause training season's over (training season's over)",
+      "text": "'Cause training season's over",
       "words": [
         {
           "id": "word-130",
@@ -920,8 +854,8 @@
         {
           "id": "word-131",
           "text": "training",
-          "start": null,
-          "end": null
+          "start": 83.519,
+          "end": 83.979
         },
         {
           "id": "word-132",
@@ -934,44 +868,26 @@
           "text": "over",
           "start": 85.4,
           "end": 85.88
-        },
-        {
-          "id": "word-134",
-          "text": "(training",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-135",
-          "text": "season's",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-136",
-          "text": "over)",
-          "start": null,
-          "end": null
         }
       ]
     },
     {
       "id": "line-18",
-      "start": 88.642,
+      "start": 86.701,
       "end": 91.863,
       "text": "I tried to see my lovers in a good light",
       "words": [
         {
           "id": "word-137",
           "text": "I",
-          "start": null,
-          "end": null
+          "start": 86.701,
+          "end": 86.881
         },
         {
           "id": "word-138",
           "text": "tried",
-          "start": null,
-          "end": null
+          "start": 86.921,
+          "end": 87.721
         },
         {
           "id": "word-139",
@@ -994,8 +910,8 @@
         {
           "id": "word-142",
           "text": "lovers",
-          "start": null,
-          "end": null
+          "start": 89.482,
+          "end": 89.822
         },
         {
           "id": "word-143",
@@ -1198,8 +1114,8 @@
         {
           "id": "word-172",
           "text": "an",
-          "start": null,
-          "end": null
+          "start": 105.943,
+          "end": 106.304
         },
         {
           "id": "word-173",
@@ -1211,33 +1127,33 @@
     },
     {
       "id": "line-22",
-      "start": null,
-      "end": null,
+      "start": 107.364,
+      "end": 111.768,
       "text": "Someone with some potential",
       "words": [
         {
           "id": "word-174",
           "text": "Someone",
-          "start": null,
-          "end": null
+          "start": 107.364,
+          "end": 108.405
         },
         {
           "id": "word-175",
           "text": "with",
-          "start": null,
-          "end": null
+          "start": 108.665,
+          "end": 108.826
         },
         {
           "id": "word-176",
           "text": "some",
-          "start": null,
-          "end": null
+          "start": 109.126,
+          "end": 110.827
         },
         {
           "id": "word-177",
           "text": "potential",
-          "start": null,
-          "end": null
+          "start": 111.308,
+          "end": 111.768
         }
       ]
     },
@@ -1249,15 +1165,9 @@
       "words": [
         {
           "id": "word-178",
-          "text": "Is",
+          "text": "Is it",
           "start": 112.088,
           "end": 112.268
-        },
-        {
-          "id": "word-179",
-          "text": "it",
-          "start": null,
-          "end": null
         },
         {
           "id": "word-180",
@@ -1287,7 +1197,7 @@
           "id": "word-184",
           "text": "for,",
           "start": 114.31,
-          "end": 114.711
+          "end": 114.911
         },
         {
           "id": "word-185",
@@ -1306,7 +1216,7 @@
     {
       "id": "line-24",
       "start": 117.473,
-      "end": 120.956,
+      "end": 121.136,
       "text": "I need someone to hold me close, deeper than I've ever known",
       "words": [
         {
@@ -1329,15 +1239,9 @@
         },
         {
           "id": "word-190",
-          "text": "to",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-191",
-          "text": "hold",
-          "start": null,
-          "end": null
+          "text": "to hold",
+          "start": 118.754,
+          "end": 118.854
         },
         {
           "id": "word-192",
@@ -1348,8 +1252,8 @@
         {
           "id": "word-193",
           "text": "close,",
-          "start": null,
-          "end": null
+          "start": 119.014,
+          "end": 119.234
         },
         {
           "id": "word-194",
@@ -1366,8 +1270,8 @@
         {
           "id": "word-196",
           "text": "I've",
-          "start": null,
-          "end": null
+          "start": 120.455,
+          "end": 120.555
         },
         {
           "id": "word-197",
@@ -1378,28 +1282,28 @@
         {
           "id": "word-198",
           "text": "known",
-          "start": null,
-          "end": null
+          "start": 120.976,
+          "end": 121.136
         }
       ]
     },
     {
       "id": "line-25",
-      "start": 121.816,
+      "start": 121.336,
       "end": 125.96,
       "text": "Whose love feels like a rodeo, knows just how to take control",
       "words": [
         {
           "id": "word-199",
           "text": "Whose",
-          "start": null,
-          "end": null
+          "start": 121.336,
+          "end": 121.576
         },
         {
           "id": "word-200",
           "text": "love",
-          "start": null,
-          "end": null
+          "start": 121.596,
+          "end": 121.776
         },
         {
           "id": "word-201",
@@ -1465,15 +1369,15 @@
     },
     {
       "id": "line-26",
-      "start": 126.34,
-      "end": 128.622,
+      "start": 126.02,
+      "end": 128.882,
       "text": "When I'm vulnerable, he's straight-talking to my soul",
       "words": [
         {
           "id": "word-211",
           "text": "When",
-          "start": null,
-          "end": null
+          "start": 126.02,
+          "end": 126.26
         },
         {
           "id": "word-212",
@@ -1484,8 +1388,8 @@
         {
           "id": "word-213",
           "text": "vulnerable,",
-          "start": null,
-          "end": null
+          "start": 126.48,
+          "end": 126.961
         },
         {
           "id": "word-214",
@@ -1496,8 +1400,8 @@
         {
           "id": "word-215",
           "text": "straight-talking",
-          "start": null,
-          "end": null
+          "start": 127.621,
+          "end": 128.402
         },
         {
           "id": "word-216",
@@ -1507,22 +1411,16 @@
         },
         {
           "id": "word-217",
-          "text": "my",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-218",
-          "text": "soul",
-          "start": null,
-          "end": null
+          "text": "my soul",
+          "start": 128.642,
+          "end": 128.882
         }
       ]
     },
     {
       "id": "line-27",
       "start": 129.163,
-      "end": 132.205,
+      "end": 132.826,
       "text": "Conversation overload, got me feeling vertigo",
       "words": [
         {
@@ -1558,46 +1456,46 @@
         {
           "id": "word-224",
           "text": "vertigo",
-          "start": null,
-          "end": null
+          "start": 132.265,
+          "end": 132.826
         }
       ]
     },
     {
       "id": "line-28",
-      "start": 138.211,
-      "end": 138.331,
+      "start": 133.046,
+      "end": 139.552,
       "text": "Are you somebody who can go there?",
       "words": [
         {
           "id": "word-225",
           "text": "Are",
-          "start": null,
-          "end": null
+          "start": 133.046,
+          "end": 135.728
         },
         {
           "id": "word-226",
           "text": "you",
-          "start": null,
-          "end": null
+          "start": 135.789,
+          "end": 135.909
         },
         {
           "id": "word-227",
           "text": "somebody",
-          "start": null,
-          "end": null
+          "start": 135.929,
+          "end": 137.13
         },
         {
           "id": "word-228",
           "text": "who",
-          "start": null,
-          "end": null
+          "start": 137.19,
+          "end": 137.41
         },
         {
           "id": "word-229",
           "text": "can",
-          "start": null,
-          "end": null
+          "start": 137.51,
+          "end": 138.171
         },
         {
           "id": "word-230",
@@ -1608,15 +1506,15 @@
         {
           "id": "word-231",
           "text": "there?",
-          "start": null,
-          "end": null
+          "start": 138.571,
+          "end": 139.552
         }
       ]
     },
     {
       "id": "line-29",
       "start": 139.612,
-      "end": 144.506,
+      "end": 142.054,
       "text": "'Cause I don't wanna have to show ya",
       "words": [
         {
@@ -1645,89 +1543,77 @@
         },
         {
           "id": "word-236",
-          "text": "have",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-237",
-          "text": "to",
-          "start": 144.286,
-          "end": 144.506
+          "text": "have to",
+          "start": 140.813,
+          "end": 140.933
         },
         {
           "id": "word-238",
           "text": "show",
-          "start": null,
-          "end": null
+          "start": 141.033,
+          "end": 141.414
         },
         {
           "id": "word-239",
           "text": "ya",
-          "start": null,
-          "end": null
+          "start": 141.534,
+          "end": 142.054
         }
       ]
     },
     {
       "id": "line-30",
-      "start": 144.546,
-      "end": 144.946,
+      "start": 143.305,
+      "end": 146.007,
       "text": "If that ain't you, then let me know, yeah",
       "words": [
         {
           "id": "word-240",
           "text": "If",
-          "start": null,
-          "end": null
+          "start": 143.305,
+          "end": 143.425
         },
         {
           "id": "word-241",
           "text": "that",
-          "start": null,
-          "end": null
+          "start": 143.485,
+          "end": 144.026
         },
         {
           "id": "word-242",
           "text": "ain't",
-          "start": null,
-          "end": null
+          "start": 144.106,
+          "end": 144.246
         },
         {
           "id": "word-243",
           "text": "you,",
-          "start": null,
-          "end": null
+          "start": 144.286,
+          "end": 144.506
         },
         {
           "id": "word-244",
           "text": "then",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-245",
-          "text": "let",
           "start": 144.546,
           "end": 144.706
         },
         {
-          "id": "word-246",
-          "text": "me",
+          "id": "word-245",
+          "text": "let",
           "start": 144.746,
           "end": 144.946
         },
         {
-          "id": "word-247",
-          "text": "know,",
-          "start": null,
-          "end": null
+          "id": "word-246",
+          "text": "me know,",
+          "start": 145.006,
+          "end": 145.326
         },
         {
           "id": "word-248",
           "text": "yeah",
-          "start": null,
-          "end": null
+          "start": 145.407,
+          "end": 146.007
         }
       ]
     },
@@ -1746,14 +1632,14 @@
         {
           "id": "word-250",
           "text": "training",
-          "start": null,
-          "end": null
+          "start": 146.888,
+          "end": 147.408
         },
         {
           "id": "word-251",
           "text": "season's",
-          "start": null,
-          "end": null
+          "start": 147.648,
+          "end": 148.809
         },
         {
           "id": "word-252",
@@ -1823,15 +1709,15 @@
     },
     {
       "id": "line-34",
-      "start": 153.772,
-      "end": 155.734,
+      "start": 153.312,
+      "end": 156.894,
       "text": "Run when you hear that whistle blow",
       "words": [
         {
           "id": "word-260",
           "text": "Run",
-          "start": null,
-          "end": null
+          "start": 153.312,
+          "end": 153.372
         },
         {
           "id": "word-261",
@@ -1860,14 +1746,14 @@
         {
           "id": "word-265",
           "text": "whistle",
-          "start": null,
-          "end": null
+          "start": 155.754,
+          "end": 156.154
         },
         {
           "id": "word-266",
           "text": "blow",
-          "start": null,
-          "end": null
+          "start": 156.194,
+          "end": 156.894
         }
       ]
     },
@@ -1997,15 +1883,15 @@
     },
     {
       "id": "line-37",
-      "start": 170.303,
+      "start": 170.083,
       "end": 172.245,
       "text": "For someone to tell you to go",
       "words": [
         {
           "id": "word-285",
           "text": "For",
-          "start": null,
-          "end": null
+          "start": 170.083,
+          "end": 170.263
         },
         {
           "id": "word-286",
@@ -2079,15 +1965,15 @@
     },
     {
       "id": "line-39",
-      "start": 176.231,
-      "end": 177.712,
+      "start": 176.192,
+      "end": 179.513,
       "text": "I need someone to hold me close, deeper than I've ever known",
       "words": [
         {
           "id": "word-296",
           "text": "I",
-          "start": null,
-          "end": null
+          "start": 176.192,
+          "end": 176.23
         },
         {
           "id": "word-297",
@@ -2128,52 +2014,52 @@
         {
           "id": "word-303",
           "text": "deeper",
-          "start": null,
-          "end": null
+          "start": 177.912,
+          "end": 178.332
         },
         {
           "id": "word-304",
           "text": "than",
-          "start": null,
-          "end": null
+          "start": 178.392,
+          "end": 178.633
         },
         {
           "id": "word-305",
           "text": "I've",
-          "start": null,
-          "end": null
+          "start": 178.653,
+          "end": 178.933
         },
         {
           "id": "word-306",
           "text": "ever",
-          "start": null,
-          "end": null
+          "start": 178.993,
+          "end": 179.073
         },
         {
           "id": "word-307",
           "text": "known",
-          "start": null,
-          "end": null
+          "start": 179.313,
+          "end": 179.513
         }
       ]
     },
     {
       "id": "line-40",
-      "start": 180.354,
+      "start": 179.533,
       "end": 184.396,
       "text": "Whose love feels like a rodeo, knows just how to take control",
       "words": [
         {
           "id": "word-308",
           "text": "Whose",
-          "start": null,
-          "end": null
+          "start": 179.533,
+          "end": 179.653
         },
         {
           "id": "word-309",
           "text": "love",
-          "start": null,
-          "end": null
+          "start": 179.853,
+          "end": 180.294
         },
         {
           "id": "word-310",
@@ -2239,15 +2125,15 @@
     },
     {
       "id": "line-41",
-      "start": 184.856,
-      "end": 187.177,
-      "text": "When I'm vulnerable, he's straight-talking to my soul (if that ain't you, then let me know, yeah)",
+      "start": 184.436,
+      "end": 187.658,
+      "text": "When I'm vulnerable, he's straight-talking to my soul",
       "words": [
         {
           "id": "word-320",
           "text": "When",
-          "start": null,
-          "end": null
+          "start": 184.436,
+          "end": 184.796
         },
         {
           "id": "word-321",
@@ -2281,69 +2167,9 @@
         },
         {
           "id": "word-326",
-          "text": "my",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-327",
-          "text": "soul",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-328",
-          "text": "(if",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-329",
-          "text": "that",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-330",
-          "text": "ain't",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-331",
-          "text": "you,",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-332",
-          "text": "then",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-333",
-          "text": "let",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-334",
-          "text": "me",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-335",
-          "text": "know,",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-336",
-          "text": "yeah)",
-          "start": null,
-          "end": null
+          "text": "my soul",
+          "start": 187.197,
+          "end": 187.658
         }
       ]
     },
@@ -2362,14 +2188,14 @@
         {
           "id": "word-338",
           "text": "overload",
-          "start": null,
-          "end": null
+          "start": 188.878,
+          "end": 189.099
         },
         {
           "id": "word-339",
           "text": "'cause",
-          "start": null,
-          "end": null
+          "start": 189.119,
+          "end": 202.506
         },
         {
           "id": "word-340",
@@ -2388,82 +2214,6 @@
           "text": "over",
           "start": 207.733,
           "end": 208.296
-        }
-      ]
-    },
-    {
-      "id": "line-43",
-      "start": null,
-      "end": null,
-      "text": "'Cause training season's over (training season's over)",
-      "words": [
-        {
-          "id": "word-343",
-          "text": "'Cause",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-344",
-          "text": "training",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-345",
-          "text": "season's",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-346",
-          "text": "over",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-347",
-          "text": "(training",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-348",
-          "text": "season's",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-349",
-          "text": "over)",
-          "start": null,
-          "end": null
-        }
-      ]
-    },
-    {
-      "id": "line-44",
-      "start": null,
-      "end": null,
-      "text": "Training season's over",
-      "words": [
-        {
-          "id": "word-350",
-          "text": "Training",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-351",
-          "text": "season's",
-          "start": null,
-          "end": null
-        },
-        {
-          "id": "word-352",
-          "text": "over",
-          "start": null,
-          "end": null
         }
       ]
     }

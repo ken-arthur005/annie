@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Reviewed shared phrase and section map for scoring and reporting.",
+  "songId": "training-season-dua-lipa",
+  "timeUnit": "seconds",
+  "songDuration": 209.525011,
+  "sourceAssets": {
+    "lyrics": {
+      "artifact": "song_assets/training_season/runtime/lyrics.json",
+      "sha256": "29155d2a258d290e0c39260a0c4fd52898aaa55639543108f6febb7051dee04b"
+    },
+    "guide": {
+      "artifact": "song_assets/training_season/runtime/structure_guide.md",
+      "sha256": "8f71592b205bca951ba256f6b5f091835f479c8af3401ff7d88e3a5476059b29"
+    }
+  },
+  "sections": [
+    {
+      "id": "section-intro",
+      "kind": "intro",
+      "label": "Intro",
+      "start": 0.0,
+      "end": 8.784,
+      "phrases": []
+    },
+    {
+      "id": "section-verse-1",
+      "kind": "verse",
+      "label": "Verse 1",
+      "start": 8.784,
+      "end": 41.825,
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "start": 8.784,
+          "end": 13.447,
+          "lyricLineIds": [
+            "line-1"
+          ]
+        },
+        {
+          "id": "phrase-002",
+          "start": 14.568,
+          "end": 17.37,
+          "lyricLineIds": [
+            "line-2"
+          ]
+        },
+        {
+          "id": "phrase-003",
+          "start": 18.43,
+          "end": 23.134,
+          "lyricLineIds": [
+            "line-3"
+          ]
+        },
+        {
+          "id": "phrase-004",
+          "start": 23.954,
+          "end": 29.037,
+          "lyricLineIds": [
+            "line-4"
+          ]
+        },
+        {
+          "id": "phrase-005",
+          "start": 30.158,
+          "end": 31.299,
+          "lyricLineIds": [
+            "line-5"
+          ]
+        },
+        {
+          "id": "phrase-006",
+          "start": 31.319,
+          "end": 32.58,
+          "lyricLineIds": [
+            "line-6"
+          ]
+        },
+        {
+          "id": "phrase-007",
+          "start": 34.113,
+          "end": 39.101,
+          "lyricLineIds": [
+            "line-7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-pre-chorus-1",
+      "kind": "pre-chorus",
+      "label": "Pre-Chorus 1",
+      "start": 41.825,
+      "end": 47.278,
+      "phrases": [
+        {
+          "id": "phrase-008",
+          "start": 41.825,
+          "end": 44.389,
+          "lyricLineIds": [
+            "line-8"
+          ]
+        },
+        {
+          "id": "phrase-009",
+          "start": 45.457,
+          "end": 47.277,
+          "lyricLineIds": [
+            "line-9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-chorus-1",
+      "kind": "chorus",
+      "label": "Chorus 1",
+      "start": 47.278,
+      "end": 64.43,
+      "phrases": [
+        {
+          "id": "phrase-010",
+          "start": 47.278,
+          "end": 50.881,
+          "lyricLineIds": [
+            "line-10"
+          ]
+        },
+        {
+          "id": "phrase-011",
+          "start": 51.081,
+          "end": 55.684,
+          "lyricLineIds": [
+            "line-11"
+          ]
+        },
+        {
+          "id": "phrase-012",
+          "start": 55.744,
+          "end": 58.666,
+          "lyricLineIds": [
+            "line-12"
+          ]
+        },
+        {
+          "id": "phrase-013",
+          "start": 58.906,
+          "end": 64.25,
+          "lyricLineIds": [
+            "line-13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-post-chorus-1",
+      "kind": "post-chorus",
+      "label": "Post-Chorus 1",
+      "start": 64.43,
+      "end": 86.701,
+      "phrases": [
+        {
+          "id": "phrase-014",
+          "start": 64.43,
+          "end": 68.473,
+          "lyricLineIds": [
+            "line-14"
+          ]
+        },
+        {
+          "id": "phrase-015",
+          "start": 69.113,
+          "end": 71.575,
+          "lyricLineIds": [
+            "line-15"
+          ]
+        },
+        {
+          "id": "phrase-016",
+          "start": 75.255,
+          "end": 81.998,
+          "lyricLineIds": [
+            "line-16"
+          ]
+        },
+        {
+          "id": "phrase-017",
+          "start": 82.078,
+          "end": 85.88,
+          "lyricLineIds": [
+            "line-17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-verse-2",
+      "kind": "verse",
+      "label": "Verse 2",
+      "start": 86.701,
+      "end": 115.231,
+      "phrases": [
+        {
+          "id": "phrase-018",
+          "start": 86.701,
+          "end": 91.863,
+          "lyricLineIds": [
+            "line-18"
+          ]
+        },
+        {
+          "id": "phrase-019",
+          "start": 92.504,
+          "end": 95.605,
+          "lyricLineIds": [
+            "line-19"
+          ]
+        },
+        {
+          "id": "phrase-020",
+          "start": 96.425,
+          "end": 101.008,
+          "lyricLineIds": [
+            "line-20"
+          ]
+        },
+        {
+          "id": "phrase-021",
+          "start": 102.42,
+          "end": 106.864,
+          "lyricLineIds": [
+            "line-21"
+          ]
+        },
+        {
+          "id": "phrase-022",
+          "start": 107.364,
+          "end": 111.768,
+          "lyricLineIds": [
+            "line-22"
+          ]
+        },
+        {
+          "id": "phrase-023",
+          "start": 112.088,
+          "end": 114.911,
+          "lyricLineIds": [
+            "line-23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-pre-chorus-2",
+      "kind": "pre-chorus",
+      "label": "Pre-Chorus 2",
+      "start": 115.231,
+      "end": 117.473,
+      "phrases": [
+        {
+          "id": "phrase-024",
+          "start": 115.231,
+          "end": 117.213,
+          "lyricLineIds": [
+            "line-23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-chorus-2",
+      "kind": "chorus",
+      "label": "Chorus 2",
+      "start": 117.473,
+      "end": 133.046,
+      "phrases": [
+        {
+          "id": "phrase-025",
+          "start": 117.473,
+          "end": 121.136,
+          "lyricLineIds": [
+            "line-24"
+          ]
+        },
+        {
+          "id": "phrase-026",
+          "start": 121.336,
+          "end": 125.96,
+          "lyricLineIds": [
+            "line-25"
+          ]
+        },
+        {
+          "id": "phrase-027",
+          "start": 126.02,
+          "end": 128.882,
+          "lyricLineIds": [
+            "line-26"
+          ]
+        },
+        {
+          "id": "phrase-028",
+          "start": 129.163,
+          "end": 132.826,
+          "lyricLineIds": [
+            "line-27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-post-chorus-2",
+      "kind": "post-chorus",
+      "label": "Post-Chorus 2",
+      "start": 133.046,
+      "end": 149.89,
+      "phrases": [
+        {
+          "id": "phrase-029",
+          "start": 133.046,
+          "end": 139.552,
+          "lyricLineIds": [
+            "line-28"
+          ]
+        },
+        {
+          "id": "phrase-030",
+          "start": 139.612,
+          "end": 142.054,
+          "lyricLineIds": [
+            "line-29"
+          ]
+        },
+        {
+          "id": "phrase-031",
+          "start": 143.305,
+          "end": 146.007,
+          "lyricLineIds": [
+            "line-30"
+          ]
+        },
+        {
+          "id": "phrase-032",
+          "start": 146.667,
+          "end": 149.81,
+          "lyricLineIds": [
+            "line-31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-bridge",
+      "kind": "bridge",
+      "label": "Bridge",
+      "start": 149.89,
+      "end": 174.23,
+      "phrases": [
+        {
+          "id": "phrase-033",
+          "start": 149.89,
+          "end": 151.331,
+          "lyricLineIds": [
+            "line-32"
+          ]
+        },
+        {
+          "id": "phrase-034",
+          "start": 151.811,
+          "end": 153.292,
+          "lyricLineIds": [
+            "line-33"
+          ]
+        },
+        {
+          "id": "phrase-035",
+          "start": 153.312,
+          "end": 156.894,
+          "lyricLineIds": [
+            "line-34"
+          ]
+        },
+        {
+          "id": "phrase-036",
+          "start": 157.455,
+          "end": 159.056,
+          "lyricLineIds": [
+            "line-35"
+          ]
+        },
+        {
+          "id": "phrase-037",
+          "start": 159.416,
+          "end": 164.78,
+          "lyricLineIds": [
+            "line-36"
+          ]
+        },
+        {
+          "id": "phrase-038",
+          "start": 170.083,
+          "end": 172.245,
+          "lyricLineIds": [
+            "line-37"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-pre-chorus-3",
+      "kind": "pre-chorus",
+      "label": "Pre-Chorus 3",
+      "start": 174.23,
+      "end": 176.192,
+      "phrases": [
+        {
+          "id": "phrase-039",
+          "start": 174.23,
+          "end": 176.191,
+          "lyricLineIds": [
+            "line-38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-chorus-3",
+      "kind": "chorus",
+      "label": "Chorus 3",
+      "start": 176.192,
+      "end": 189.119,
+      "phrases": [
+        {
+          "id": "phrase-040",
+          "start": 176.192,
+          "end": 179.513,
+          "lyricLineIds": [
+            "line-39"
+          ]
+        },
+        {
+          "id": "phrase-041",
+          "start": 179.533,
+          "end": 184.396,
+          "lyricLineIds": [
+            "line-40"
+          ]
+        },
+        {
+          "id": "phrase-042",
+          "start": 184.436,
+          "end": 187.658,
+          "lyricLineIds": [
+            "line-41"
+          ]
+        },
+        {
+          "id": "phrase-043",
+          "start": 187.698,
+          "end": 189.099,
+          "lyricLineIds": [
+            "line-42"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-outro",
+      "kind": "outro",
+      "label": "Outro",
+      "start": 189.119,
+      "end": 209.525011,
+      "phrases": [
+        {
+          "id": "phrase-044",
+          "start": 189.119,
+          "end": 208.296,
+          "lyricLineIds": [
+            "line-42"
+          ]
+        }
+      ]
+    }
+  ]
+}

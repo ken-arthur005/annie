@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Display metadata and runtime asset manifest for the prepared song package.",
+  "songId": "training-season-dua-lipa",
+  "title": "Training Season",
+  "primaryArtist": "Dua Lipa",
+  "album": "Radical Optimism",
+  "releaseDate": "2024-02-15",
+  "language": "en",
+  "arrangementLabel": "Original key instrumental",
+  "durationSeconds": 209.525011,
+  "assets": {
+    "instrumental": "instrumentals.wav",
+    "lyrics": "lyrics.json",
+    "melody": "melody.json",
+    "structure": "structure.json",
+    "artwork": "training_season_artwork.jpg"
+  }
+}

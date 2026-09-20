@@ -1,0 +1,4713 @@
+{
+  "schemaVersion": 1,
+  "purpose": "WhisperX-generated review artifact; not approved scoring reference data.",
+  "generatedAt": "2026-09-17T01:44:34.324769+00:00",
+  "sourceAudio": "audio-lab\\separated\\htdemucs\\TrainingSeason\\vocals.wav",
+  "sourceLyrics": "song_assets\\training_season\\runtime\\lyrics.json",
+  "configuration": {
+    "model": "small",
+    "language": "en",
+    "device": "cpu",
+    "computeType": "int8",
+    "batchSize": 1
+  },
+  "whisperxTranscript": [
+    {
+      "start": 8.784,
+      "end": 13.447,
+      "text": " Are you, someone that I can give my heart to?",
+      "words": [
+        {
+          "word": "Are",
+          "start": 8.784,
+          "end": 8.884,
+          "score": 0.345
+        },
+        {
+          "word": "you,",
+          "start": 8.944,
+          "end": 9.425,
+          "score": 0.682
+        },
+        {
+          "word": "someone",
+          "start": 10.545,
+          "end": 11.026,
+          "score": 0.425
+        },
+        {
+          "word": "that",
+          "start": 11.066,
+          "end": 11.506,
+          "score": 0.552
+        },
+        {
+          "word": "I",
+          "start": 11.526,
+          "end": 11.546,
+          "score": 0.002
+        },
+        {
+          "word": "can",
+          "start": 11.566,
+          "end": 11.786,
+          "score": 0.707
+        },
+        {
+          "word": "give",
+          "start": 11.806,
+          "end": 12.046,
+          "score": 0.765
+        },
+        {
+          "word": "my",
+          "start": 12.066,
+          "end": 12.206,
+          "score": 0.622
+        },
+        {
+          "word": "heart",
+          "start": 12.267,
+          "end": 12.767,
+          "score": 0.718
+        },
+        {
+          "word": "to?",
+          "start": 12.847,
+          "end": 13.447,
+          "score": 0.884
+        }
+      ],
+      "avg_logprob": -0.2822380965309484
+    },
+    {
+      "start": 14.568,
+      "end": 17.37,
+      "text": "Or just the poison that I'm trying to?",
+      "words": [
+        {
+          "word": "Or",
+          "start": 14.568,
+          "end": 14.688,
+          "score": 0.684
+        },
+        {
+          "word": "just",
+          "start": 14.728,
+          "end": 14.888,
+          "score": 0.448
+        },
+        {
+          "word": "the",
+          "start": 14.988,
+          "end": 15.148,
+          "score": 0.896
+        },
+        {
+          "word": "poison",
+          "start": 15.188,
+          "end": 15.669,
+          "score": 0.93
+        },
+        {
+          "word": "that",
+          "start": 15.709,
+          "end": 15.989,
+          "score": 0.682
+        },
+        {
+          "word": "I'm",
+          "start": 16.029,
+          "end": 16.129,
+          "score": 0.18
+        },
+        {
+          "word": "trying",
+          "start": 16.189,
+          "end": 16.669,
+          "score": 0.562
+        },
+        {
+          "word": "to?",
+          "start": 16.729,
+          "end": 17.37,
+          "score": 0.9
+        }
+      ],
+      "avg_logprob": -0.2822380965309484
+    },
+    {
+      "start": 18.43,
+      "end": 23.134,
+      "text": "It can be hard to tell the difference late at night.",
+      "words": [
+        {
+          "word": "It",
+          "start": 18.43,
+          "end": 18.551,
+          "score": 0.79
+        },
+        {
+          "word": "can",
+          "start": 18.631,
+          "end": 18.831,
+          "score": 0.736
+        },
+        {
+          "word": "be",
+          "start": 18.871,
+          "end": 19.091,
+          "score": 0.744
+        },
+        {
+          "word": "hard",
+          "start": 19.171,
+          "end": 19.351,
+          "score": 0.406
+        },
+        {
+          "word": "to",
+          "start": 19.371,
+          "end": 19.551,
+          "score": 0.656
+        },
+        {
+          "word": "tell",
+          "start": 19.591,
+          "end": 19.851,
+          "score": 0.633
+        },
+        {
+          "word": "the",
+          "start": 19.871,
+          "end": 20.032,
+          "score": 0.828
+        },
+        {
+          "word": "difference",
+          "start": 20.112,
+          "end": 21.032,
+          "score": 0.58
+        },
+        {
+          "word": "late",
+          "start": 21.072,
+          "end": 21.773,
+          "score": 0.748
+        },
+        {
+          "word": "at",
+          "start": 22.333,
+          "end": 22.393,
+          "score": 0.323
+        },
+        {
+          "word": "night.",
+          "start": 22.413,
+          "end": 23.134,
+          "score": 0.722
+        }
+      ],
+      "avg_logprob": -0.2822380965309484
+    },
+    {
+      "start": 23.954,
+      "end": 29.037,
+      "text": "Faithful, is that a compass in your nature?",
+      "words": [
+        {
+          "word": "Faithful,",
+          "start": 23.954,
+          "end": 25.335,
+          "score": 0.593
+        },
+        {
+          "word": "is",
+          "start": 26.256,
+          "end": 26.396,
+          "score": 0.843
+        },
+        {
+          "word": "that",
+          "start": 26.456,
+          "end": 26.756,
+          "score": 0.875
+        },
+        {
+          "word": "a",
+          "start": 26.776,
+          "end": 26.816,
+          "score": 0.452
+        },
+        {
+          "word": "compass",
+          "start": 26.916,
+          "end": 27.376,
+          "score": 0.725
+        },
+        {
+          "word": "in",
+          "start": 27.536,
+          "end": 27.676,
+          "score": 0.822
+        },
+        {
+          "word": "your",
+          "start": 27.696,
+          "end": 27.817,
+          "score": 0.254
+        },
+        {
+          "word": "nature?",
+          "start": 27.877,
+          "end": 29.037,
+          "score": 0.775
+        }
+      ],
+      "avg_logprob": -0.2822380965309484
+    },
+    {
+      "start": 30.158,
+      "end": 32.58,
+      "text": "Or are you tricky cause I've been there?",
+      "words": [
+        {
+          "word": "Or",
+          "start": 30.158,
+          "end": 30.258,
+          "score": 0.576
+        },
+        {
+          "word": "are",
+          "start": 30.518,
+          "end": 30.638,
+          "score": 0.387
+        },
+        {
+          "word": "you",
+          "start": 30.658,
+          "end": 30.758,
+          "score": 0.139
+        },
+        {
+          "word": "tricky",
+          "start": 30.798,
+          "end": 31.299,
+          "score": 0.802
+        },
+        {
+          "word": "cause",
+          "start": 31.319,
+          "end": 31.579,
+          "score": 0.546
+        },
+        {
+          "word": "I've",
+          "start": 31.599,
+          "end": 31.739,
+          "score": 0.182
+        },
+        {
+          "word": "been",
+          "start": 31.819,
+          "end": 32.119,
+          "score": 0.758
+        },
+        {
+          "word": "there?",
+          "start": 32.139,
+          "end": 32.58,
+          "score": 0.335
+        }
+      ],
+      "avg_logprob": -0.2822380965309484
+    },
+    {
+      "start": 34.113,
+      "end": 44.389,
+      "text": " And baby I don't need to learn my lesson twice But I clearly wanna know that",
+      "words": [
+        {
+          "word": "And",
+          "start": 34.113,
+          "end": 34.253,
+          "score": 0.524
+        },
+        {
+          "word": "baby",
+          "start": 34.274,
+          "end": 34.734,
+          "score": 0.733
+        },
+        {
+          "word": "I",
+          "start": 34.874,
+          "end": 34.955,
+          "score": 0.701
+        },
+        {
+          "word": "don't",
+          "start": 34.975,
+          "end": 35.215,
+          "score": 0.563
+        },
+        {
+          "word": "need",
+          "start": 35.255,
+          "end": 35.415,
+          "score": 0.336
+        },
+        {
+          "word": "to",
+          "start": 35.475,
+          "end": 35.636,
+          "score": 0.706
+        },
+        {
+          "word": "learn",
+          "start": 35.656,
+          "end": 36.096,
+          "score": 0.49
+        },
+        {
+          "word": "my",
+          "start": 36.176,
+          "end": 36.557,
+          "score": 0.707
+        },
+        {
+          "word": "lesson",
+          "start": 36.597,
+          "end": 37.358,
+          "score": 0.685
+        },
+        {
+          "word": "twice",
+          "start": 37.378,
+          "end": 39.101,
+          "score": 0.77
+        },
+        {
+          "word": "But",
+          "start": 41.825,
+          "end": 42.085,
+          "score": 0.779
+        },
+        {
+          "word": "I",
+          "start": 42.166,
+          "end": 42.226,
+          "score": 0.618
+        },
+        {
+          "word": "clearly",
+          "start": 42.306,
+          "end": 43.067,
+          "score": 0.546
+        },
+        {
+          "word": "wanna",
+          "start": 43.107,
+          "end": 43.407,
+          "score": 0.601
+        },
+        {
+          "word": "know",
+          "start": 43.528,
+          "end": 43.968,
+          "score": 0.51
+        },
+        {
+          "word": "that",
+          "start": 44.028,
+          "end": 44.389,
+          "score": 0.452
+        }
+      ],
+      "avg_logprob": -0.32413651214705574
+    },
+    {
+      "start": 45.457,
+      "end": 71.575,
+      "text": " You should know I need someone to hold me closer than I even know Who's that feels like a rodeo knows just how to take control When I'm vulnerable, he's straight talking to me So conversation overload got me feeling pretty good I guess somebody can go ahead Cause they don't want to show ya",
+      "words": [
+        {
+          "word": "You",
+          "start": 45.457,
+          "end": 45.897,
+          "score": 0.802
+        },
+        {
+          "word": "should",
+          "start": 45.977,
+          "end": 46.338,
+          "score": 0.332
+        },
+        {
+          "word": "know",
+          "start": 46.438,
+          "end": 46.898,
+          "score": 0.6
+        },
+        {
+          "word": "I",
+          "start": 47.278,
+          "end": 47.298,
+          "score": 0.546
+        },
+        {
+          "word": "need",
+          "start": 47.358,
+          "end": 47.639,
+          "score": 0.458
+        },
+        {
+          "word": "someone",
+          "start": 47.659,
+          "end": 48.159,
+          "score": 0.682
+        },
+        {
+          "word": "to",
+          "start": 48.179,
+          "end": 48.299,
+          "score": 0.631
+        },
+        {
+          "word": "hold",
+          "start": 48.379,
+          "end": 48.579,
+          "score": 0.51
+        },
+        {
+          "word": "me",
+          "start": 48.599,
+          "end": 48.719,
+          "score": 0.729
+        },
+        {
+          "word": "closer",
+          "start": 48.759,
+          "end": 49.86,
+          "score": 0.629
+        },
+        {
+          "word": "than",
+          "start": 49.88,
+          "end": 50.14,
+          "score": 0.788
+        },
+        {
+          "word": "I",
+          "start": 50.2,
+          "end": 50.3,
+          "score": 0.652
+        },
+        {
+          "word": "even",
+          "start": 50.48,
+          "end": 50.721,
+          "score": 0.484
+        },
+        {
+          "word": "know",
+          "start": 50.741,
+          "end": 50.881,
+          "score": 0.264
+        },
+        {
+          "word": "Who's",
+          "start": 51.081,
+          "end": 51.321,
+          "score": 0.811
+        },
+        {
+          "word": "that",
+          "start": 51.341,
+          "end": 51.541,
+          "score": 0.415
+        },
+        {
+          "word": "feels",
+          "start": 51.561,
+          "end": 51.801,
+          "score": 0.586
+        },
+        {
+          "word": "like",
+          "start": 51.841,
+          "end": 51.981,
+          "score": 0.49
+        },
+        {
+          "word": "a",
+          "start": 52.162,
+          "end": 52.282,
+          "score": 0.759
+        },
+        {
+          "word": "rodeo",
+          "start": 52.342,
+          "end": 52.822,
+          "score": 0.755
+        },
+        {
+          "word": "knows",
+          "start": 53.022,
+          "end": 53.482,
+          "score": 0.662
+        },
+        {
+          "word": "just",
+          "start": 53.522,
+          "end": 53.723,
+          "score": 0.719
+        },
+        {
+          "word": "how",
+          "start": 53.803,
+          "end": 54.043,
+          "score": 0.606
+        },
+        {
+          "word": "to",
+          "start": 54.063,
+          "end": 54.143,
+          "score": 0.3
+        },
+        {
+          "word": "take",
+          "start": 54.223,
+          "end": 54.523,
+          "score": 0.755
+        },
+        {
+          "word": "control",
+          "start": 54.623,
+          "end": 55.684,
+          "score": 0.767
+        },
+        {
+          "word": "When",
+          "start": 55.744,
+          "end": 56.004,
+          "score": 0.668
+        },
+        {
+          "word": "I'm",
+          "start": 56.024,
+          "end": 56.144,
+          "score": 0.367
+        },
+        {
+          "word": "vulnerable,",
+          "start": 56.204,
+          "end": 56.705,
+          "score": 0.574
+        },
+        {
+          "word": "he's",
+          "start": 56.925,
+          "end": 57.305,
+          "score": 0.58
+        },
+        {
+          "word": "straight",
+          "start": 57.365,
+          "end": 57.645,
+          "score": 0.6
+        },
+        {
+          "word": "talking",
+          "start": 57.685,
+          "end": 58.146,
+          "score": 0.553
+        },
+        {
+          "word": "to",
+          "start": 58.186,
+          "end": 58.346,
+          "score": 0.828
+        },
+        {
+          "word": "me",
+          "start": 58.366,
+          "end": 58.466,
+          "score": 0.65
+        },
+        {
+          "word": "So",
+          "start": 58.486,
+          "end": 58.666,
+          "score": 0.592
+        },
+        {
+          "word": "conversation",
+          "start": 58.906,
+          "end": 60.027,
+          "score": 0.832
+        },
+        {
+          "word": "overload",
+          "start": 60.207,
+          "end": 60.587,
+          "score": 0.365
+        },
+        {
+          "word": "got",
+          "start": 60.847,
+          "end": 61.228,
+          "score": 0.743
+        },
+        {
+          "word": "me",
+          "start": 61.308,
+          "end": 61.468,
+          "score": 0.838
+        },
+        {
+          "word": "feeling",
+          "start": 61.548,
+          "end": 61.988,
+          "score": 0.659
+        },
+        {
+          "word": "pretty",
+          "start": 62.028,
+          "end": 62.589,
+          "score": 0.667
+        },
+        {
+          "word": "good",
+          "start": 62.809,
+          "end": 64.25,
+          "score": 0.863
+        },
+        {
+          "word": "I",
+          "start": 64.43,
+          "end": 64.53,
+          "score": 0.77
+        },
+        {
+          "word": "guess",
+          "start": 65.17,
+          "end": 65.671,
+          "score": 0.501
+        },
+        {
+          "word": "somebody",
+          "start": 65.691,
+          "end": 66.511,
+          "score": 0.579
+        },
+        {
+          "word": "can",
+          "start": 66.711,
+          "end": 66.931,
+          "score": 0.5
+        },
+        {
+          "word": "go",
+          "start": 66.992,
+          "end": 67.412,
+          "score": 0.852
+        },
+        {
+          "word": "ahead",
+          "start": 67.812,
+          "end": 68.473,
+          "score": 0.615
+        },
+        {
+          "word": "Cause",
+          "start": 69.113,
+          "end": 69.293,
+          "score": 0.276
+        },
+        {
+          "word": "they",
+          "start": 69.353,
+          "end": 69.893,
+          "score": 0.44
+        },
+        {
+          "word": "don't",
+          "start": 69.913,
+          "end": 70.394,
+          "score": 0.402
+        },
+        {
+          "word": "want",
+          "start": 70.414,
+          "end": 70.534,
+          "score": 0.244
+        },
+        {
+          "word": "to",
+          "start": 70.594,
+          "end": 70.714,
+          "score": 0.65
+        },
+        {
+          "word": "show",
+          "start": 70.774,
+          "end": 71.174,
+          "score": 0.749
+        },
+        {
+          "word": "ya",
+          "start": 71.294,
+          "end": 71.575,
+          "score": 0.546
+        }
+      ],
+      "avg_logprob": -0.34780771982285286
+    },
+    {
+      "start": 75.255,
+      "end": 101.008,
+      "text": " If daddy knew that I would know, yeah Cause train is season's over I'll try to see my others in a good light Don't wanna do it just to be nice Don't wanna have to teach you how to love me right",
+      "words": [
+        {
+          "word": "If",
+          "start": 75.255,
+          "end": 76.536,
+          "score": 0.901
+        },
+        {
+          "word": "daddy",
+          "start": 76.656,
+          "end": 77.196,
+          "score": 0.395
+        },
+        {
+          "word": "knew",
+          "start": 77.216,
+          "end": 77.596,
+          "score": 0.732
+        },
+        {
+          "word": "that",
+          "start": 77.656,
+          "end": 78.137,
+          "score": 0.636
+        },
+        {
+          "word": "I",
+          "start": 78.377,
+          "end": 78.597,
+          "score": 0.684
+        },
+        {
+          "word": "would",
+          "start": 78.677,
+          "end": 79.137,
+          "score": 0.558
+        },
+        {
+          "word": "know,",
+          "start": 79.597,
+          "end": 80.358,
+          "score": 0.611
+        },
+        {
+          "word": "yeah",
+          "start": 80.438,
+          "end": 81.998,
+          "score": 0.889
+        },
+        {
+          "word": "Cause",
+          "start": 82.078,
+          "end": 83.419,
+          "score": 0.591
+        },
+        {
+          "word": "train",
+          "start": 83.519,
+          "end": 83.739,
+          "score": 0.472
+        },
+        {
+          "word": "is",
+          "start": 83.859,
+          "end": 83.979,
+          "score": 0.726
+        },
+        {
+          "word": "season's",
+          "start": 84.36,
+          "end": 85.38,
+          "score": 0.565
+        },
+        {
+          "word": "over",
+          "start": 85.4,
+          "end": 85.88,
+          "score": 0.639
+        },
+        {
+          "word": "I'll",
+          "start": 86.701,
+          "end": 86.881,
+          "score": 0.343
+        },
+        {
+          "word": "try",
+          "start": 86.921,
+          "end": 87.721,
+          "score": 0.752
+        },
+        {
+          "word": "to",
+          "start": 88.642,
+          "end": 88.782,
+          "score": 0.787
+        },
+        {
+          "word": "see",
+          "start": 88.822,
+          "end": 89.002,
+          "score": 0.534
+        },
+        {
+          "word": "my",
+          "start": 89.022,
+          "end": 89.122,
+          "score": 0.584
+        },
+        {
+          "word": "others",
+          "start": 89.482,
+          "end": 89.822,
+          "score": 0.496
+        },
+        {
+          "word": "in",
+          "start": 90.042,
+          "end": 90.142,
+          "score": 0.351
+        },
+        {
+          "word": "a",
+          "start": 90.202,
+          "end": 90.282,
+          "score": 0.578
+        },
+        {
+          "word": "good",
+          "start": 90.363,
+          "end": 90.743,
+          "score": 0.664
+        },
+        {
+          "word": "light",
+          "start": 90.763,
+          "end": 91.863,
+          "score": 0.684
+        },
+        {
+          "word": "Don't",
+          "start": 92.504,
+          "end": 93.064,
+          "score": 0.476
+        },
+        {
+          "word": "wanna",
+          "start": 93.084,
+          "end": 93.204,
+          "score": 0.174
+        },
+        {
+          "word": "do",
+          "start": 93.264,
+          "end": 93.524,
+          "score": 0.905
+        },
+        {
+          "word": "it",
+          "start": 93.584,
+          "end": 93.704,
+          "score": 0.676
+        },
+        {
+          "word": "just",
+          "start": 93.744,
+          "end": 93.984,
+          "score": 0.696
+        },
+        {
+          "word": "to",
+          "start": 94.024,
+          "end": 94.144,
+          "score": 0.759
+        },
+        {
+          "word": "be",
+          "start": 94.204,
+          "end": 94.665,
+          "score": 0.769
+        },
+        {
+          "word": "nice",
+          "start": 94.765,
+          "end": 95.605,
+          "score": 0.79
+        },
+        {
+          "word": "Don't",
+          "start": 96.425,
+          "end": 96.966,
+          "score": 0.47
+        },
+        {
+          "word": "wanna",
+          "start": 96.986,
+          "end": 97.126,
+          "score": 0.205
+        },
+        {
+          "word": "have",
+          "start": 97.166,
+          "end": 97.426,
+          "score": 0.724
+        },
+        {
+          "word": "to",
+          "start": 97.446,
+          "end": 97.626,
+          "score": 0.81
+        },
+        {
+          "word": "teach",
+          "start": 97.666,
+          "end": 97.926,
+          "score": 0.694
+        },
+        {
+          "word": "you",
+          "start": 97.946,
+          "end": 98.106,
+          "score": 0.435
+        },
+        {
+          "word": "how",
+          "start": 98.146,
+          "end": 98.507,
+          "score": 0.826
+        },
+        {
+          "word": "to",
+          "start": 98.627,
+          "end": 98.987,
+          "score": 0.784
+        },
+        {
+          "word": "love",
+          "start": 99.007,
+          "end": 99.527,
+          "score": 0.712
+        },
+        {
+          "word": "me",
+          "start": 99.607,
+          "end": 99.807,
+          "score": 0.906
+        },
+        {
+          "word": "right",
+          "start": 99.847,
+          "end": 101.008,
+          "score": 0.675
+        }
+      ],
+      "avg_logprob": -0.3046065289527178
+    },
+    {
+      "start": 102.42,
+      "end": 117.213,
+      "text": " I hope it hits me like the arrow Sometimes it's unpretentious This is too much to ask for it Who understands?",
+      "words": [
+        {
+          "word": "I",
+          "start": 102.42,
+          "end": 102.52,
+          "score": 0.703
+        },
+        {
+          "word": "hope",
+          "start": 102.6,
+          "end": 103.181,
+          "score": 0.757
+        },
+        {
+          "word": "it",
+          "start": 103.501,
+          "end": 103.621,
+          "score": 0.676
+        },
+        {
+          "word": "hits",
+          "start": 103.701,
+          "end": 104.422,
+          "score": 0.75
+        },
+        {
+          "word": "me",
+          "start": 104.542,
+          "end": 104.962,
+          "score": 0.74
+        },
+        {
+          "word": "like",
+          "start": 105.002,
+          "end": 105.723,
+          "score": 0.832
+        },
+        {
+          "word": "the",
+          "start": 105.943,
+          "end": 106.304,
+          "score": 0.355
+        },
+        {
+          "word": "arrow",
+          "start": 106.424,
+          "end": 106.864,
+          "score": 0.528
+        },
+        {
+          "word": "Sometimes",
+          "start": 107.364,
+          "end": 108.405,
+          "score": 0.501
+        },
+        {
+          "word": "it's",
+          "start": 108.665,
+          "end": 108.826,
+          "score": 0.499
+        },
+        {
+          "word": "unpretentious",
+          "start": 109.126,
+          "end": 110.827,
+          "score": 0.555
+        },
+        {
+          "word": "This",
+          "start": 111.308,
+          "end": 111.768,
+          "score": 0.733
+        },
+        {
+          "word": "is",
+          "start": 112.088,
+          "end": 112.268,
+          "score": 0.764
+        },
+        {
+          "word": "too",
+          "start": 112.349,
+          "end": 112.749,
+          "score": 0.765
+        },
+        {
+          "word": "much",
+          "start": 112.829,
+          "end": 113.169,
+          "score": 0.629
+        },
+        {
+          "word": "to",
+          "start": 113.309,
+          "end": 113.55,
+          "score": 0.786
+        },
+        {
+          "word": "ask",
+          "start": 113.97,
+          "end": 114.21,
+          "score": 0.634
+        },
+        {
+          "word": "for",
+          "start": 114.31,
+          "end": 114.711,
+          "score": 0.601
+        },
+        {
+          "word": "it",
+          "start": 114.791,
+          "end": 114.911,
+          "score": 0.488
+        },
+        {
+          "word": "Who",
+          "start": 115.231,
+          "end": 115.651,
+          "score": 0.554
+        },
+        {
+          "word": "understands?",
+          "start": 115.992,
+          "end": 117.213,
+          "score": 0.536
+        }
+      ],
+      "avg_logprob": -0.39548645891360384
+    },
+    {
+      "start": 117.473,
+      "end": 130.824,
+      "text": "I need someone on me who's deeper than I ever know Who's that feels like a rodeo knows just how to take control That I'm horrible, he's straight talking to myself Conversation overload",
+      "words": [
+        {
+          "word": "I",
+          "start": 117.473,
+          "end": 117.633,
+          "score": 0.728
+        },
+        {
+          "word": "need",
+          "start": 117.673,
+          "end": 117.893,
+          "score": 0.419
+        },
+        {
+          "word": "someone",
+          "start": 117.913,
+          "end": 118.574,
+          "score": 0.619
+        },
+        {
+          "word": "on",
+          "start": 118.754,
+          "end": 118.854,
+          "score": 0.603
+        },
+        {
+          "word": "me",
+          "start": 118.874,
+          "end": 118.974,
+          "score": 0.7
+        },
+        {
+          "word": "who's",
+          "start": 119.014,
+          "end": 119.234,
+          "score": 0.386
+        },
+        {
+          "word": "deeper",
+          "start": 119.374,
+          "end": 120.115,
+          "score": 0.712
+        },
+        {
+          "word": "than",
+          "start": 120.135,
+          "end": 120.375,
+          "score": 0.686
+        },
+        {
+          "word": "I",
+          "start": 120.455,
+          "end": 120.555,
+          "score": 0.667
+        },
+        {
+          "word": "ever",
+          "start": 120.736,
+          "end": 120.956,
+          "score": 0.364
+        },
+        {
+          "word": "know",
+          "start": 120.976,
+          "end": 121.136,
+          "score": 0.416
+        },
+        {
+          "word": "Who's",
+          "start": 121.336,
+          "end": 121.576,
+          "score": 0.713
+        },
+        {
+          "word": "that",
+          "start": 121.596,
+          "end": 121.776,
+          "score": 0.549
+        },
+        {
+          "word": "feels",
+          "start": 121.816,
+          "end": 122.057,
+          "score": 0.533
+        },
+        {
+          "word": "like",
+          "start": 122.097,
+          "end": 122.257,
+          "score": 0.586
+        },
+        {
+          "word": "a",
+          "start": 122.417,
+          "end": 122.557,
+          "score": 0.702
+        },
+        {
+          "word": "rodeo",
+          "start": 122.597,
+          "end": 123.057,
+          "score": 0.745
+        },
+        {
+          "word": "knows",
+          "start": 123.278,
+          "end": 123.738,
+          "score": 0.52
+        },
+        {
+          "word": "just",
+          "start": 123.778,
+          "end": 123.938,
+          "score": 0.58
+        },
+        {
+          "word": "how",
+          "start": 123.998,
+          "end": 124.258,
+          "score": 0.383
+        },
+        {
+          "word": "to",
+          "start": 124.298,
+          "end": 124.459,
+          "score": 0.52
+        },
+        {
+          "word": "take",
+          "start": 124.499,
+          "end": 124.779,
+          "score": 0.746
+        },
+        {
+          "word": "control",
+          "start": 124.879,
+          "end": 125.96,
+          "score": 0.562
+        },
+        {
+          "word": "That",
+          "start": 126.02,
+          "end": 126.26,
+          "score": 0.636
+        },
+        {
+          "word": "I'm",
+          "start": 126.34,
+          "end": 126.42,
+          "score": 0.172
+        },
+        {
+          "word": "horrible,",
+          "start": 126.48,
+          "end": 126.961,
+          "score": 0.796
+        },
+        {
+          "word": "he's",
+          "start": 127.201,
+          "end": 127.581,
+          "score": 0.581
+        },
+        {
+          "word": "straight",
+          "start": 127.621,
+          "end": 127.901,
+          "score": 0.667
+        },
+        {
+          "word": "talking",
+          "start": 127.962,
+          "end": 128.402,
+          "score": 0.584
+        },
+        {
+          "word": "to",
+          "start": 128.422,
+          "end": 128.622,
+          "score": 0.78
+        },
+        {
+          "word": "myself",
+          "start": 128.642,
+          "end": 128.882,
+          "score": 0.402
+        },
+        {
+          "word": "Conversation",
+          "start": 129.163,
+          "end": 130.283,
+          "score": 0.733
+        },
+        {
+          "word": "overload",
+          "start": 130.484,
+          "end": 130.824,
+          "score": 0.478
+        }
+      ],
+      "avg_logprob": -0.39548645891360384
+    },
+    {
+      "start": 131.084,
+      "end": 142.054,
+      "text": " Got me feeling pretty good I'm starting to let it go of it Cause I don't wanna the show yet",
+      "words": [
+        {
+          "word": "Got",
+          "start": 131.084,
+          "end": 131.464,
+          "score": 0.729
+        },
+        {
+          "word": "me",
+          "start": 131.545,
+          "end": 131.705,
+          "score": 0.858
+        },
+        {
+          "word": "feeling",
+          "start": 131.785,
+          "end": 132.205,
+          "score": 0.609
+        },
+        {
+          "word": "pretty",
+          "start": 132.265,
+          "end": 132.826,
+          "score": 0.684
+        },
+        {
+          "word": "good",
+          "start": 133.046,
+          "end": 135.728,
+          "score": 0.628
+        },
+        {
+          "word": "I'm",
+          "start": 135.789,
+          "end": 135.909,
+          "score": 0.347
+        },
+        {
+          "word": "starting",
+          "start": 135.929,
+          "end": 137.13,
+          "score": 0.653
+        },
+        {
+          "word": "to",
+          "start": 137.19,
+          "end": 137.41,
+          "score": 0.637
+        },
+        {
+          "word": "let",
+          "start": 137.51,
+          "end": 137.65,
+          "score": 0.384
+        },
+        {
+          "word": "it",
+          "start": 137.931,
+          "end": 138.171,
+          "score": 0.687
+        },
+        {
+          "word": "go",
+          "start": 138.211,
+          "end": 138.331,
+          "score": 0.641
+        },
+        {
+          "word": "of",
+          "start": 138.571,
+          "end": 138.691,
+          "score": 0.602
+        },
+        {
+          "word": "it",
+          "start": 138.992,
+          "end": 139.552,
+          "score": 0.679
+        },
+        {
+          "word": "Cause",
+          "start": 139.612,
+          "end": 139.892,
+          "score": 0.369
+        },
+        {
+          "word": "I",
+          "start": 140.053,
+          "end": 140.133,
+          "score": 0.692
+        },
+        {
+          "word": "don't",
+          "start": 140.353,
+          "end": 140.633,
+          "score": 0.459
+        },
+        {
+          "word": "wanna",
+          "start": 140.673,
+          "end": 140.793,
+          "score": 0.119
+        },
+        {
+          "word": "the",
+          "start": 140.813,
+          "end": 140.933,
+          "score": 0.434
+        },
+        {
+          "word": "show",
+          "start": 141.033,
+          "end": 141.414,
+          "score": 0.753
+        },
+        {
+          "word": "yet",
+          "start": 141.534,
+          "end": 142.054,
+          "score": 0.582
+        }
+      ],
+      "avg_logprob": -0.48226672670115595
+    },
+    {
+      "start": 143.305,
+      "end": 151.331,
+      "text": " It's telling you to let me go ahead Cause train is these things over Can you compete?",
+      "words": [
+        {
+          "word": "It's",
+          "start": 143.305,
+          "end": 143.425,
+          "score": 0.166
+        },
+        {
+          "word": "telling",
+          "start": 143.485,
+          "end": 144.026,
+          "score": 0.551
+        },
+        {
+          "word": "you",
+          "start": 144.106,
+          "end": 144.246,
+          "score": 0.433
+        },
+        {
+          "word": "to",
+          "start": 144.286,
+          "end": 144.506,
+          "score": 0.759
+        },
+        {
+          "word": "let",
+          "start": 144.546,
+          "end": 144.706,
+          "score": 0.483
+        },
+        {
+          "word": "me",
+          "start": 144.746,
+          "end": 144.946,
+          "score": 0.718
+        },
+        {
+          "word": "go",
+          "start": 145.006,
+          "end": 145.326,
+          "score": 0.847
+        },
+        {
+          "word": "ahead",
+          "start": 145.407,
+          "end": 146.007,
+          "score": 0.766
+        },
+        {
+          "word": "Cause",
+          "start": 146.667,
+          "end": 146.847,
+          "score": 0.437
+        },
+        {
+          "word": "train",
+          "start": 146.888,
+          "end": 147.408,
+          "score": 0.696
+        },
+        {
+          "word": "is",
+          "start": 147.648,
+          "end": 147.828,
+          "score": 0.843
+        },
+        {
+          "word": "these",
+          "start": 147.908,
+          "end": 148.369,
+          "score": 0.5
+        },
+        {
+          "word": "things",
+          "start": 148.449,
+          "end": 148.809,
+          "score": 0.502
+        },
+        {
+          "word": "over",
+          "start": 149.169,
+          "end": 149.81,
+          "score": 0.654
+        },
+        {
+          "word": "Can",
+          "start": 149.89,
+          "end": 150.21,
+          "score": 0.706
+        },
+        {
+          "word": "you",
+          "start": 150.31,
+          "end": 150.53,
+          "score": 0.92
+        },
+        {
+          "word": "compete?",
+          "start": 150.59,
+          "end": 151.331,
+          "score": 0.852
+        }
+      ],
+      "avg_logprob": -0.2649933342206276
+    },
+    {
+      "start": 151.811,
+      "end": 172.245,
+      "text": "Now is your time But when you hear that we're so low Are you on my team Or stuck on the sidelines Waiting for someone to tell you to go First someone to tell you to go",
+      "words": [
+        {
+          "word": "Now",
+          "start": 151.811,
+          "end": 152.171,
+          "score": 0.689
+        },
+        {
+          "word": "is",
+          "start": 152.371,
+          "end": 152.491,
+          "score": 0.718
+        },
+        {
+          "word": "your",
+          "start": 152.531,
+          "end": 152.752,
+          "score": 0.872
+        },
+        {
+          "word": "time",
+          "start": 152.812,
+          "end": 153.292,
+          "score": 0.69
+        },
+        {
+          "word": "But",
+          "start": 153.312,
+          "end": 153.372,
+          "score": 0.001
+        },
+        {
+          "word": "when",
+          "start": 153.772,
+          "end": 154.373,
+          "score": 0.609
+        },
+        {
+          "word": "you",
+          "start": 154.473,
+          "end": 154.693,
+          "score": 0.806
+        },
+        {
+          "word": "hear",
+          "start": 154.733,
+          "end": 155.213,
+          "score": 0.674
+        },
+        {
+          "word": "that",
+          "start": 155.253,
+          "end": 155.734,
+          "score": 0.572
+        },
+        {
+          "word": "we're",
+          "start": 155.754,
+          "end": 156.154,
+          "score": 0.554
+        },
+        {
+          "word": "so",
+          "start": 156.194,
+          "end": 156.354,
+          "score": 0.589
+        },
+        {
+          "word": "low",
+          "start": 156.454,
+          "end": 156.894,
+          "score": 0.59
+        },
+        {
+          "word": "Are",
+          "start": 157.455,
+          "end": 157.555,
+          "score": 0.505
+        },
+        {
+          "word": "you",
+          "start": 157.635,
+          "end": 157.955,
+          "score": 0.939
+        },
+        {
+          "word": "on",
+          "start": 158.135,
+          "end": 158.295,
+          "score": 0.444
+        },
+        {
+          "word": "my",
+          "start": 158.355,
+          "end": 158.575,
+          "score": 0.803
+        },
+        {
+          "word": "team",
+          "start": 158.615,
+          "end": 159.056,
+          "score": 0.601
+        },
+        {
+          "word": "Or",
+          "start": 159.416,
+          "end": 159.496,
+          "score": 0.873
+        },
+        {
+          "word": "stuck",
+          "start": 159.556,
+          "end": 159.916,
+          "score": 0.783
+        },
+        {
+          "word": "on",
+          "start": 160.137,
+          "end": 160.297,
+          "score": 0.886
+        },
+        {
+          "word": "the",
+          "start": 160.357,
+          "end": 160.517,
+          "score": 0.829
+        },
+        {
+          "word": "sidelines",
+          "start": 160.557,
+          "end": 161.517,
+          "score": 0.884
+        },
+        {
+          "word": "Waiting",
+          "start": 161.577,
+          "end": 162.258,
+          "score": 0.699
+        },
+        {
+          "word": "for",
+          "start": 162.298,
+          "end": 162.458,
+          "score": 0.762
+        },
+        {
+          "word": "someone",
+          "start": 162.518,
+          "end": 163.058,
+          "score": 0.716
+        },
+        {
+          "word": "to",
+          "start": 163.079,
+          "end": 163.199,
+          "score": 0.576
+        },
+        {
+          "word": "tell",
+          "start": 163.259,
+          "end": 163.639,
+          "score": 0.784
+        },
+        {
+          "word": "you",
+          "start": 163.759,
+          "end": 164.019,
+          "score": 0.991
+        },
+        {
+          "word": "to",
+          "start": 164.059,
+          "end": 164.159,
+          "score": 0.956
+        },
+        {
+          "word": "go",
+          "start": 164.279,
+          "end": 164.78,
+          "score": 0.928
+        },
+        {
+          "word": "First",
+          "start": 170.083,
+          "end": 170.263,
+          "score": 0.235
+        },
+        {
+          "word": "someone",
+          "start": 170.303,
+          "end": 170.864,
+          "score": 0.582
+        },
+        {
+          "word": "to",
+          "start": 170.884,
+          "end": 171.024,
+          "score": 0.542
+        },
+        {
+          "word": "tell",
+          "start": 171.084,
+          "end": 171.464,
+          "score": 0.81
+        },
+        {
+          "word": "you",
+          "start": 171.564,
+          "end": 171.844,
+          "score": 0.952
+        },
+        {
+          "word": "to",
+          "start": 171.864,
+          "end": 171.945,
+          "score": 0.5
+        },
+        {
+          "word": "go",
+          "start": 172.065,
+          "end": 172.245,
+          "score": 0.974
+        }
+      ],
+      "avg_logprob": -0.2649933342206276
+    },
+    {
+      "start": 174.23,
+      "end": 202.506,
+      "text": " You should know I need someone to hold me close to But then I never know who's up, feels like a rodeo Knows just how to take control of it I'm vulnerable, he's straight-talking to myself Conversation over love, constrainance is the love, babe Constrainance is, is, is, is, is, is, is, is, is, is, is, is, is, is, is, is, is",
+      "words": [
+        {
+          "word": "You",
+          "start": 174.23,
+          "end": 174.67,
+          "score": 0.692
+        },
+        {
+          "word": "should",
+          "start": 174.71,
+          "end": 175.151,
+          "score": 0.551
+        },
+        {
+          "word": "know",
+          "start": 175.211,
+          "end": 175.711,
+          "score": 0.499
+        },
+        {
+          "word": "I",
+          "start": 176.031,
+          "end": 176.191,
+          "score": 0.732
+        },
+        {
+          "word": "need",
+          "start": 176.231,
+          "end": 176.411,
+          "score": 0.365
+        },
+        {
+          "word": "someone",
+          "start": 176.431,
+          "end": 176.952,
+          "score": 0.614
+        },
+        {
+          "word": "to",
+          "start": 176.972,
+          "end": 177.092,
+          "score": 0.613
+        },
+        {
+          "word": "hold",
+          "start": 177.172,
+          "end": 177.352,
+          "score": 0.398
+        },
+        {
+          "word": "me",
+          "start": 177.372,
+          "end": 177.512,
+          "score": 0.625
+        },
+        {
+          "word": "close",
+          "start": 177.552,
+          "end": 177.712,
+          "score": 0.307
+        },
+        {
+          "word": "to",
+          "start": 177.912,
+          "end": 178.332,
+          "score": 0.736
+        },
+        {
+          "word": "But",
+          "start": 178.392,
+          "end": 178.633,
+          "score": 0.56
+        },
+        {
+          "word": "then",
+          "start": 178.653,
+          "end": 178.933,
+          "score": 0.702
+        },
+        {
+          "word": "I",
+          "start": 178.993,
+          "end": 179.073,
+          "score": 0.529
+        },
+        {
+          "word": "never",
+          "start": 179.313,
+          "end": 179.513,
+          "score": 0.346
+        },
+        {
+          "word": "know",
+          "start": 179.533,
+          "end": 179.653,
+          "score": 0.276
+        },
+        {
+          "word": "who's",
+          "start": 179.853,
+          "end": 180.113,
+          "score": 0.612
+        },
+        {
+          "word": "up,",
+          "start": 180.213,
+          "end": 180.294,
+          "score": 0.325
+        },
+        {
+          "word": "feels",
+          "start": 180.354,
+          "end": 180.574,
+          "score": 0.419
+        },
+        {
+          "word": "like",
+          "start": 180.614,
+          "end": 180.774,
+          "score": 0.318
+        },
+        {
+          "word": "a",
+          "start": 180.954,
+          "end": 181.074,
+          "score": 0.738
+        },
+        {
+          "word": "rodeo",
+          "start": 181.114,
+          "end": 181.594,
+          "score": 0.795
+        },
+        {
+          "word": "Knows",
+          "start": 181.814,
+          "end": 182.275,
+          "score": 0.545
+        },
+        {
+          "word": "just",
+          "start": 182.295,
+          "end": 182.475,
+          "score": 0.469
+        },
+        {
+          "word": "how",
+          "start": 182.555,
+          "end": 182.775,
+          "score": 0.491
+        },
+        {
+          "word": "to",
+          "start": 182.795,
+          "end": 182.955,
+          "score": 0.657
+        },
+        {
+          "word": "take",
+          "start": 183.015,
+          "end": 183.315,
+          "score": 0.755
+        },
+        {
+          "word": "control",
+          "start": 183.395,
+          "end": 184.396,
+          "score": 0.719
+        },
+        {
+          "word": "of",
+          "start": 184.436,
+          "end": 184.496,
+          "score": 0.215
+        },
+        {
+          "word": "it",
+          "start": 184.676,
+          "end": 184.796,
+          "score": 0.368
+        },
+        {
+          "word": "I'm",
+          "start": 184.856,
+          "end": 184.936,
+          "score": 0.17
+        },
+        {
+          "word": "vulnerable,",
+          "start": 184.996,
+          "end": 185.476,
+          "score": 0.309
+        },
+        {
+          "word": "he's",
+          "start": 185.737,
+          "end": 186.117,
+          "score": 0.614
+        },
+        {
+          "word": "straight-talking",
+          "start": 186.137,
+          "end": 186.937,
+          "score": 0.41
+        },
+        {
+          "word": "to",
+          "start": 186.977,
+          "end": 187.177,
+          "score": 0.716
+        },
+        {
+          "word": "myself",
+          "start": 187.197,
+          "end": 187.658,
+          "score": 0.486
+        },
+        {
+          "word": "Conversation",
+          "start": 187.698,
+          "end": 188.798,
+          "score": 0.538
+        },
+        {
+          "word": "over",
+          "start": 188.878,
+          "end": 189.099,
+          "score": 0.377
+        },
+        {
+          "word": "love,",
+          "start": 189.119,
+          "end": 189.379,
+          "score": 0.4
+        },
+        {
+          "word": "constrainance",
+          "start": 189.599,
+          "end": 190.78,
+          "score": 0.57
+        },
+        {
+          "word": "is",
+          "start": 191.08,
+          "end": 191.32,
+          "score": 0.682
+        },
+        {
+          "word": "the",
+          "start": 191.36,
+          "end": 191.72,
+          "score": 0.569
+        },
+        {
+          "word": "love,",
+          "start": 192.2,
+          "end": 192.741,
+          "score": 0.682
+        },
+        {
+          "word": "babe",
+          "start": 192.821,
+          "end": 193.661,
+          "score": 0.821
+        },
+        {
+          "word": "Constrainance",
+          "start": 193.781,
+          "end": 195.202,
+          "score": 0.447
+        },
+        {
+          "word": "is,",
+          "start": 196.823,
+          "end": 196.963,
+          "score": 0.322
+        },
+        {
+          "word": "is,",
+          "start": 197.043,
+          "end": 197.143,
+          "score": 0.279
+        },
+        {
+          "word": "is,",
+          "start": 197.303,
+          "end": 197.383,
+          "score": 0.28
+        },
+        {
+          "word": "is,",
+          "start": 197.503,
+          "end": 197.623,
+          "score": 0.608
+        },
+        {
+          "word": "is,",
+          "start": 197.964,
+          "end": 198.184,
+          "score": 0.516
+        },
+        {
+          "word": "is,",
+          "start": 198.384,
+          "end": 198.584,
+          "score": 0.714
+        },
+        {
+          "word": "is,",
+          "start": 198.904,
+          "end": 199.124,
+          "score": 0.697
+        },
+        {
+          "word": "is,",
+          "start": 199.244,
+          "end": 199.324,
+          "score": 0.314
+        },
+        {
+          "word": "is,",
+          "start": 199.424,
+          "end": 199.565,
+          "score": 0.666
+        },
+        {
+          "word": "is,",
+          "start": 199.825,
+          "end": 199.945,
+          "score": 0.295
+        },
+        {
+          "word": "is,",
+          "start": 200.005,
+          "end": 200.125,
+          "score": 0.318
+        },
+        {
+          "word": "is,",
+          "start": 200.325,
+          "end": 200.505,
+          "score": 0.317
+        },
+        {
+          "word": "is,",
+          "start": 200.525,
+          "end": 200.945,
+          "score": 0.568
+        },
+        {
+          "word": "is,",
+          "start": 200.965,
+          "end": 201.185,
+          "score": 0.499
+        },
+        {
+          "word": "is,",
+          "start": 201.346,
+          "end": 201.526,
+          "score": 0.724
+        },
+        {
+          "word": "is,",
+          "start": 201.866,
+          "end": 202.086,
+          "score": 0.392
+        },
+        {
+          "word": "is",
+          "start": 202.366,
+          "end": 202.506,
+          "score": 0.372
+        }
+      ],
+      "avg_logprob": -0.45645953466494876
+    },
+    {
+      "start": 205.441,
+      "end": 208.296,
+      "text": " Training season's over",
+      "words": [
+        {
+          "word": "Training",
+          "start": 205.441,
+          "end": 206.366,
+          "score": 0.752
+        },
+        {
+          "word": "season's",
+          "start": 206.426,
+          "end": 207.391,
+          "score": 0.734
+        },
+        {
+          "word": "over",
+          "start": 207.733,
+          "end": 208.296,
+          "score": 0.477
+        }
+      ],
+      "avg_logprob": -0.39548301696777344
+    }
+  ],
+  "lyrics": {
+    "schemaVersion": 1,
+    "songId": "training-season-dua-lipa",
+    "timeUnit": "seconds",
+    "lines": [
+      {
+        "id": "line-1",
+        "start": 8.784,
+        "end": 13.447,
+        "text": "Are you someone that I can give my heart to?",
+        "words": [
+          {
+            "id": "word-1",
+            "text": "Are",
+            "start": 8.784,
+            "end": 8.884
+          },
+          {
+            "id": "word-2",
+            "text": "you",
+            "start": 8.944,
+            "end": 9.425
+          },
+          {
+            "id": "word-3",
+            "text": "someone",
+            "start": 10.545,
+            "end": 11.026
+          },
+          {
+            "id": "word-4",
+            "text": "that",
+            "start": 11.066,
+            "end": 11.506
+          },
+          {
+            "id": "word-5",
+            "text": "I",
+            "start": 11.526,
+            "end": 11.546
+          },
+          {
+            "id": "word-6",
+            "text": "can",
+            "start": 11.566,
+            "end": 11.786
+          },
+          {
+            "id": "word-7",
+            "text": "give",
+            "start": 11.806,
+            "end": 12.046
+          },
+          {
+            "id": "word-8",
+            "text": "my",
+            "start": 12.066,
+            "end": 12.206
+          },
+          {
+            "id": "word-9",
+            "text": "heart",
+            "start": 12.267,
+            "end": 12.767
+          },
+          {
+            "id": "word-10",
+            "text": "to?",
+            "start": 12.847,
+            "end": 13.447
+          }
+        ]
+      },
+      {
+        "id": "line-2",
+        "start": 14.568,
+        "end": 17.37,
+        "text": "Or just the poison that I'm drawn to?",
+        "words": [
+          {
+            "id": "word-11",
+            "text": "Or",
+            "start": 14.568,
+            "end": 14.688
+          },
+          {
+            "id": "word-12",
+            "text": "just",
+            "start": 14.728,
+            "end": 14.888
+          },
+          {
+            "id": "word-13",
+            "text": "the",
+            "start": 14.988,
+            "end": 15.148
+          },
+          {
+            "id": "word-14",
+            "text": "poison",
+            "start": 15.188,
+            "end": 15.669
+          },
+          {
+            "id": "word-15",
+            "text": "that",
+            "start": 15.709,
+            "end": 15.989
+          },
+          {
+            "id": "word-16",
+            "text": "I'm",
+            "start": 16.029,
+            "end": 16.129
+          },
+          {
+            "id": "word-17",
+            "text": "drawn",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-18",
+            "text": "to?",
+            "start": 16.729,
+            "end": 17.37
+          }
+        ]
+      },
+      {
+        "id": "line-3",
+        "start": 18.43,
+        "end": 23.134,
+        "text": "It can be hard to tell the difference late at night",
+        "words": [
+          {
+            "id": "word-19",
+            "text": "It",
+            "start": 18.43,
+            "end": 18.551
+          },
+          {
+            "id": "word-20",
+            "text": "can",
+            "start": 18.631,
+            "end": 18.831
+          },
+          {
+            "id": "word-21",
+            "text": "be",
+            "start": 18.871,
+            "end": 19.091
+          },
+          {
+            "id": "word-22",
+            "text": "hard",
+            "start": 19.171,
+            "end": 19.351
+          },
+          {
+            "id": "word-23",
+            "text": "to",
+            "start": 19.371,
+            "end": 19.551
+          },
+          {
+            "id": "word-24",
+            "text": "tell",
+            "start": 19.591,
+            "end": 19.851
+          },
+          {
+            "id": "word-25",
+            "text": "the",
+            "start": 19.871,
+            "end": 20.032
+          },
+          {
+            "id": "word-26",
+            "text": "difference",
+            "start": 20.112,
+            "end": 21.032
+          },
+          {
+            "id": "word-27",
+            "text": "late",
+            "start": 21.072,
+            "end": 21.773
+          },
+          {
+            "id": "word-28",
+            "text": "at",
+            "start": 22.333,
+            "end": 22.393
+          },
+          {
+            "id": "word-29",
+            "text": "night",
+            "start": 22.413,
+            "end": 23.134
+          }
+        ]
+      },
+      {
+        "id": "line-4",
+        "start": 26.256,
+        "end": 29.037,
+        "text": "Play fair, is that a compass in your nature?",
+        "words": [
+          {
+            "id": "word-30",
+            "text": "Play",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-31",
+            "text": "fair,",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-32",
+            "text": "is",
+            "start": 26.256,
+            "end": 26.396
+          },
+          {
+            "id": "word-33",
+            "text": "that",
+            "start": 26.456,
+            "end": 26.756
+          },
+          {
+            "id": "word-34",
+            "text": "a",
+            "start": 26.776,
+            "end": 26.816
+          },
+          {
+            "id": "word-35",
+            "text": "compass",
+            "start": 26.916,
+            "end": 27.376
+          },
+          {
+            "id": "word-36",
+            "text": "in",
+            "start": 27.536,
+            "end": 27.676
+          },
+          {
+            "id": "word-37",
+            "text": "your",
+            "start": 27.696,
+            "end": 27.817
+          },
+          {
+            "id": "word-38",
+            "text": "nature?",
+            "start": 27.877,
+            "end": 29.037
+          }
+        ]
+      },
+      {
+        "id": "line-5",
+        "start": 30.158,
+        "end": 31.299,
+        "text": "Or are you tricky?",
+        "words": [
+          {
+            "id": "word-39",
+            "text": "Or",
+            "start": 30.158,
+            "end": 30.258
+          },
+          {
+            "id": "word-40",
+            "text": "are",
+            "start": 30.518,
+            "end": 30.638
+          },
+          {
+            "id": "word-41",
+            "text": "you",
+            "start": 30.658,
+            "end": 30.758
+          },
+          {
+            "id": "word-42",
+            "text": "tricky?",
+            "start": 30.798,
+            "end": 31.299
+          }
+        ]
+      },
+      {
+        "id": "line-6",
+        "start": 31.319,
+        "end": 32.58,
+        "text": "'Cause I've been there",
+        "words": [
+          {
+            "id": "word-43",
+            "text": "'Cause",
+            "start": 31.319,
+            "end": 31.579
+          },
+          {
+            "id": "word-44",
+            "text": "I've",
+            "start": 31.599,
+            "end": 31.739
+          },
+          {
+            "id": "word-45",
+            "text": "been",
+            "start": 31.819,
+            "end": 32.119
+          },
+          {
+            "id": "word-46",
+            "text": "there",
+            "start": 32.139,
+            "end": 32.58
+          }
+        ]
+      },
+      {
+        "id": "line-7",
+        "start": 34.113,
+        "end": 39.101,
+        "text": "And baby, I don't need to learn my lesson twice",
+        "words": [
+          {
+            "id": "word-47",
+            "text": "And",
+            "start": 34.113,
+            "end": 34.253
+          },
+          {
+            "id": "word-48",
+            "text": "baby,",
+            "start": 34.274,
+            "end": 34.734
+          },
+          {
+            "id": "word-49",
+            "text": "I",
+            "start": 34.874,
+            "end": 34.955
+          },
+          {
+            "id": "word-50",
+            "text": "don't",
+            "start": 34.975,
+            "end": 35.215
+          },
+          {
+            "id": "word-51",
+            "text": "need",
+            "start": 35.255,
+            "end": 35.415
+          },
+          {
+            "id": "word-52",
+            "text": "to",
+            "start": 35.475,
+            "end": 35.636
+          },
+          {
+            "id": "word-53",
+            "text": "learn",
+            "start": 35.656,
+            "end": 36.096
+          },
+          {
+            "id": "word-54",
+            "text": "my",
+            "start": 36.176,
+            "end": 36.557
+          },
+          {
+            "id": "word-55",
+            "text": "lesson",
+            "start": 36.597,
+            "end": 37.358
+          },
+          {
+            "id": "word-56",
+            "text": "twice",
+            "start": 37.378,
+            "end": 39.101
+          }
+        ]
+      },
+      {
+        "id": "line-8",
+        "start": 41.825,
+        "end": 43.407,
+        "text": "But if you really wanna go there",
+        "words": [
+          {
+            "id": "word-57",
+            "text": "But",
+            "start": 41.825,
+            "end": 42.085
+          },
+          {
+            "id": "word-58",
+            "text": "if",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-59",
+            "text": "you",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-60",
+            "text": "really",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-61",
+            "text": "wanna",
+            "start": 43.107,
+            "end": 43.407
+          },
+          {
+            "id": "word-62",
+            "text": "go",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-63",
+            "text": "there",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-9",
+        "start": 45.457,
+        "end": 46.898,
+        "text": "You should know I",
+        "words": [
+          {
+            "id": "word-64",
+            "text": "You",
+            "start": 45.457,
+            "end": 45.897
+          },
+          {
+            "id": "word-65",
+            "text": "should",
+            "start": 45.977,
+            "end": 46.338
+          },
+          {
+            "id": "word-66",
+            "text": "know",
+            "start": 46.438,
+            "end": 46.898
+          },
+          {
+            "id": "word-67",
+            "text": "I",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-10",
+        "start": 47.278,
+        "end": 50.14,
+        "text": "I need someone to hold me close, deeper than I've ever known",
+        "words": [
+          {
+            "id": "word-68",
+            "text": "I",
+            "start": 47.278,
+            "end": 47.298
+          },
+          {
+            "id": "word-69",
+            "text": "need",
+            "start": 47.358,
+            "end": 47.639
+          },
+          {
+            "id": "word-70",
+            "text": "someone",
+            "start": 47.659,
+            "end": 48.159
+          },
+          {
+            "id": "word-71",
+            "text": "to",
+            "start": 48.179,
+            "end": 48.299
+          },
+          {
+            "id": "word-72",
+            "text": "hold",
+            "start": 48.379,
+            "end": 48.579
+          },
+          {
+            "id": "word-73",
+            "text": "me",
+            "start": 48.599,
+            "end": 48.719
+          },
+          {
+            "id": "word-74",
+            "text": "close,",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-75",
+            "text": "deeper",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-76",
+            "text": "than",
+            "start": 49.88,
+            "end": 50.14
+          },
+          {
+            "id": "word-77",
+            "text": "I've",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-78",
+            "text": "ever",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-79",
+            "text": "known",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-11",
+        "start": 51.561,
+        "end": 55.684,
+        "text": "Whose love feels like a rodeo, knows just how to take control",
+        "words": [
+          {
+            "id": "word-80",
+            "text": "Whose",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-81",
+            "text": "love",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-82",
+            "text": "feels",
+            "start": 51.561,
+            "end": 51.801
+          },
+          {
+            "id": "word-83",
+            "text": "like",
+            "start": 51.841,
+            "end": 51.981
+          },
+          {
+            "id": "word-84",
+            "text": "a",
+            "start": 52.162,
+            "end": 52.282
+          },
+          {
+            "id": "word-85",
+            "text": "rodeo,",
+            "start": 52.342,
+            "end": 52.822
+          },
+          {
+            "id": "word-86",
+            "text": "knows",
+            "start": 53.022,
+            "end": 53.482
+          },
+          {
+            "id": "word-87",
+            "text": "just",
+            "start": 53.522,
+            "end": 53.723
+          },
+          {
+            "id": "word-88",
+            "text": "how",
+            "start": 53.803,
+            "end": 54.043
+          },
+          {
+            "id": "word-89",
+            "text": "to",
+            "start": 54.063,
+            "end": 54.143
+          },
+          {
+            "id": "word-90",
+            "text": "take",
+            "start": 54.223,
+            "end": 54.523
+          },
+          {
+            "id": "word-91",
+            "text": "control",
+            "start": 54.623,
+            "end": 55.684
+          }
+        ]
+      },
+      {
+        "id": "line-12",
+        "start": 55.744,
+        "end": 58.346,
+        "text": "When I'm vulnerable, he's straight-talking to my soul",
+        "words": [
+          {
+            "id": "word-92",
+            "text": "When",
+            "start": 55.744,
+            "end": 56.004
+          },
+          {
+            "id": "word-93",
+            "text": "I'm",
+            "start": 56.024,
+            "end": 56.144
+          },
+          {
+            "id": "word-94",
+            "text": "vulnerable,",
+            "start": 56.204,
+            "end": 56.705
+          },
+          {
+            "id": "word-95",
+            "text": "he's",
+            "start": 56.925,
+            "end": 57.305
+          },
+          {
+            "id": "word-96",
+            "text": "straight-talking",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-97",
+            "text": "to",
+            "start": 58.186,
+            "end": 58.346
+          },
+          {
+            "id": "word-98",
+            "text": "my",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-99",
+            "text": "soul",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-13",
+        "start": 58.906,
+        "end": 61.988,
+        "text": "Conversation overload, got me feeling vertigo",
+        "words": [
+          {
+            "id": "word-100",
+            "text": "Conversation",
+            "start": 58.906,
+            "end": 60.027
+          },
+          {
+            "id": "word-101",
+            "text": "overload,",
+            "start": 60.207,
+            "end": 60.587
+          },
+          {
+            "id": "word-102",
+            "text": "got",
+            "start": 60.847,
+            "end": 61.228
+          },
+          {
+            "id": "word-103",
+            "text": "me",
+            "start": 61.308,
+            "end": 61.468
+          },
+          {
+            "id": "word-104",
+            "text": "feeling",
+            "start": 61.548,
+            "end": 61.988
+          },
+          {
+            "id": "word-105",
+            "text": "vertigo",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-14",
+        "start": 65.691,
+        "end": 67.412,
+        "text": "Are you somebody who can go there?",
+        "words": [
+          {
+            "id": "word-106",
+            "text": "Are",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-107",
+            "text": "you",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-108",
+            "text": "somebody",
+            "start": 65.691,
+            "end": 66.511
+          },
+          {
+            "id": "word-109",
+            "text": "who",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-110",
+            "text": "can",
+            "start": 66.711,
+            "end": 66.931
+          },
+          {
+            "id": "word-111",
+            "text": "go",
+            "start": 66.992,
+            "end": 67.412
+          },
+          {
+            "id": "word-112",
+            "text": "there?",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-15",
+        "start": 69.113,
+        "end": 71.575,
+        "text": "'Cause I don't wanna have to show ya",
+        "words": [
+          {
+            "id": "word-113",
+            "text": "'Cause",
+            "start": 69.113,
+            "end": 69.293
+          },
+          {
+            "id": "word-114",
+            "text": "I",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-115",
+            "text": "don't",
+            "start": 69.913,
+            "end": 70.394
+          },
+          {
+            "id": "word-116",
+            "text": "wanna",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-117",
+            "text": "have",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-118",
+            "text": "to",
+            "start": 70.594,
+            "end": 70.714
+          },
+          {
+            "id": "word-119",
+            "text": "show",
+            "start": 70.774,
+            "end": 71.174
+          },
+          {
+            "id": "word-120",
+            "text": "ya",
+            "start": 71.294,
+            "end": 71.575
+          }
+        ]
+      },
+      {
+        "id": "line-16",
+        "start": 75.255,
+        "end": 81.998,
+        "text": "If that ain't you, then let me know, yeah",
+        "words": [
+          {
+            "id": "word-121",
+            "text": "If",
+            "start": 75.255,
+            "end": 76.536
+          },
+          {
+            "id": "word-122",
+            "text": "that",
+            "start": 77.656,
+            "end": 78.137
+          },
+          {
+            "id": "word-123",
+            "text": "ain't",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-124",
+            "text": "you,",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-125",
+            "text": "then",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-126",
+            "text": "let",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-127",
+            "text": "me",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-128",
+            "text": "know,",
+            "start": 79.597,
+            "end": 80.358
+          },
+          {
+            "id": "word-129",
+            "text": "yeah",
+            "start": 80.438,
+            "end": 81.998
+          }
+        ]
+      },
+      {
+        "id": "line-17",
+        "start": 82.078,
+        "end": 85.88,
+        "text": "'Cause training season's over (training season's over)",
+        "words": [
+          {
+            "id": "word-130",
+            "text": "'Cause",
+            "start": 82.078,
+            "end": 83.419
+          },
+          {
+            "id": "word-131",
+            "text": "training",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-132",
+            "text": "season's",
+            "start": 84.36,
+            "end": 85.38
+          },
+          {
+            "id": "word-133",
+            "text": "over",
+            "start": 85.4,
+            "end": 85.88
+          },
+          {
+            "id": "word-134",
+            "text": "(training",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-135",
+            "text": "season's",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-136",
+            "text": "over)",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-18",
+        "start": 88.642,
+        "end": 91.863,
+        "text": "I tried to see my lovers in a good light",
+        "words": [
+          {
+            "id": "word-137",
+            "text": "I",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-138",
+            "text": "tried",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-139",
+            "text": "to",
+            "start": 88.642,
+            "end": 88.782
+          },
+          {
+            "id": "word-140",
+            "text": "see",
+            "start": 88.822,
+            "end": 89.002
+          },
+          {
+            "id": "word-141",
+            "text": "my",
+            "start": 89.022,
+            "end": 89.122
+          },
+          {
+            "id": "word-142",
+            "text": "lovers",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-143",
+            "text": "in",
+            "start": 90.042,
+            "end": 90.142
+          },
+          {
+            "id": "word-144",
+            "text": "a",
+            "start": 90.202,
+            "end": 90.282
+          },
+          {
+            "id": "word-145",
+            "text": "good",
+            "start": 90.363,
+            "end": 90.743
+          },
+          {
+            "id": "word-146",
+            "text": "light",
+            "start": 90.763,
+            "end": 91.863
+          }
+        ]
+      },
+      {
+        "id": "line-19",
+        "start": 92.504,
+        "end": 95.605,
+        "text": "Don't wanna do it just to be nice",
+        "words": [
+          {
+            "id": "word-147",
+            "text": "Don't",
+            "start": 92.504,
+            "end": 93.064
+          },
+          {
+            "id": "word-148",
+            "text": "wanna",
+            "start": 93.084,
+            "end": 93.204
+          },
+          {
+            "id": "word-149",
+            "text": "do",
+            "start": 93.264,
+            "end": 93.524
+          },
+          {
+            "id": "word-150",
+            "text": "it",
+            "start": 93.584,
+            "end": 93.704
+          },
+          {
+            "id": "word-151",
+            "text": "just",
+            "start": 93.744,
+            "end": 93.984
+          },
+          {
+            "id": "word-152",
+            "text": "to",
+            "start": 94.024,
+            "end": 94.144
+          },
+          {
+            "id": "word-153",
+            "text": "be",
+            "start": 94.204,
+            "end": 94.665
+          },
+          {
+            "id": "word-154",
+            "text": "nice",
+            "start": 94.765,
+            "end": 95.605
+          }
+        ]
+      },
+      {
+        "id": "line-20",
+        "start": 96.425,
+        "end": 101.008,
+        "text": "Don't wanna have to teach you how to love me right",
+        "words": [
+          {
+            "id": "word-155",
+            "text": "Don't",
+            "start": 96.425,
+            "end": 96.966
+          },
+          {
+            "id": "word-156",
+            "text": "wanna",
+            "start": 96.986,
+            "end": 97.126
+          },
+          {
+            "id": "word-157",
+            "text": "have",
+            "start": 97.166,
+            "end": 97.426
+          },
+          {
+            "id": "word-158",
+            "text": "to",
+            "start": 97.446,
+            "end": 97.626
+          },
+          {
+            "id": "word-159",
+            "text": "teach",
+            "start": 97.666,
+            "end": 97.926
+          },
+          {
+            "id": "word-160",
+            "text": "you",
+            "start": 97.946,
+            "end": 98.106
+          },
+          {
+            "id": "word-161",
+            "text": "how",
+            "start": 98.146,
+            "end": 98.507
+          },
+          {
+            "id": "word-162",
+            "text": "to",
+            "start": 98.627,
+            "end": 98.987
+          },
+          {
+            "id": "word-163",
+            "text": "love",
+            "start": 99.007,
+            "end": 99.527
+          },
+          {
+            "id": "word-164",
+            "text": "me",
+            "start": 99.607,
+            "end": 99.807
+          },
+          {
+            "id": "word-165",
+            "text": "right",
+            "start": 99.847,
+            "end": 101.008
+          }
+        ]
+      },
+      {
+        "id": "line-21",
+        "start": 102.42,
+        "end": 106.864,
+        "text": "I hope it hits me like an arrow",
+        "words": [
+          {
+            "id": "word-166",
+            "text": "I",
+            "start": 102.42,
+            "end": 102.52
+          },
+          {
+            "id": "word-167",
+            "text": "hope",
+            "start": 102.6,
+            "end": 103.181
+          },
+          {
+            "id": "word-168",
+            "text": "it",
+            "start": 103.501,
+            "end": 103.621
+          },
+          {
+            "id": "word-169",
+            "text": "hits",
+            "start": 103.701,
+            "end": 104.422
+          },
+          {
+            "id": "word-170",
+            "text": "me",
+            "start": 104.542,
+            "end": 104.962
+          },
+          {
+            "id": "word-171",
+            "text": "like",
+            "start": 105.002,
+            "end": 105.723
+          },
+          {
+            "id": "word-172",
+            "text": "an",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-173",
+            "text": "arrow",
+            "start": 106.424,
+            "end": 106.864
+          }
+        ]
+      },
+      {
+        "id": "line-22",
+        "start": null,
+        "end": null,
+        "text": "Someone with some potential",
+        "words": [
+          {
+            "id": "word-174",
+            "text": "Someone",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-175",
+            "text": "with",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-176",
+            "text": "some",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-177",
+            "text": "potential",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-23",
+        "start": 112.088,
+        "end": 117.213,
+        "text": "Is it too much to ask for, who understands?",
+        "words": [
+          {
+            "id": "word-178",
+            "text": "Is",
+            "start": 112.088,
+            "end": 112.268
+          },
+          {
+            "id": "word-179",
+            "text": "it",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-180",
+            "text": "too",
+            "start": 112.349,
+            "end": 112.749
+          },
+          {
+            "id": "word-181",
+            "text": "much",
+            "start": 112.829,
+            "end": 113.169
+          },
+          {
+            "id": "word-182",
+            "text": "to",
+            "start": 113.309,
+            "end": 113.55
+          },
+          {
+            "id": "word-183",
+            "text": "ask",
+            "start": 113.97,
+            "end": 114.21
+          },
+          {
+            "id": "word-184",
+            "text": "for,",
+            "start": 114.31,
+            "end": 114.711
+          },
+          {
+            "id": "word-185",
+            "text": "who",
+            "start": 115.231,
+            "end": 115.651
+          },
+          {
+            "id": "word-186",
+            "text": "understands?",
+            "start": 115.992,
+            "end": 117.213
+          }
+        ]
+      },
+      {
+        "id": "line-24",
+        "start": 117.473,
+        "end": 120.956,
+        "text": "I need someone to hold me close, deeper than I've ever known",
+        "words": [
+          {
+            "id": "word-187",
+            "text": "I",
+            "start": 117.473,
+            "end": 117.633
+          },
+          {
+            "id": "word-188",
+            "text": "need",
+            "start": 117.673,
+            "end": 117.893
+          },
+          {
+            "id": "word-189",
+            "text": "someone",
+            "start": 117.913,
+            "end": 118.574
+          },
+          {
+            "id": "word-190",
+            "text": "to",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-191",
+            "text": "hold",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-192",
+            "text": "me",
+            "start": 118.874,
+            "end": 118.974
+          },
+          {
+            "id": "word-193",
+            "text": "close,",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-194",
+            "text": "deeper",
+            "start": 119.374,
+            "end": 120.115
+          },
+          {
+            "id": "word-195",
+            "text": "than",
+            "start": 120.135,
+            "end": 120.375
+          },
+          {
+            "id": "word-196",
+            "text": "I've",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-197",
+            "text": "ever",
+            "start": 120.736,
+            "end": 120.956
+          },
+          {
+            "id": "word-198",
+            "text": "known",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-25",
+        "start": 121.816,
+        "end": 125.96,
+        "text": "Whose love feels like a rodeo, knows just how to take control",
+        "words": [
+          {
+            "id": "word-199",
+            "text": "Whose",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-200",
+            "text": "love",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-201",
+            "text": "feels",
+            "start": 121.816,
+            "end": 122.057
+          },
+          {
+            "id": "word-202",
+            "text": "like",
+            "start": 122.097,
+            "end": 122.257
+          },
+          {
+            "id": "word-203",
+            "text": "a",
+            "start": 122.417,
+            "end": 122.557
+          },
+          {
+            "id": "word-204",
+            "text": "rodeo,",
+            "start": 122.597,
+            "end": 123.057
+          },
+          {
+            "id": "word-205",
+            "text": "knows",
+            "start": 123.278,
+            "end": 123.738
+          },
+          {
+            "id": "word-206",
+            "text": "just",
+            "start": 123.778,
+            "end": 123.938
+          },
+          {
+            "id": "word-207",
+            "text": "how",
+            "start": 123.998,
+            "end": 124.258
+          },
+          {
+            "id": "word-208",
+            "text": "to",
+            "start": 124.298,
+            "end": 124.459
+          },
+          {
+            "id": "word-209",
+            "text": "take",
+            "start": 124.499,
+            "end": 124.779
+          },
+          {
+            "id": "word-210",
+            "text": "control",
+            "start": 124.879,
+            "end": 125.96
+          }
+        ]
+      },
+      {
+        "id": "line-26",
+        "start": 126.34,
+        "end": 128.622,
+        "text": "When I'm vulnerable, he's straight-talking to my soul",
+        "words": [
+          {
+            "id": "word-211",
+            "text": "When",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-212",
+            "text": "I'm",
+            "start": 126.34,
+            "end": 126.42
+          },
+          {
+            "id": "word-213",
+            "text": "vulnerable,",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-214",
+            "text": "he's",
+            "start": 127.201,
+            "end": 127.581
+          },
+          {
+            "id": "word-215",
+            "text": "straight-talking",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-216",
+            "text": "to",
+            "start": 128.422,
+            "end": 128.622
+          },
+          {
+            "id": "word-217",
+            "text": "my",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-218",
+            "text": "soul",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-27",
+        "start": 129.163,
+        "end": 132.205,
+        "text": "Conversation overload, got me feeling vertigo",
+        "words": [
+          {
+            "id": "word-219",
+            "text": "Conversation",
+            "start": 129.163,
+            "end": 130.283
+          },
+          {
+            "id": "word-220",
+            "text": "overload,",
+            "start": 130.484,
+            "end": 130.824
+          },
+          {
+            "id": "word-221",
+            "text": "got",
+            "start": 131.084,
+            "end": 131.464
+          },
+          {
+            "id": "word-222",
+            "text": "me",
+            "start": 131.545,
+            "end": 131.705
+          },
+          {
+            "id": "word-223",
+            "text": "feeling",
+            "start": 131.785,
+            "end": 132.205
+          },
+          {
+            "id": "word-224",
+            "text": "vertigo",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-28",
+        "start": 138.211,
+        "end": 138.331,
+        "text": "Are you somebody who can go there?",
+        "words": [
+          {
+            "id": "word-225",
+            "text": "Are",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-226",
+            "text": "you",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-227",
+            "text": "somebody",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-228",
+            "text": "who",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-229",
+            "text": "can",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-230",
+            "text": "go",
+            "start": 138.211,
+            "end": 138.331
+          },
+          {
+            "id": "word-231",
+            "text": "there?",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-29",
+        "start": 139.612,
+        "end": 144.506,
+        "text": "'Cause I don't wanna have to show ya",
+        "words": [
+          {
+            "id": "word-232",
+            "text": "'Cause",
+            "start": 139.612,
+            "end": 139.892
+          },
+          {
+            "id": "word-233",
+            "text": "I",
+            "start": 140.053,
+            "end": 140.133
+          },
+          {
+            "id": "word-234",
+            "text": "don't",
+            "start": 140.353,
+            "end": 140.633
+          },
+          {
+            "id": "word-235",
+            "text": "wanna",
+            "start": 140.673,
+            "end": 140.793
+          },
+          {
+            "id": "word-236",
+            "text": "have",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-237",
+            "text": "to",
+            "start": 144.286,
+            "end": 144.506
+          },
+          {
+            "id": "word-238",
+            "text": "show",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-239",
+            "text": "ya",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-30",
+        "start": 144.546,
+        "end": 144.946,
+        "text": "If that ain't you, then let me know, yeah",
+        "words": [
+          {
+            "id": "word-240",
+            "text": "If",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-241",
+            "text": "that",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-242",
+            "text": "ain't",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-243",
+            "text": "you,",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-244",
+            "text": "then",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-245",
+            "text": "let",
+            "start": 144.546,
+            "end": 144.706
+          },
+          {
+            "id": "word-246",
+            "text": "me",
+            "start": 144.746,
+            "end": 144.946
+          },
+          {
+            "id": "word-247",
+            "text": "know,",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-248",
+            "text": "yeah",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-31",
+        "start": 146.667,
+        "end": 149.81,
+        "text": "'Cause training season's over",
+        "words": [
+          {
+            "id": "word-249",
+            "text": "'Cause",
+            "start": 146.667,
+            "end": 146.847
+          },
+          {
+            "id": "word-250",
+            "text": "training",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-251",
+            "text": "season's",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-252",
+            "text": "over",
+            "start": 149.169,
+            "end": 149.81
+          }
+        ]
+      },
+      {
+        "id": "line-32",
+        "start": 149.89,
+        "end": 151.331,
+        "text": "Can you compete?",
+        "words": [
+          {
+            "id": "word-253",
+            "text": "Can",
+            "start": 149.89,
+            "end": 150.21
+          },
+          {
+            "id": "word-254",
+            "text": "you",
+            "start": 150.31,
+            "end": 150.53
+          },
+          {
+            "id": "word-255",
+            "text": "compete?",
+            "start": 150.59,
+            "end": 151.331
+          }
+        ]
+      },
+      {
+        "id": "line-33",
+        "start": 151.811,
+        "end": 153.292,
+        "text": "Now is your time",
+        "words": [
+          {
+            "id": "word-256",
+            "text": "Now",
+            "start": 151.811,
+            "end": 152.171
+          },
+          {
+            "id": "word-257",
+            "text": "is",
+            "start": 152.371,
+            "end": 152.491
+          },
+          {
+            "id": "word-258",
+            "text": "your",
+            "start": 152.531,
+            "end": 152.752
+          },
+          {
+            "id": "word-259",
+            "text": "time",
+            "start": 152.812,
+            "end": 153.292
+          }
+        ]
+      },
+      {
+        "id": "line-34",
+        "start": 153.772,
+        "end": 155.734,
+        "text": "Run when you hear that whistle blow",
+        "words": [
+          {
+            "id": "word-260",
+            "text": "Run",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-261",
+            "text": "when",
+            "start": 153.772,
+            "end": 154.373
+          },
+          {
+            "id": "word-262",
+            "text": "you",
+            "start": 154.473,
+            "end": 154.693
+          },
+          {
+            "id": "word-263",
+            "text": "hear",
+            "start": 154.733,
+            "end": 155.213
+          },
+          {
+            "id": "word-264",
+            "text": "that",
+            "start": 155.253,
+            "end": 155.734
+          },
+          {
+            "id": "word-265",
+            "text": "whistle",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-266",
+            "text": "blow",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-35",
+        "start": 157.455,
+        "end": 159.056,
+        "text": "Are you on my team?",
+        "words": [
+          {
+            "id": "word-267",
+            "text": "Are",
+            "start": 157.455,
+            "end": 157.555
+          },
+          {
+            "id": "word-268",
+            "text": "you",
+            "start": 157.635,
+            "end": 157.955
+          },
+          {
+            "id": "word-269",
+            "text": "on",
+            "start": 158.135,
+            "end": 158.295
+          },
+          {
+            "id": "word-270",
+            "text": "my",
+            "start": 158.355,
+            "end": 158.575
+          },
+          {
+            "id": "word-271",
+            "text": "team?",
+            "start": 158.615,
+            "end": 159.056
+          }
+        ]
+      },
+      {
+        "id": "line-36",
+        "start": 159.416,
+        "end": 164.78,
+        "text": "Or stuck on the sidelines waiting for someone to tell you to go?",
+        "words": [
+          {
+            "id": "word-272",
+            "text": "Or",
+            "start": 159.416,
+            "end": 159.496
+          },
+          {
+            "id": "word-273",
+            "text": "stuck",
+            "start": 159.556,
+            "end": 159.916
+          },
+          {
+            "id": "word-274",
+            "text": "on",
+            "start": 160.137,
+            "end": 160.297
+          },
+          {
+            "id": "word-275",
+            "text": "the",
+            "start": 160.357,
+            "end": 160.517
+          },
+          {
+            "id": "word-276",
+            "text": "sidelines",
+            "start": 160.557,
+            "end": 161.517
+          },
+          {
+            "id": "word-277",
+            "text": "waiting",
+            "start": 161.577,
+            "end": 162.258
+          },
+          {
+            "id": "word-278",
+            "text": "for",
+            "start": 162.298,
+            "end": 162.458
+          },
+          {
+            "id": "word-279",
+            "text": "someone",
+            "start": 162.518,
+            "end": 163.058
+          },
+          {
+            "id": "word-280",
+            "text": "to",
+            "start": 163.079,
+            "end": 163.199
+          },
+          {
+            "id": "word-281",
+            "text": "tell",
+            "start": 163.259,
+            "end": 163.639
+          },
+          {
+            "id": "word-282",
+            "text": "you",
+            "start": 163.759,
+            "end": 164.019
+          },
+          {
+            "id": "word-283",
+            "text": "to",
+            "start": 164.059,
+            "end": 164.159
+          },
+          {
+            "id": "word-284",
+            "text": "go?",
+            "start": 164.279,
+            "end": 164.78
+          }
+        ]
+      },
+      {
+        "id": "line-37",
+        "start": 170.303,
+        "end": 172.245,
+        "text": "For someone to tell you to go",
+        "words": [
+          {
+            "id": "word-285",
+            "text": "For",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-286",
+            "text": "someone",
+            "start": 170.303,
+            "end": 170.864
+          },
+          {
+            "id": "word-287",
+            "text": "to",
+            "start": 170.884,
+            "end": 171.024
+          },
+          {
+            "id": "word-288",
+            "text": "tell",
+            "start": 171.084,
+            "end": 171.464
+          },
+          {
+            "id": "word-289",
+            "text": "you",
+            "start": 171.564,
+            "end": 171.844
+          },
+          {
+            "id": "word-290",
+            "text": "to",
+            "start": 171.864,
+            "end": 171.945
+          },
+          {
+            "id": "word-291",
+            "text": "go",
+            "start": 172.065,
+            "end": 172.245
+          }
+        ]
+      },
+      {
+        "id": "line-38",
+        "start": 174.23,
+        "end": 176.191,
+        "text": "You should know I",
+        "words": [
+          {
+            "id": "word-292",
+            "text": "You",
+            "start": 174.23,
+            "end": 174.67
+          },
+          {
+            "id": "word-293",
+            "text": "should",
+            "start": 174.71,
+            "end": 175.151
+          },
+          {
+            "id": "word-294",
+            "text": "know",
+            "start": 175.211,
+            "end": 175.711
+          },
+          {
+            "id": "word-295",
+            "text": "I",
+            "start": 176.031,
+            "end": 176.191
+          }
+        ]
+      },
+      {
+        "id": "line-39",
+        "start": 176.231,
+        "end": 177.712,
+        "text": "I need someone to hold me close, deeper than I've ever known",
+        "words": [
+          {
+            "id": "word-296",
+            "text": "I",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-297",
+            "text": "need",
+            "start": 176.231,
+            "end": 176.411
+          },
+          {
+            "id": "word-298",
+            "text": "someone",
+            "start": 176.431,
+            "end": 176.952
+          },
+          {
+            "id": "word-299",
+            "text": "to",
+            "start": 176.972,
+            "end": 177.092
+          },
+          {
+            "id": "word-300",
+            "text": "hold",
+            "start": 177.172,
+            "end": 177.352
+          },
+          {
+            "id": "word-301",
+            "text": "me",
+            "start": 177.372,
+            "end": 177.512
+          },
+          {
+            "id": "word-302",
+            "text": "close,",
+            "start": 177.552,
+            "end": 177.712
+          },
+          {
+            "id": "word-303",
+            "text": "deeper",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-304",
+            "text": "than",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-305",
+            "text": "I've",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-306",
+            "text": "ever",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-307",
+            "text": "known",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-40",
+        "start": 180.354,
+        "end": 184.396,
+        "text": "Whose love feels like a rodeo, knows just how to take control",
+        "words": [
+          {
+            "id": "word-308",
+            "text": "Whose",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-309",
+            "text": "love",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-310",
+            "text": "feels",
+            "start": 180.354,
+            "end": 180.574
+          },
+          {
+            "id": "word-311",
+            "text": "like",
+            "start": 180.614,
+            "end": 180.774
+          },
+          {
+            "id": "word-312",
+            "text": "a",
+            "start": 180.954,
+            "end": 181.074
+          },
+          {
+            "id": "word-313",
+            "text": "rodeo,",
+            "start": 181.114,
+            "end": 181.594
+          },
+          {
+            "id": "word-314",
+            "text": "knows",
+            "start": 181.814,
+            "end": 182.275
+          },
+          {
+            "id": "word-315",
+            "text": "just",
+            "start": 182.295,
+            "end": 182.475
+          },
+          {
+            "id": "word-316",
+            "text": "how",
+            "start": 182.555,
+            "end": 182.775
+          },
+          {
+            "id": "word-317",
+            "text": "to",
+            "start": 182.795,
+            "end": 182.955
+          },
+          {
+            "id": "word-318",
+            "text": "take",
+            "start": 183.015,
+            "end": 183.315
+          },
+          {
+            "id": "word-319",
+            "text": "control",
+            "start": 183.395,
+            "end": 184.396
+          }
+        ]
+      },
+      {
+        "id": "line-41",
+        "start": 184.856,
+        "end": 187.177,
+        "text": "When I'm vulnerable, he's straight-talking to my soul (if that ain't you, then let me know, yeah)",
+        "words": [
+          {
+            "id": "word-320",
+            "text": "When",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-321",
+            "text": "I'm",
+            "start": 184.856,
+            "end": 184.936
+          },
+          {
+            "id": "word-322",
+            "text": "vulnerable,",
+            "start": 184.996,
+            "end": 185.476
+          },
+          {
+            "id": "word-323",
+            "text": "he's",
+            "start": 185.737,
+            "end": 186.117
+          },
+          {
+            "id": "word-324",
+            "text": "straight-talking",
+            "start": 186.137,
+            "end": 186.937
+          },
+          {
+            "id": "word-325",
+            "text": "to",
+            "start": 186.977,
+            "end": 187.177
+          },
+          {
+            "id": "word-326",
+            "text": "my",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-327",
+            "text": "soul",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-328",
+            "text": "(if",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-329",
+            "text": "that",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-330",
+            "text": "ain't",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-331",
+            "text": "you,",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-332",
+            "text": "then",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-333",
+            "text": "let",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-334",
+            "text": "me",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-335",
+            "text": "know,",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-336",
+            "text": "yeah)",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-42",
+        "start": 187.698,
+        "end": 208.296,
+        "text": "Conversation overload 'cause training season's over",
+        "words": [
+          {
+            "id": "word-337",
+            "text": "Conversation",
+            "start": 187.698,
+            "end": 188.798
+          },
+          {
+            "id": "word-338",
+            "text": "overload",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-339",
+            "text": "'cause",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-340",
+            "text": "training",
+            "start": 205.441,
+            "end": 206.366
+          },
+          {
+            "id": "word-341",
+            "text": "season's",
+            "start": 206.426,
+            "end": 207.391
+          },
+          {
+            "id": "word-342",
+            "text": "over",
+            "start": 207.733,
+            "end": 208.296
+          }
+        ]
+      },
+      {
+        "id": "line-43",
+        "start": null,
+        "end": null,
+        "text": "'Cause training season's over (training season's over)",
+        "words": [
+          {
+            "id": "word-343",
+            "text": "'Cause",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-344",
+            "text": "training",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-345",
+            "text": "season's",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-346",
+            "text": "over",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-347",
+            "text": "(training",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-348",
+            "text": "season's",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-349",
+            "text": "over)",
+            "start": null,
+            "end": null
+          }
+        ]
+      },
+      {
+        "id": "line-44",
+        "start": null,
+        "end": null,
+        "text": "Training season's over",
+        "words": [
+          {
+            "id": "word-350",
+            "text": "Training",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-351",
+            "text": "season's",
+            "start": null,
+            "end": null
+          },
+          {
+            "id": "word-352",
+            "text": "over",
+            "start": null,
+            "end": null
+          }
+        ]
+      }
+    ]
+  }
+}

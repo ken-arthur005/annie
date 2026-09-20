@@ -199,13 +199,18 @@ The system consists of two major phases:
                   ▼
              melody.json
 
-              TIMED LYRICS
-                  │
-                  ▼
-             lyrics.json
+               TIMED LYRICS
+                   │
+                   ▼
+              lyrics.json
 
-                  │
-                  ▼
+        REVIEWED SONG STRUCTURE
+                   │
+                   ▼
+             structure.json
+
+                   │
+                   ▼
           PREPARED SONG PACKAGE
 
 

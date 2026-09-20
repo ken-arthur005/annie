@@ -209,6 +209,11 @@ The system consists of two major phases:
                    ▼
              structure.json
 
+              SONG METADATA
+                   │
+                   ▼
+             metadata.json
+
                    │
                    ▼
           PREPARED SONG PACKAGE

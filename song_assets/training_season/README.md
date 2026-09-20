@@ -1,5 +1,25 @@
 # Training Season Song Package
 
+## Runtime Metadata Schema
+
+`runtime/metadata.json` is schema version 1 and contains singer-facing song
+information plus the manifest of runtime asset filenames. It records the title,
+artist, album, release date, language, arrangement label, instrumental duration,
+and artwork. It does not contain scoring rules, device calibration, or analysis
+internals.
+
+## Package Validation
+
+Validate the complete runtime package before use:
+
+```powershell
+audio-lab/.venv/Scripts/python.exe audio-lab/validate_runtime_song_package.py
+```
+
+The validator is read-only. It confirms required files exist, validates all JSON
+schemas, checks shared IDs/timelines against the WAV duration, and detects stale
+structure-to-lyrics traceability.
+
 ## Runtime Melody Schema
 
 `runtime/melody.json` is schema version 1 and is the approved pitch-scoring

@@ -3,21 +3,15 @@ import trainingSeasonMelody from "../../../assets/songs/training_season/runtime/
 import trainingSeasonMetadata from "../../../assets/songs/training_season/runtime/metadata.json";
 import trainingSeasonStructure from "../../../assets/songs/training_season/runtime/structure.json";
 
-import type {
-  MelodyAnswerKey,
-  RuntimeSongMetadata,
-  SongManifestEntry,
-  SongStructure,
-  TimedLyrics,
-} from "./types";
+import type { RawSongManifestEntry } from "./rawTypes";
 
 export const songManifest = [
   {
-    metadata: trainingSeasonMetadata as RuntimeSongMetadata,
-    lyrics: trainingSeasonLyrics as TimedLyrics,
-    melody: trainingSeasonMelody as MelodyAnswerKey,
-    structure: trainingSeasonStructure as SongStructure,
+    metadata: trainingSeasonMetadata,
+    lyrics: trainingSeasonLyrics,
+    melody: trainingSeasonMelody,
+    structure: trainingSeasonStructure,
     instrumentalAsset: require("../../../assets/songs/training_season/runtime/instrumentals.wav"),
     artwork: require("../../../assets/songs/training_season/runtime/training_season_artwork.jpg"),
   },
-] satisfies readonly SongManifestEntry[];
+] satisfies readonly RawSongManifestEntry[];

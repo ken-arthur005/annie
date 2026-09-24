@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   fill: { height: "100%", borderRadius: 1 },
   thumb: { position: "absolute", top: -5, width: 12, height: 12, borderRadius: 6, backgroundColor: "#d98ae8", transform: [{ translateX: -6 }] },
   labels: { flexDirection: "row", justifyContent: "space-between" },
-  label: { color: "#a99aaf", fontSize: 12, fontWeight: "700" },
+  label: { color: "#ffffff", fontSize: 12, fontWeight: "700", opacity: 0.72 },
 });
 
 function formatTime(milliseconds: SongTimeMs): string {

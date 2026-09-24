@@ -6,6 +6,7 @@ import type { ExpectedNote, KaraokeSong, SongTimeMs } from "@/features/songs/typ
 import { KaraokeTimeline, useKaraokeTimeline } from "@/features/timeline";
 
 const SEEK_STEP_MS = 5_000;
+const LYRIC_DISPLAY_LEAD_MS = 180;
 
 export function useKaraokeSession(song: KaraokeSong): {
   snapshot: ReturnType<typeof useKaraokeTimeline>;
@@ -28,6 +29,11 @@ export function useKaraokeSession(song: KaraokeSong): {
   const resumeAfterScrubRef = useRef(false);
   const snapshot = useKaraokeTimeline(timeline);
   const displayPositionMs = scrubPositionMs ?? snapshot.positionMs;
+  // This anticipates the visual cue only. Playback and future analysis stay on song time.
+  const lyricDisplayPositionMs = clampSongTime(
+    displayPositionMs + LYRIC_DISPLAY_LEAD_MS,
+    song.metadata.durationMs,
+  );
 
   useEffect(() => {
     let isCurrent = true;
@@ -46,7 +52,7 @@ export function useKaraokeSession(song: KaraokeSong): {
 
   return {
     snapshot: { ...snapshot, positionMs: displayPositionMs },
-    lyrics: lyricTimeline.lookup(displayPositionMs),
+    lyrics: lyricTimeline.lookup(lyricDisplayPositionMs),
     expectedNote: findExpectedNote(song.melody.notes, displayPositionMs),
     error: snapshot.error ?? actionError,
     play: () => runTimelineAction(() => timeline.play(), setActionError),

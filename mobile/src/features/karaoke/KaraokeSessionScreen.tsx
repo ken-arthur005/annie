@@ -13,19 +13,13 @@ import { PlaybackProgress } from "./components/PlaybackProgress";
 import { TransportControls } from "./components/TransportControls";
 import { SEEK_STEP_MS, useKaraokeSession } from "./useKaraokeSession";
 
-type KaraokeSessionScreenProps = {
-  songId: SongId | undefined;
-};
+type KaraokeSessionScreenProps = { songId: SongId | undefined };
 
 export function KaraokeSessionScreen({ songId }: KaraokeSessionScreenProps) {
-  if (!songId) {
-    return <UnavailableSongScreen message="This karaoke route has no song ID." />;
-  }
+  if (!songId) return <UnavailableSongScreen message="This karaoke route has no song ID." />;
 
   const songResult = getSong(songId);
-  if (!songResult.ok) {
-    return <UnavailableSongScreen message={songResult.message} />;
-  }
+  if (!songResult.ok) return <UnavailableSongScreen message={songResult.message} />;
 
   return <LoadedKaraokeSession key={songResult.song.metadata.id} song={songResult.song} />;
 }
@@ -34,10 +28,7 @@ function getSong(songId: SongId): { ok: true; song: KaraokeSong } | { ok: false;
   try {
     return { ok: true, song: songCatalog.getSong(songId) };
   } catch (error) {
-    return {
-      ok: false,
-      message: error instanceof SongPackageError ? error.message : "This prepared song is unavailable.",
-    };
+    return { ok: false, message: error instanceof SongPackageError ? error.message : "This prepared song is unavailable." };
   }
 }
 
@@ -48,59 +39,47 @@ function LoadedKaraokeSession({ song }: { song: KaraokeSong }) {
   const isError = session.snapshot.state === "error";
 
   return (
-    <SafeAreaView className="relative flex-1 overflow-hidden bg-[#0a0910]" style={styles.safeArea}>
+    <SafeAreaView style={styles.safeArea}>
       <StatusBar style="light" />
       <AmbientStageBackground variant="player" />
-      <View className="flex-1">
-        <View className="flex-row items-center justify-between px-6 pt-3" style={styles.header}>
-          <Pressable accessibilityRole="button" className="h-9 w-9 items-center justify-center rounded-full bg-[#ffffff]/15" onPress={() => router.replace("/")} style={styles.headerButton}>
-            <Text className="text-sm font-extrabold text-[#f8f2ff]" style={styles.headerButtonLabel}>Back</Text>
+      <View style={styles.screen}>
+        <View style={styles.header}>
+          <Pressable accessibilityRole="button" onPress={() => router.replace("/")} style={styles.headerButton}>
+            <Text style={styles.headerButtonLabel}>Back</Text>
           </Pressable>
-          <Text className="text-xs font-extrabold text-[#f8f2ff]" style={styles.headerTitle}>Now Playing</Text>
-          <View className="h-9 w-9 items-center justify-center rounded-full bg-[#ffffff]/15" style={styles.headerButton}>
-            <Text className="text-[9px] font-extrabold text-[#f8f2ff]" style={styles.headerButtonLabel}>ON</Text>
+          <View style={styles.trackInfo}>
+            <Text numberOfLines={1} style={styles.trackTitle}>{song.metadata.title}</Text>
+            <Text numberOfLines={1} style={styles.trackArtist}>{song.metadata.primaryArtist}</Text>
+            <Text style={styles.nowPlaying}>Now Playing</Text>
           </View>
         </View>
 
-        {isLoading ? (
-          <LoadingStage />
-        ) : isError ? null : session.snapshot.state === "ready" ? (
-          <NowPlayingIntro song={song} onStart={() => void session.play()} />
-        ) : (
-          <>
-            <View className="px-6 pt-3">
-              <Text className="text-xl font-extrabold text-[#f8f2ff]" numberOfLines={1}>{song.metadata.title}</Text>
-              <Text className="mt-1 text-sm font-medium text-[#b9aaba]">{song.metadata.primaryArtist}</Text>
-            </View>
-            <PerformanceStage lookup={session.lyrics} playbackState={session.snapshot.state} />
-          </>
-        )}
+        <View style={styles.lyricRegion}>
+          {isLoading ? <LoadingStage /> : isError ? null : session.snapshot.state === "ready" ? (
+            <NowPlayingIntro song={song} onStart={() => void session.play()} />
+          ) : <PerformanceStage lookup={session.lyrics} playbackState={session.snapshot.state} />}
+        </View>
 
-        <PlaybackProgress
-          disabled={isLoading || isError}
-          durationMs={session.snapshot.durationMs}
-          positionMs={session.snapshot.positionMs}
-          onScrub={session.previewScrub}
-          onScrubEnd={(positionMs) => void session.commitScrub(positionMs)}
-          onScrubStart={session.beginScrub}
-        />
-
-        <View className="gap-4 px-0 pb-5 pt-5">
+        <View style={styles.bottomDock}>
+          <PlaybackProgress
+            disabled={isLoading || isError}
+            durationMs={session.snapshot.durationMs}
+            positionMs={session.snapshot.positionMs}
+            onScrub={session.previewScrub}
+            onScrubEnd={(positionMs) => void session.commitScrub(positionMs)}
+            onScrubStart={session.beginScrub}
+          />
           {isError ? (
             <ErrorControls error={session.error ?? "Could not prepare the instrumental."} onRetry={() => void session.retry()} />
-          ) : (
-            <>
-              {session.snapshot.state === "ready" ? null : (
-                <TransportControls
-                  state={session.snapshot.state}
-                  onPause={() => void session.pause()}
-                  onPlay={() => void session.play()}
-                  onRestart={() => void session.restart()}
-                  onSeekBackward={() => void session.seekBy(-SEEK_STEP_MS)}
-                  onSeekForward={() => void session.seekBy(SEEK_STEP_MS)}
-                />
-              )}
-            </>
+          ) : session.snapshot.state === "ready" ? null : (
+            <TransportControls
+              state={session.snapshot.state}
+              onPause={() => void session.pause()}
+              onPlay={() => void session.play()}
+              onRestart={() => void session.restart()}
+              onSeekBackward={() => void session.seekBy(-SEEK_STEP_MS)}
+              onSeekForward={() => void session.seekBy(SEEK_STEP_MS)}
+            />
           )}
         </View>
       </View>
@@ -108,45 +87,39 @@ function LoadedKaraokeSession({ song }: { song: KaraokeSong }) {
   );
 }
 
-const styles = StyleSheet.create({
-  safeArea: { flex: 1, position: "relative", overflow: "hidden", backgroundColor: "#0a0910" },
-  header: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, paddingTop: 12 },
-  headerButton: { width: 36, height: 36, borderRadius: 18, alignItems: "center", justifyContent: "center", backgroundColor: "rgba(255,255,255,0.15)" },
-  headerButtonLabel: { color: "#f8f2ff", fontSize: 9, fontWeight: "800" },
-  headerTitle: { color: "#f8f2ff", fontSize: 12, fontWeight: "800" },
-});
-
 function LoadingStage() {
-  return (
-    <View className="min-h-[250px] flex-1 items-center justify-center px-6">
-      <Text className="text-xl font-extrabold text-[#f8f2ff]">Preparing instrumental...</Text>
-      <Text className="mt-2 text-center text-base text-[#c6b5ca]">Lyrics will follow the actual playback position.</Text>
-    </View>
-  );
+  return <View style={styles.loadingStage}><Text style={styles.loadingTitle}>Preparing instrumental...</Text><Text style={styles.loadingBody}>Lyrics will follow the actual playback position.</Text></View>;
 }
 
 function ErrorControls({ error, onRetry }: { error: string; onRetry: () => void }) {
-  return (
-    <View className="items-center gap-4 px-6">
-      <Text className="text-center text-sm leading-5 text-[#f0a3d7]">{error}</Text>
-      <Pressable accessibilityRole="button" className="min-h-12 items-center justify-center rounded-full bg-[#f47ccc] px-6" onPress={onRetry}>
-        <Text className="font-extrabold text-[#24112b]">Retry</Text>
-      </Pressable>
-    </View>
-  );
+  return <View style={styles.errorControls}><Text style={styles.errorText}>{error}</Text><Pressable accessibilityRole="button" style={styles.retryButton} onPress={onRetry}><Text style={styles.retryLabel}>Retry</Text></Pressable></View>;
 }
 
 function UnavailableSongScreen({ message }: { message: string }) {
   const router = useRouter();
-
-  return (
-    <SafeAreaView className="flex-1 items-center justify-center bg-[#09070f] px-8">
-      <StatusBar style="light" />
-      <Text className="text-center text-2xl font-extrabold text-[#f8f2ff]">Song unavailable</Text>
-      <Text className="mt-3 text-center text-base leading-6 text-[#c6b5ca]">{message}</Text>
-      <Pressable accessibilityRole="button" className="mt-7 min-h-12 justify-center rounded-full bg-[#f47ccc] px-6" onPress={() => router.replace("/")}>
-        <Text className="font-extrabold text-[#24112b]">Back to library</Text>
-      </Pressable>
-    </SafeAreaView>
-  );
+  return <SafeAreaView style={styles.unavailableScreen}><StatusBar style="light" /><Text style={styles.unavailableTitle}>Song unavailable</Text><Text style={styles.unavailableBody}>{message}</Text><Pressable accessibilityRole="button" style={styles.retryButton} onPress={() => router.replace("/")}><Text style={styles.retryLabel}>Back to library</Text></Pressable></SafeAreaView>;
 }
+
+const styles = StyleSheet.create({
+  safeArea: { backgroundColor: "#0a0910", flex: 1, overflow: "hidden" },
+  screen: { flex: 1 },
+  header: { alignItems: "flex-start", flexDirection: "row", justifyContent: "space-between", paddingHorizontal: 24, paddingTop: 12 },
+  headerButton: { alignItems: "center", backgroundColor: "rgba(255,255,255,0.15)", borderRadius: 18, height: 36, justifyContent: "center", width: 36 },
+  headerButtonLabel: { color: "#ffffff", fontSize: 10, fontWeight: "800" },
+  trackInfo: { alignItems: "flex-end", flexShrink: 1, maxWidth: "76%" },
+  trackTitle: { color: "#ffffff", fontSize: 18, fontWeight: "800", textAlign: "right" },
+  trackArtist: { color: "#ffffff", fontSize: 13, fontWeight: "600", marginTop: 2, opacity: 0.78, textAlign: "right" },
+  nowPlaying: { color: "#ffffff", fontSize: 10, fontWeight: "800", letterSpacing: 2.4, marginTop: 8, opacity: 0.9, textTransform: "uppercase" },
+  lyricRegion: { flex: 1, minHeight: 0, justifyContent: "center" },
+  bottomDock: { gap: 18, justifyContent: "center", minHeight: 164, paddingBottom: 12, paddingTop: 14 },
+  loadingStage: { alignItems: "center", flex: 1, justifyContent: "center", paddingHorizontal: 24 },
+  loadingTitle: { color: "#ffffff", fontSize: 20, fontWeight: "800" },
+  loadingBody: { color: "#ffffff", fontSize: 16, marginTop: 8, opacity: 0.75, textAlign: "center" },
+  errorControls: { alignItems: "center", gap: 16, paddingHorizontal: 24 },
+  errorText: { color: "#ffffff", fontSize: 14, lineHeight: 20, textAlign: "center" },
+  retryButton: { alignItems: "center", backgroundColor: "#ffffff", borderRadius: 24, justifyContent: "center", marginTop: 20, minHeight: 48, paddingHorizontal: 24 },
+  retryLabel: { color: "#24112b", fontWeight: "800" },
+  unavailableScreen: { alignItems: "center", backgroundColor: "#09070f", flex: 1, justifyContent: "center", paddingHorizontal: 32 },
+  unavailableTitle: { color: "#ffffff", fontSize: 24, fontWeight: "800", textAlign: "center" },
+  unavailableBody: { color: "#ffffff", fontSize: 16, lineHeight: 24, marginTop: 12, opacity: 0.75, textAlign: "center" },
+});

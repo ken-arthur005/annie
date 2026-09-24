@@ -1,2 +1,2 @@
 export { LyricTimeline } from "./LyricTimeline";
-export type { LyricLookup } from "./types";
+export type { LyricLookup, LyricRail } from "./types";

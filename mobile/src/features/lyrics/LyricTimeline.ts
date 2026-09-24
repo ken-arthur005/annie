@@ -42,7 +42,33 @@ export class LyricTimeline {
       activeLine: activeLineIndex === null ? null : this.lines[activeLineIndex],
       activeWord,
       ...this.surroundingLines(currentTimeMs, activeLineIndex),
+      rail: this.railAt(currentTimeMs, activeLineIndex),
       wordProgress: activeWord === null ? null : progressWithin(activeWord, currentTimeMs),
+    };
+  }
+
+  private railAt(currentTimeMs: SongTimeMs, activeLineIndex: number | null): LyricLookup["rail"] {
+    if (activeLineIndex !== null) {
+      return {
+        topLine: this.lines[activeLineIndex - 1] ?? null,
+        centerLine: this.lines[activeLineIndex],
+        bottomLine: this.lines[activeLineIndex + 1] ?? null,
+        transitionDurationMs: null,
+      };
+    }
+
+    const nextLineIndex = findFirstStartingAfter(this.lines, currentTimeMs, (line) => line);
+    const completedLine = this.lines[nextLineIndex - 1] ?? null;
+    const upcomingLine = this.lines[nextLineIndex] ?? null;
+    const gapMs = upcomingLine === null
+      ? 650
+      : Math.max(upcomingLine.startMs - (completedLine?.endMs ?? upcomingLine.startMs), 0);
+
+    return {
+      topLine: completedLine,
+      centerLine: upcomingLine,
+      bottomLine: this.lines[nextLineIndex + 1] ?? null,
+      transitionDurationMs: completedLine === null ? null : railTransitionDuration(gapMs),
     };
   }
 
@@ -63,6 +89,14 @@ export class LyricTimeline {
       nextLine: this.lines[nextLineIndex] ?? null,
     };
   }
+}
+
+function railTransitionDuration(gapMs: number): number {
+  if (gapMs < 460) {
+    return Math.max(220, Math.round(gapMs * 0.65));
+  }
+
+  return Math.min(Math.max(Math.round(gapMs * 0.65), 300), 1_200);
 }
 
 function findContainingIndex<T>(

@@ -22,9 +22,9 @@ function Control({ label, onPress, disabled }: { label: string; onPress: () => v
 const styles = StyleSheet.create({
   row: { flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 14, paddingHorizontal: 24 },
   secondary: { width: 44, height: 44, borderRadius: 22, alignItems: "center", justifyContent: "center", backgroundColor: "#2a1b33" },
-  secondaryLabel: { color: "#f8f2ff", fontSize: 11, fontWeight: "800" },
+  secondaryLabel: { color: "#ffffff", fontSize: 11, fontWeight: "800" },
   primary: { width: 64, height: 64, borderRadius: 32, alignItems: "center", justifyContent: "center", backgroundColor: "#d98ae8" },
-  primaryLabel: { color: "#24112b", fontSize: 12, fontWeight: "800" },
+  primaryLabel: { color: "#ffffff", fontSize: 12, fontWeight: "800" },
   pressed: { transform: [{ scale: 0.95 }], opacity: 0.86 },
   disabled: { opacity: 0.4 },
 });

@@ -14,6 +14,8 @@ Use:
 - Expo,
 - TypeScript.
 
+Style application UI with React Native `StyleSheet` objects and `style` props. Do not introduce NativeWind or Tailwind without an explicit product decision.
+
 Android is the primary MVP platform.
 
 Expo development builds and native modules are explicitly allowed.

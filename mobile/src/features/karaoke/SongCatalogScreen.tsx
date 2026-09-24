@@ -18,7 +18,7 @@ export function SongCatalogScreen() {
     <SafeAreaView className="relative flex-1 overflow-hidden bg-[#0a0910]" style={styles.safeArea}>
       <StatusBar style="light" />
       <AmbientStageBackground variant="catalog" />
-      <ScrollView contentContainerClassName="flex-grow px-5 pb-10 pt-3" contentContainerStyle={styles.content}>
+      <ScrollView contentContainerStyle={styles.content}>
         <View className="mb-6 flex-row items-center justify-between" style={styles.topRow}>
           <View className="h-10 w-10 items-center justify-center rounded-full border border-[#fa94d9] bg-[#3b1c4a]" style={styles.avatar}>
             <Text className="text-xs font-extrabold text-[#f8f2ff]" style={styles.avatarText}>A</Text>

@@ -6,7 +6,6 @@ import { useRouter } from "expo-router";
 import { songCatalog, SongPackageError } from "@/features/songs/catalog";
 import type { KaraokeSong, SongId } from "@/features/songs/types";
 
-import { ExpectedNoteDebug } from "./components/ExpectedNoteDebug";
 import { AmbientStageBackground } from "./components/AmbientStageBackground";
 import { NowPlayingIntro } from "./components/NowPlayingIntro";
 import { PerformanceStage } from "./components/PerformanceStage";
@@ -77,8 +76,14 @@ function LoadedKaraokeSession({ song }: { song: KaraokeSong }) {
           </>
         )}
 
-        {__DEV__ ? <ExpectedNoteDebug note={session.expectedNote} /> : null}
-        <PlaybackProgress positionMs={session.snapshot.positionMs} durationMs={session.snapshot.durationMs} />
+        <PlaybackProgress
+          disabled={isLoading || isError}
+          durationMs={session.snapshot.durationMs}
+          positionMs={session.snapshot.positionMs}
+          onScrub={session.previewScrub}
+          onScrubEnd={(positionMs) => void session.commitScrub(positionMs)}
+          onScrubStart={session.beginScrub}
+        />
 
         <View className="gap-4 px-0 pb-5 pt-5">
           {isError ? (

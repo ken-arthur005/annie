@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { LyricTimeline, type LyricLookup } from "@/features/lyrics";
 import { ExpoInstrumentalPlayback } from "@/features/playback";
@@ -17,11 +17,17 @@ export function useKaraokeSession(song: KaraokeSong): {
   restart: () => Promise<void>;
   retry: () => Promise<void>;
   seekBy: (amountMs: number) => Promise<void>;
+  beginScrub: () => void;
+  previewScrub: (positionMs: SongTimeMs) => void;
+  commitScrub: (positionMs: SongTimeMs) => Promise<void>;
 } {
   const [timeline] = useState(() => new KaraokeTimeline(new ExpoInstrumentalPlayback()));
   const [lyricTimeline] = useState(() => new LyricTimeline(song));
   const [actionError, setActionError] = useState<string | null>(null);
+  const [scrubPositionMs, setScrubPositionMs] = useState<SongTimeMs | null>(null);
+  const resumeAfterScrubRef = useRef(false);
   const snapshot = useKaraokeTimeline(timeline);
+  const displayPositionMs = scrubPositionMs ?? snapshot.positionMs;
 
   useEffect(() => {
     let isCurrent = true;
@@ -39,9 +45,9 @@ export function useKaraokeSession(song: KaraokeSong): {
   }, [song, timeline]);
 
   return {
-    snapshot,
-    lyrics: lyricTimeline.lookup(snapshot.positionMs),
-    expectedNote: findExpectedNote(song.melody.notes, snapshot.positionMs),
+    snapshot: { ...snapshot, positionMs: displayPositionMs },
+    lyrics: lyricTimeline.lookup(displayPositionMs),
+    expectedNote: findExpectedNote(song.melody.notes, displayPositionMs),
     error: snapshot.error ?? actionError,
     play: () => runTimelineAction(() => timeline.play(), setActionError),
     pause: () => runTimelineAction(() => timeline.pause(), setActionError),
@@ -50,6 +56,23 @@ export function useKaraokeSession(song: KaraokeSong): {
     seekBy: (amountMs) => {
       const targetMs = clampSongTime(snapshot.positionMs + amountMs, song.metadata.durationMs);
       return runTimelineAction(() => timeline.seekTo(targetMs), setActionError);
+    },
+    beginScrub: () => {
+      resumeAfterScrubRef.current = snapshot.state === "playing";
+      setScrubPositionMs(snapshot.positionMs);
+      if (resumeAfterScrubRef.current) {
+        void runTimelineAction(() => timeline.pause(), setActionError);
+      }
+    },
+    previewScrub: (positionMs) => setScrubPositionMs(clampSongTime(positionMs, song.metadata.durationMs)),
+    commitScrub: async (positionMs) => {
+      const targetMs = clampSongTime(positionMs, song.metadata.durationMs);
+      await runTimelineAction(() => timeline.seekTo(targetMs), setActionError);
+      setScrubPositionMs(null);
+      if (resumeAfterScrubRef.current) {
+        resumeAfterScrubRef.current = false;
+        await runTimelineAction(() => timeline.play(), setActionError);
+      }
     },
   };
 }

@@ -19,7 +19,6 @@
     "expo-symbols": "~57.0.3",
     "expo-system-ui": "~57.0.4",
     "expo-web-browser": "~57.0.3",
-    "nativewind": "4.2.7",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-native": "0.86.3",
@@ -33,15 +32,12 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/react": "~19.2.2",
-    "babel-preset-expo": "^57.0.12",
     "eslint": "^9.39.5",
     "eslint-config-expo": "~57.0.2",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-native": "^5.0.0",
     "globals": "^17.12.0",
-    "prettier-plugin-tailwindcss": "^0.5.14",
-    "tailwindcss": "^3.4.19",
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.70.0"
   },
